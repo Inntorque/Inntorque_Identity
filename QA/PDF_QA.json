@@ -1,133 +1,139 @@
 {
   "status": "PASS",
-  "filename": "03_PDF/InntQ._Brand_Identity_Blue_Black_v1.1.pdf",
-  "sha256": "ec3ec5920bde875aa1b67f02f3fc1f5050ff3340c7ff7041c2da67da304e515a",
-  "bytes": 684955,
+  "input_file": "/tmp/inntq-q-open-native/InntQ._Brand_Identity_Blue_Black.pdf",
+  "pdf_sha256": "49618051aff37ff02939fd82f3abac2e84ad2f434b17e70a1bd0d9c7ea6ab4e8",
+  "pdf_bytes": 686030,
   "page_count": 6,
-  "export_origin": "Native Figma Export frames to PDF, performed by the coordinating agent; the resulting PDF structure and all rendered pages were independently verified.",
-  "page_order_correct": true,
-  "raster_render_method": "pdftoppm, 1200 pixel page width, preserved aspect ratio",
+  "page_order": [
+    "01_Blue_Proposal",
+    "02_Blue_Overview",
+    "03_Blue_Specification",
+    "04_Black_Proposal",
+    "05_Black_Overview",
+    "06_Black_Specification"
+  ],
   "pages": [
     {
       "page": 1,
-      "expected_board": "01_Blue_Proposal",
-      "page_size_points": [
+      "board": "01_Blue_Proposal",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 10,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Blue",
-      "logo_color": "#0E2D4D"
+      "text_objects": 10,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "df1e53ec181c484a3775c2cbded9e12b40644e180a5ae3d22dd7fb6a5cd6db9e",
+      "pdf_render_sha256": "09aa7fdd0c637b937acb77a4edb9e4a4f21f5d8ae94be9626267e7e17d4b1346",
+      "pdf_to_native_mask_iou": 0.9874808002519264,
+      "mean_absolute_RGB_difference": 0.5258324652777778,
+      "fraction_pixels_difference_gt32": 0.0039703125,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     },
     {
       "page": 2,
-      "expected_board": "02_Blue_Overview",
-      "page_size_points": [
+      "board": "02_Blue_Overview",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 9,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Blue",
-      "logo_color": "#0E2D4D"
+      "text_objects": 9,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "2ef79e26e96fde4503aa59b394e0477a628654be2752b3d8650ddfbe172447f7",
+      "pdf_render_sha256": "304e692e3382268154b94f77d3d60ba96d0b21f5afd2c69ee6461875c600628a",
+      "pdf_to_native_mask_iou": 0.9896665550399464,
+      "mean_absolute_RGB_difference": 0.4318126736111111,
+      "fraction_pixels_difference_gt32": 0.0035270833333333335,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     },
     {
       "page": 3,
-      "expected_board": "03_Blue_Specification",
-      "page_size_points": [
+      "board": "03_Blue_Specification",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 22,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Blue",
-      "logo_color": "#0E2D4D"
+      "text_objects": 22,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "7713b467ab823b2fcec7d4e979ea27d50d48d828f05d9718540adcdf7af798b5",
+      "pdf_render_sha256": "8d180163313ef853754d1ae1d921d7c3b230f2a5cc0ea3fd292ded8dc6fef60f",
+      "pdf_to_native_mask_iou": 0.9830070377479206,
+      "mean_absolute_RGB_difference": 0.5007907986111111,
+      "fraction_pixels_difference_gt32": 0.003943229166666667,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     },
     {
       "page": 4,
-      "expected_board": "04_Black_Proposal",
-      "page_size_points": [
+      "board": "04_Black_Proposal",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 10,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Black",
-      "logo_color": "#000000"
+      "text_objects": 10,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "ce124c59aa784aff7e9fe762dbb8492dcf567493082e5194f6321e0cc9b9b8bd",
+      "pdf_render_sha256": "b4f571ab45430f0755a85ff737654ee98b19ee4e37511b1228ac971ec021cb4f",
+      "pdf_to_native_mask_iou": 0.9875110017538562,
+      "mean_absolute_RGB_difference": 0.5190456597222223,
+      "fraction_pixels_difference_gt32": 0.004083854166666667,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     },
     {
       "page": 5,
-      "expected_board": "05_Black_Overview",
-      "page_size_points": [
+      "board": "05_Black_Overview",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 9,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Black",
-      "logo_color": "#000000"
+      "text_objects": 9,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "b9b9885b2c00f8fa5ef602e8a08fb815d62560479d93b3ba614f0489db66133d",
+      "pdf_render_sha256": "b4ca41c0cac36ff16d6e0c468c7db8b2c1464359285557f9a23405f3b15dee13",
+      "pdf_to_native_mask_iou": 0.9896322098145682,
+      "mean_absolute_RGB_difference": 0.436034375,
+      "fraction_pixels_difference_gt32": 0.0037786458333333335,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     },
     {
       "page": 6,
-      "expected_board": "06_Black_Specification",
-      "page_size_points": [
+      "board": "06_Black_Specification",
+      "size_points": [
         1600.0,
         1200.0
       ],
-      "render_size_pixels": [
-        1200,
-        900
-      ],
-      "text_nodes_verified": 22,
-      "missing_source_text": [],
-      "undotted_visible_inntq_occurrences": 0,
-      "image_objects": 0,
-      "text_and_layout_review": "PASS",
-      "color_version": "Black",
-      "logo_color": "#000000"
+      "text_objects": 22,
+      "all_expected_source_text_present": true,
+      "raster_XObjects": 0,
+      "native_png_sha256": "61986d9c8c265ed128cbb6e68f244201ff4dd3d2b3ecd2fa2411dff70efd59c4",
+      "pdf_render_sha256": "f53edafb4c00285d3c48b942bee3e9557da29fe6cbbf94736c49230c3878109d",
+      "pdf_to_native_mask_iou": 0.9831150225133033,
+      "mean_absolute_RGB_difference": 0.5015696180555556,
+      "fraction_pixels_difference_gt32": 0.004031770833333333,
+      "RGB_paint_colors": [],
+      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
     }
   ],
-  "expected_text_nodes_total": 82,
-  "missing_source_text_total": 0,
-  "undotted_visible_inntq_occurrences_total": 0,
-  "image_objects_total": 0,
-  "visual_review": "All six PDF pages were rendered and inspected. The blue proposal, overview and specification are followed by their black counterparts. Every displayed abbreviation is InntQ. with its period; the company fullname Inntorque is unchanged. Equal-width stacked text and matching fine horizontal separators are present. Text, glyphs and vector shapes are complete, with no cropping, overlap or blank panels.",
-  "logo_colors_verified_in_native_board_pngs": "#0E2D4D blue and #000000 pure black; see Native_Boards_QA.json.",
-  "font_dependency_note": "Logo artwork is vector outlines. Explanatory text remains text in the PDF and was checked through extraction and rendering."
+  "method": "Read-only pypdf content inspection, complete source-text matching, Poppler rendering at 1600 x 1200, raster comparison with the six latest native Figma 2x PNG exports, and visual inspection of all six PDF pages. PDF content was not edited or reauthored.",
+  "total_text_objects": 82,
+  "embedded_raster_images": 0,
+  "visual_review_complete": true,
+  "notes": [
+    "No raster image XObjects or image draw operations are present in any page. Logo artwork is vector and specification text remains text.",
+    "PDF rendering differs slightly from Figma PNG rasterization at antialiased edges; quantitative comparison and complete visual review found no content loss or layout shift.",
+    "Minimum-size production suitability is covered separately by QA/Minimum_Size_QA.json. This audit verifies PDF fidelity, not physical fabrication."
+  ],
+  "copied_destinations": [
+    "03_PDF/InntQ._Brand_Identity_Blue_Black.pdf",
+    "Attachments/08_InntQ._Brand_Identity_Blue_Black.pdf"
+  ],
+  "copy_hashes_match": true
 }

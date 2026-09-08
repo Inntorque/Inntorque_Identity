@@ -1,7 +1,9 @@
 """Build the approved InntQ. identity in navy and pure black.
 
-The previous five letter outlines remain unchanged. The approved proposal 02
-period is translated horizontally without changing its baseline or curvature.
+The I, n, n and t outlines remain unchanged. The uppercase Q has the true
+visible height of n. Its counter is optically enlarged while its exterior
+and eighteen-unit outer tail remain fixed. The approved period retains its curve and baseline.
+Main horizontal lockups align the letter baseline to the symbol bottom.
 """
 from pathlib import Path
 from html import escape
@@ -12,6 +14,9 @@ import xml.etree.ElementTree as ET
 from svgpathtools import Line, Path as SvgPath, parse_path
 
 BASE = Path(__file__).resolve().parent
+sys.dont_write_bytecode = True
+sys.path.insert(0, str(BASE/'English_Reconstruction'))
+from q_weight_correction import restore_q_weight
 OUT = BASE.parent
 NS = '{http://www.w3.org/2000/svg}'
 COLORS = {'Blue': '#0E2D4D', 'Black': '#000000'}
@@ -46,6 +51,15 @@ def render(source, target, width):
     subprocess.run([NODE, str(BASE/'render_svg.cjs'), str(source), str(target), str(width)], check=True, capture_output=True)
 
 BASE_EN = read(BASE/'English_Reconstruction/InntQ_Base_Wordmark.svg')
+# Preserve the original x position and t-to-Q gap; open the counter inside the fixed smaller bounds.
+base_q_name, base_q_data = BASE_EN[4]
+base_q = parse_path(base_q_data)
+qb = base_q.bbox()
+n_bounds = parse_path(BASE_EN[1][1]).bbox()
+q_scale = (n_bounds[3]-n_bounds[2])/(qb[3]-qb[2])
+small_q = base_q.translated(-complex(qb[0], qb[2])).scaled(q_scale, origin=0).translated(complex(qb[0], n_bounds[2]))
+weighted_q, q_weight_note = restore_q_weight(small_q, q_scale)
+ADJUSTED_BASE_EN = BASE_EN[:4] + [(base_q_name, weighted_q.d())]
 REFERENCE_EN = read(OUT/'04_REFERENCE/English_Proposal02_Reference.svg')
 period_name, period_data = next(p for p in REFERENCE_EN if p[0].endswith('-period'))
 r_path = parse_path(next(d for n, d in REFERENCE_EN if n.endswith('-r')))
@@ -55,9 +69,9 @@ period_center_y = (pb[2]+pb[3])/2
 intersections = r_path.intersect(SvgPath(Line(complex(-100, period_center_y), complex(1000, period_center_y))))
 stem_right = max(r_path.point(hit[0][0]).real for hit in intersections)
 period_gap = pb[0]-stem_right
-period_translation = bounds(BASE_EN)[2]+period_gap-pb[0]
-EN = BASE_EN + [('Wordmark-InntQ-period', period_path.translated(period_translation).d())]
-assert len(EN) == 6 and all(EN[i] == BASE_EN[i] for i in range(5))
+period_translation = q_weight_note['fixed_visible_bounds'][2]+period_gap-pb[0]
+EN = ADJUSTED_BASE_EN + [('Wordmark-InntQ-period', period_path.translated(period_translation).d())]
+assert len(EN) == 6 and all(EN[i] == BASE_EN[i] for i in range(4))
 svg(BASE/'English_Reconstruction/InntQ_Period_Wordmark.svg', *dim(EN), paths(EN, COLORS['Blue']), 'InntQ. / Approved period added to the preserved wordmark')
 
 SY = read(OUT/'04_REFERENCE/MASTER2_Standard_Approved.svg')
@@ -69,9 +83,12 @@ SEP = [('Divider / Vertical', f'M{ew+38.5} 26.5h1v103h-1Z')]
 BI = EN + SEP + move(CN, ew+76.75, 22.5)
 SY192 = move(SY, scale=192/dim(SY)[1])
 tx = dim(SY192)[0]+44
-LOGOEN = SY192 + move(EN, tx, 29, normalize=False)
-LOGOBI = SY192 + move(BI, tx, 29, normalize=False)
-LOGOCN = SY192 + move(CN, tx, (192-ch)/2)
+main_english_y = 192-n_bounds[3]
+LOGOEN = SY192 + move(EN, tx, main_english_y, normalize=False)
+LOGOBI = SY192 + move(BI, tx, main_english_y, normalize=False)
+chinese_logo_scale = 1.15
+chinese_logo_y = 192-ch*chinese_logo_scale
+LOGOCN = SY192 + move(CN, tx, chinese_logo_y, chinese_logo_scale)
 
 # Keep the prior stacked symbol and text-column width unchanged.
 stack_symbol_height = 384
@@ -107,7 +124,8 @@ for color_index, (label, color) in enumerate(COLORS.items()):
         manifest.append({'name': asset_name, 'color_name': label, 'color': color, 'width': w*scale, 'height': h*scale, 'paths': len(items), 'source_bounds': list(bounds(items)), 'scale': scale, 'library_x': lx, 'library_y': ly, 'export_presets': ['SVG', 'PNG 1x', 'PNG 2x', 'PNG 4x']})
 svg(BASE/'InntQ_Period_Black_Component_Library.svg', 7786, 3690, ''.join(library), 'InntQ. / 18 native component import groups')
 (BASE/'asset_manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
-(BASE/'Period_Geometry.json').write_text(json.dumps({'wordmark': 'InntQ.', 'character_count': 6, 'preserved_letter_paths': 5, 'original_period_bounds': [pb[0], pb[2], pb[1], pb[3]], 'original_lower_r_stem_right': stem_right, 'period_gap': period_gap, 'period_translation_x': period_translation, 'period_translation_y': 0, 'period_uniform_scale': 1, 'wordmark_bounds': list(bounds(EN)), 'stack_symbol_height': stack_symbol_height, 'stack_column_width': stack_width, 'stack_english_scale': stack_english_scale, 'stack_chinese_scale': stack_chinese_scale, 'stack_block_y': stack_block_y, 'stack_block_height': stack_block_height, 'stack_line_gap': stack_line_gap, 'stack_divider_height': stack_divider_height}, indent=2)+'\n')
+(BASE/'Period_Geometry.json').write_text(json.dumps({'wordmark': 'InntQ.', 'character_count': 6, 'preserved_letter_paths': 4, 'Q_initial_outer_scale': q_scale, 'Q_optical_correction': q_weight_note, 'Q_bounds': [weighted_q.bbox()[0], weighted_q.bbox()[2], weighted_q.bbox()[1], weighted_q.bbox()[3]], 'n_bounds': [n_bounds[0], n_bounds[2], n_bounds[1], n_bounds[3]], 'main_english_y': main_english_y, 'main_symbol_bottom': 192, 'main_letter_baseline': main_english_y+n_bounds[3], 'chinese_logo_scale': chinese_logo_scale, 'chinese_logo_y': chinese_logo_y, 'chinese_logo_visible_height': ch*chinese_logo_scale, 'chinese_logo_visible_bottom': chinese_logo_y+ch*chinese_logo_scale, 'original_period_bounds': [pb[0], pb[2], pb[1], pb[3]], 'original_lower_r_stem_right': stem_right, 'period_gap': period_gap, 'period_translation_x': period_translation, 'period_translation_y': 0, 'period_uniform_scale': 1, 'wordmark_bounds': list(bounds(EN)), 'stack_symbol_height': stack_symbol_height, 'stack_column_width': stack_width, 'stack_english_scale': stack_english_scale, 'stack_chinese_scale': stack_chinese_scale, 'stack_block_y': stack_block_y, 'stack_block_height': stack_block_height, 'stack_line_gap': stack_line_gap, 'stack_divider_height': stack_divider_height}, indent=2)+'\n')
+(BASE/'Q_Weight_Correction_Geometry.json').write_text(json.dumps(q_weight_note, indent=2)+'\n')
 (BASE/'Brand.tokens.json').write_text(json.dumps({'Brand': {label: {'$type': 'color', '$value': color} for label, color in COLORS.items()}}, indent=2)+'\n')
 if '--assets-only' in sys.argv:
     print(json.dumps({'asset_count': len(manifest), 'library': str(BASE/'InntQ_Period_Black_Component_Library.svg'), 'wordmark_bounds': bounds(EN)}, indent=2))
@@ -195,7 +213,7 @@ def specification(name, label):
     b.text('Spec / Clearspace label', '安全区', 96, 454, 20, 500, b.color)
     b.native_size(LOGOEN, 144, 540, 1, 'Clear space')
     clear_w, clear_h = dim(LOGOEN)
-    b.body += f'<rect id="{name} / Clear space / Boundary" x="96" y="492" width="{clear_w+96}" height="288" fill="none" stroke="#D9D9D9" stroke-dasharray="4 4"/>'
+    b.body += f'<rect id="{name} / Clear space / Boundary" x="96" y="492" width="{clear_w+96}" height="{clear_h+96}" fill="none" stroke="#D9D9D9" stroke-dasharray="4 4"/>'
     b.text('Spec / Clearspace formula', 'Hs = 192 px    X = Hs / 4 = 48 px    最小留白 = 1X', 96, 834, 22)
     b.text('Spec / Minimum label', '实际尺寸验证', 936, 454, 20, 500, b.color)
     for i, height in enumerate([64, 32, 24, 16]):

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "scope": "InntQ. revision: nine blue and nine pure black native Figma SVG assets, plus 1x/2x/4x native PNG exports.",
+  "scope": "Final open-counter Q and enlarged bottom-aligned Chinese revision: nine blue and nine pure black native Figma SVG assets, plus 1x/2x/4x transparent PNG exports.",
   "method": "Closed contour and cyclic segment comparison to clean vector source; exact flat fill check; alpha, bounds and topology checks; source-vector raster comparison at identical pixel dimensions.",
   "assets": [
     {
@@ -99,7 +99,8 @@
           "source_mask_iou": 0.9995946072951049,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "04_InntQ_English_Blue",
@@ -112,20 +113,20 @@
         2,
         1
       ],
-      "source_svg_sha256": "e246c0d7e9bd8eb2ebba2dc9a9a1784410801d23e77ca951f25a0e3c0bcc3db5",
-      "native_svg_sha256": "2eeb0ab5a85ff8ac186fbdf37fa40decec01defeb18a2de5f5b56ee9ab14c702",
-      "max_segment_deviation": 0.0049713151940584815,
+      "source_svg_sha256": "cea405960f4986eed1ffa322c545b33f8c276f1a295355c2725dca2e8b5f2006",
+      "native_svg_sha256": "f03057ea338f165596dc98c771f66ca735bb3d7e29bf65861efadf0bcabc1ac2",
+      "max_segment_deviation": 0.0019208524550271956,
       "bounds": [
         0.0,
-        -2.6645352591003757e-15,
+        -1.7763568394002505e-15,
         1130.0,
-        286.6782635412075
+        288.7870000000001
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        287.0
+        289.0
       ],
       "all_fill": "#0E2D4D",
       "pngs": [
@@ -134,14 +135,14 @@
           "filename": "04_InntQ_English_Blue.png",
           "size": [
             1130,
-            287
+            289
           ],
-          "sha256": "16dd2e733c23530ddba05c2463de15aa41d70a7f08ff28a4fab657e5dc3f4293",
+          "sha256": "8118f0c023e2f3a741862ce7358b813db60353167badbd6193d3b0e3ce2af1d2",
           "alpha_bounds": [
             0,
             0,
             1130,
-            287
+            289
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -150,7 +151,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9977872900889035,
+          "source_mask_iou": 0.9986499580130482,
           "max_mask_distance_px": 1.0
         },
         {
@@ -158,14 +159,14 @@
           "filename": "04_InntQ_English_Blue@2x.png",
           "size": [
             2260,
-            574
+            578
           ],
-          "sha256": "4d159a73b2e6e79419c9d1e810f03f4dd23dcaa3f51ed50d9eed78757b0b4e19",
+          "sha256": "3e6fd732f070433a2cbdceb8bec0f23ccfe07800d6bcecc06d5646ef7abc45fd",
           "alpha_bounds": [
             0,
             0,
             2260,
-            574
+            578
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -174,7 +175,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9988866270068713,
+          "source_mask_iou": 0.9995663009353659,
           "max_mask_distance_px": 1.0
         },
         {
@@ -182,14 +183,14 @@
           "filename": "04_InntQ_English_Blue@4x.png",
           "size": [
             4520,
-            1147
+            1156
           ],
-          "sha256": "a3ad5c76e358ebe2830d2eea70a9af935009acfb0523a231ebf5fb8f9d656341",
+          "sha256": "b14bb362ad1eee6e1bb22a52b491499f1db6ec4efd420238b4400a5a73a8c3ab",
           "alpha_bounds": [
             0,
             0,
             4520,
-            1147
+            1156
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -198,10 +199,11 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9995492643747618,
+          "source_mask_iou": 0.999445125455436,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "05_InntQ_Chinese_Blue",
@@ -308,7 +310,8 @@
           "source_mask_iou": 0.999393335241498,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "06_InntQ_Bilingual_Blue",
@@ -333,20 +336,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "7225df3ed8f5bcbb5144552caa1219965ea8d37b7c6ce57c4a58b95ab6539a97",
-      "native_svg_sha256": "84b2d8b86ed3f2bee7648e18a8013814dbba2f5fd5784eb95ee481a583eedfa2",
-      "max_segment_deviation": 0.004949218024944578,
+      "source_svg_sha256": "4f7f7cb670e7bc4046b5141d8ec0dd399d352e0256695a4cc82844983bb739e1",
+      "native_svg_sha256": "e1e87f5e7108cc47c0c98e560d5889eeb5a644c538731e7a6064867c86766e71",
+      "max_segment_deviation": 0.004704500430208457,
       "bounds": [
-        -4.440892098500626e-16,
-        -8.881784197001252e-16,
+        0.0,
+        -1.7763568394002505e-15,
         1130.0,
-        177.38518115634005
+        173.796
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        178.0
+        174.0
       ],
       "all_fill": "#0E2D4D",
       "pngs": [
@@ -355,62 +358,14 @@
           "filename": "06_InntQ_Bilingual_Blue.png",
           "size": [
             1130,
-            178
+            174
           ],
-          "sha256": "86c90da538f90c22cf20cc3119424003ae19cc26d9f274caf0d7b126a6ac0ded",
+          "sha256": "31dcc5cd2b165fe99219144efba083fff3d122e27a729c4872c052bb5af17f7f",
           "alpha_bounds": [
             0,
             0,
             1130,
-            178
-          ],
-          "connected_bodies_at_alpha_128": 19,
-          "enclosed_counters_at_alpha_128": 5,
-          "interior_rgb": [
-            14,
-            45,
-            77
-          ],
-          "source_mask_iou": 0.9968944471756256,
-          "max_mask_distance_px": 1.0
-        },
-        {
-          "scale": 2,
-          "filename": "06_InntQ_Bilingual_Blue@2x.png",
-          "size": [
-            2260,
-            355
-          ],
-          "sha256": "121644fc772ace7478a632b165352180db51ff6fc8949191ef00eeff2d748fe2",
-          "alpha_bounds": [
-            0,
-            0,
-            2260,
-            355
-          ],
-          "connected_bodies_at_alpha_128": 19,
-          "enclosed_counters_at_alpha_128": 5,
-          "interior_rgb": [
-            14,
-            45,
-            77
-          ],
-          "source_mask_iou": 0.9964345474064256,
-          "max_mask_distance_px": 1.0
-        },
-        {
-          "scale": 4,
-          "filename": "06_InntQ_Bilingual_Blue@4x.png",
-          "size": [
-            4520,
-            710
-          ],
-          "sha256": "cf07195dfd078e81376de6482b42ac9e7b73f11be6817bb2e4855f106a2c5146",
-          "alpha_bounds": [
-            0,
-            0,
-            4520,
-            710
+            174
           ],
           "connected_bodies_at_alpha_128": 18,
           "enclosed_counters_at_alpha_128": 5,
@@ -419,10 +374,59 @@
             45,
             77
           ],
-          "source_mask_iou": 0.999371333246707,
+          "source_mask_iou": 0.9970326765977895,
+          "max_mask_distance_px": 1.0
+        },
+        {
+          "scale": 2,
+          "filename": "06_InntQ_Bilingual_Blue@2x.png",
+          "size": [
+            2260,
+            348
+          ],
+          "sha256": "9383caf97bb8af52bb8a7e6aa36be57c276eb7793485b05b265dab56e5ec3ee9",
+          "alpha_bounds": [
+            0,
+            0,
+            2260,
+            348
+          ],
+          "connected_bodies_at_alpha_128": 19,
+          "enclosed_counters_at_alpha_128": 5,
+          "interior_rgb": [
+            14,
+            45,
+            77
+          ],
+          "source_mask_iou": 0.9982192803374373,
+          "max_mask_distance_px": 1.4142135623730951
+        },
+        {
+          "scale": 4,
+          "filename": "06_InntQ_Bilingual_Blue@4x.png",
+          "size": [
+            4520,
+            696
+          ],
+          "sha256": "529c68e8caaff6f6ade0933d455174d585d4ad1e255572f8cf78016378e1eeb9",
+          "alpha_bounds": [
+            0,
+            0,
+            4520,
+            696
+          ],
+          "connected_bodies_at_alpha_128": 18,
+          "enclosed_counters_at_alpha_128": 5,
+          "interior_rgb": [
+            14,
+            45,
+            77
+          ],
+          "source_mask_iou": 0.9992222789701084,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "07_InntQ_Logo_English_Blue",
@@ -437,20 +441,20 @@
         2,
         1
       ],
-      "source_svg_sha256": "c65506150027ad7c1f29ec8b4f60d5d88376f3a265856bbd881cf00255bd0ef9",
-      "native_svg_sha256": "d2b5216fd13dd9a6f9dd9aaeeaa3af6a8907d1fdc322bbbf637ed7a75a53ce7f",
-      "max_segment_deviation": 0.004953285942612115,
+      "source_svg_sha256": "69aeca2466ba316b3b0df5c9ac5f3d345628018836b75569f737b98cfa65de6e",
+      "native_svg_sha256": "834aac606ec34627b92a82a58fb89787d18076cdebcf1102265a7ec19e9f0551",
+      "max_segment_deviation": 0.004650795062445459,
       "bounds": [
-        0.0,
-        -1.501106128287688e-08,
+        -3.552713678800501e-15,
+        2.093961735782912e-06,
         1130.0,
-        320.99700000000007
+        343.935
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        321.0
+        344.0
       ],
       "all_fill": "#0E2D4D",
       "pngs": [
@@ -459,14 +463,14 @@
           "filename": "07_InntQ_Logo_English_Blue.png",
           "size": [
             1130,
-            321
+            344
           ],
-          "sha256": "c5c95310ad989b336d60666d5b967662316a074ab62db0bd3b8533dd1db08c74",
+          "sha256": "eb45e94fbd575ade129bb4c85dc2c3103b6d4efc3c09b317644bff7ae91289cf",
           "alpha_bounds": [
             0,
             0,
             1130,
-            321
+            344
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -475,7 +479,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9984950633517523,
+          "source_mask_iou": 0.9985080861729426,
           "max_mask_distance_px": 1.0
         },
         {
@@ -483,14 +487,14 @@
           "filename": "07_InntQ_Logo_English_Blue@2x.png",
           "size": [
             2260,
-            642
+            688
           ],
-          "sha256": "e3967092ab674055ca4a7cf137aa70224f96bdc6a828850bd2120ad7c3a798b4",
+          "sha256": "ef54ed0867194630164d98bb6c7018a68b8d886a2a0c2ec065823072ae41d02b",
           "alpha_bounds": [
             0,
             0,
             2260,
-            642
+            688
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -499,7 +503,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9990514105030572,
+          "source_mask_iou": 0.9995363099244634,
           "max_mask_distance_px": 1.0
         },
         {
@@ -507,14 +511,14 @@
           "filename": "07_InntQ_Logo_English_Blue@4x.png",
           "size": [
             4520,
-            1284
+            1376
           ],
-          "sha256": "ecfe4f42354022a7a5c1799c62c52e46043a3ea3f421b045dd067b93f4729cdd",
+          "sha256": "4591cbcd58490bfc19f122c396a4eae069a5af8ff3fb47b883b2f82b77643a96",
           "alpha_bounds": [
             0,
             0,
             4520,
-            1284
+            1376
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -523,10 +527,11 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9996281755240342,
+          "source_mask_iou": 0.9993172846983515,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "08_InntQ_Logo_Bilingual_Blue",
@@ -553,20 +558,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "dafc65d7baaa9d5d93d008517a686147b547082c34ed5e5a250049c75129375a",
-      "native_svg_sha256": "b464049fd8baa768bcffd44352709d818ddb6d08e6fd6bfc52c50a918e762a58",
-      "max_segment_deviation": 0.004701551100677372,
+      "source_svg_sha256": "7b7219d95daea84010ac4941f0aa8405ebb026ebc13273aa9c07b9e2d3a2dec2",
+      "native_svg_sha256": "9ab7ce2231d8861bd90befbf45dbb17e1d206e060d6a139cfb86abf960f9b2ad",
+      "max_segment_deviation": 0.004839574348934797,
       "bounds": [
         0.0,
-        3.619996966630623e-07,
+        1.6659686279396624e-06,
         1130.0,
-        213.146
+        223.87400000000017
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        214.0
+        224.0
       ],
       "all_fill": "#0E2D4D",
       "pngs": [
@@ -575,14 +580,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Blue.png",
           "size": [
             1130,
-            214
+            224
           ],
-          "sha256": "2248d6b3c030290f35d697840fea93b052a2660d46c01046c7ef57674b478bcc",
+          "sha256": "dff5ca416b90c4a4ef49ad8e54d376e7594462bf57a9a727959573c2d4d29f24",
           "alpha_bounds": [
             0,
             0,
             1130,
-            214
+            224
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -591,7 +596,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9967022208481475,
+          "source_mask_iou": 0.992969696969697,
           "max_mask_distance_px": 1.0
         },
         {
@@ -599,14 +604,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Blue@2x.png",
           "size": [
             2260,
-            427
+            448
           ],
-          "sha256": "089d664d33c8b09c3ac061454b3ec6111e77d403ade5b2af58d43b56765e3781",
+          "sha256": "f9040f230d3709caaa30853b68380b5412a79a81c1d19fda04ab221072d852a1",
           "alpha_bounds": [
             0,
             0,
             2260,
-            427
+            448
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -615,7 +620,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9981075041014843,
+          "source_mask_iou": 0.9969259234275472,
           "max_mask_distance_px": 1.0
         },
         {
@@ -623,14 +628,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Blue@4x.png",
           "size": [
             4520,
-            853
+            896
           ],
-          "sha256": "c2fa7d4f7b950a69bd79f36edeb6887c6d2508520c6c670c86a98fb21339c47e",
+          "sha256": "3faebd414b82b8cd7b9eb73524e80abf30c2aca8a5d45d45d57d45fd3cf26fe3",
           "alpha_bounds": [
             0,
             0,
             4520,
-            853
+            896
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -639,10 +644,11 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9990496693237136,
+          "source_mask_iou": 0.9992717761829015,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "09_InntQ_Logo_Chinese_Blue",
@@ -662,20 +668,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "e4655d0276848ac19b9749cce046da61633ebed5ca62af4f3e213e6018652000",
-      "native_svg_sha256": "815adcd84f98c7bb0b854beadb1b9bc7d237b8e3e75dfef1397dbbe3530222eb",
-      "max_segment_deviation": 0.0037966488889959447,
+      "source_svg_sha256": "91a06f41f9ef98f75d1d7f196b915a2a9269d854fc6af2f1f6044472506c4dc1",
+      "native_svg_sha256": "a698d82c1501d8f11c63cc42162a91c4f8910ce4b1ce1f1f7aa6694712f72a25",
+      "max_segment_deviation": 0.004481295275622001,
       "bounds": [
         0.0,
-        -1.1281074066005203e-06,
+        1.2079995097558083e-06,
         1130.0,
-        561.9710000000003
+        509.4660000000002
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        562.0
+        510.0
       ],
       "all_fill": "#0E2D4D",
       "pngs": [
@@ -684,14 +690,14 @@
           "filename": "09_InntQ_Logo_Chinese_Blue.png",
           "size": [
             1130,
-            562
+            510
           ],
-          "sha256": "085838edb1236f22fa036c69df947299076fd6b40776fa0fbd7c1abe1c0d07ab",
+          "sha256": "2e74215c7af2cc81751bac247566f54be85dd33378a9bd7f82efd9a9fad0f54f",
           "alpha_bounds": [
             0,
             0,
             1130,
-            562
+            510
           ],
           "connected_bodies_at_alpha_128": 13,
           "enclosed_counters_at_alpha_128": 4,
@@ -700,7 +706,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.997336681163969,
+          "source_mask_iou": 0.9977082820772167,
           "max_mask_distance_px": 1.0
         },
         {
@@ -708,23 +714,23 @@
           "filename": "09_InntQ_Logo_Chinese_Blue@2x.png",
           "size": [
             2260,
-            1124
+            1019
           ],
-          "sha256": "bf6edc3987afd75cc91193464d466482c401178d42e739ec4691d522633a2624",
+          "sha256": "17454a383453e4bbcf6a6aed095e241d2e99f42756a20b66c19c4e4546ad496d",
           "alpha_bounds": [
             0,
             0,
             2260,
-            1124
+            1019
           ],
-          "connected_bodies_at_alpha_128": 13,
+          "connected_bodies_at_alpha_128": 14,
           "enclosed_counters_at_alpha_128": 4,
           "interior_rgb": [
             14,
             45,
             77
           ],
-          "source_mask_iou": 0.99906416317224,
+          "source_mask_iou": 0.9987189353233603,
           "max_mask_distance_px": 1.0
         },
         {
@@ -732,14 +738,14 @@
           "filename": "09_InntQ_Logo_Chinese_Blue@4x.png",
           "size": [
             4520,
-            2248
+            2038
           ],
-          "sha256": "da32b0823530b335c664a7e5eba773f74e5a8cce65f188e734856f0f9490da63",
+          "sha256": "c64d91954b6957b2a2da6eeefc15025c0b87fad611a464b3c0049c6e9a1f4acc",
           "alpha_bounds": [
             0,
             0,
             4520,
-            2248
+            2038
           ],
           "connected_bodies_at_alpha_128": 13,
           "enclosed_counters_at_alpha_128": 4,
@@ -748,10 +754,11 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9990406035108862,
+          "source_mask_iou": 0.9995169800104035,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "14_InntQ_Symbol_Micro_Blue",
@@ -849,7 +856,8 @@
           "source_mask_iou": 0.9995952532696446,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "17_InntQ_Logo_Stacked_Blue",
@@ -876,13 +884,13 @@
         1,
         2
       ],
-      "source_svg_sha256": "c2fd08c3551fd1d62670538be977d415ece796b655178e7e5eb3e6f831107a63",
-      "native_svg_sha256": "f605eb6bd83ba7af66a276eaeaaff57b53a7d6eead535ea20ce354973c502cc2",
-      "max_segment_deviation": 0.004726243085617292,
+      "source_svg_sha256": "a91db03f265ea1e8db67c0de8d56f344f9ae69242c4828dd5ca8f3eccc530282",
+      "native_svg_sha256": "ec48edc312aa5c325d08f734657b560d0945a2e73f44e6c9a87082b68ef8e2b0",
+      "max_segment_deviation": 0.004977523807415362,
       "bounds": [
         0.0,
         -1.9680322291826258e-06,
-        1130.0,
+        1130.0000000000005,
         614.693
       ],
       "canvas": [
@@ -900,7 +908,7 @@
             1130,
             615
           ],
-          "sha256": "c3dae6f1a383a14fb722b0b9dcc8dc7800428ffc903b274962cc4d104140ca7b",
+          "sha256": "ad8ec3afd5660a1033978cd3fd43f66d1f45b8831e33b05642a1e0491db85469",
           "alpha_bounds": [
             0,
             0,
@@ -914,7 +922,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.998300269528689,
+          "source_mask_iou": 0.9970153748851778,
           "max_mask_distance_px": 1.0
         },
         {
@@ -924,7 +932,7 @@
             2260,
             1230
           ],
-          "sha256": "ca50b48e60eb017c7343dbe2cd595bfae41bfb1ed69bf7521952fc898d6ed64c",
+          "sha256": "f16062b468125c9439ac5e48169637bf78ba7b3a0ce8b56075ccec3a4cd28817",
           "alpha_bounds": [
             0,
             0,
@@ -938,7 +946,7 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9979386379252743,
+          "source_mask_iou": 0.9991602572089879,
           "max_mask_distance_px": 1.0
         },
         {
@@ -948,7 +956,7 @@
             4520,
             2459
           ],
-          "sha256": "842dbe1925f60be461c8d96c9a199be8aa9f373c36a4fd9e854abac7feae85af",
+          "sha256": "3bed04008f0f9569c8f42f20556c274d612421ffe4832f9f37550dcdc089afc6",
           "alpha_bounds": [
             0,
             0,
@@ -962,10 +970,11 @@
             45,
             77
           ],
-          "source_mask_iou": 0.9991613761392935,
+          "source_mask_iou": 0.9992887157241395,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "03_InntQ_Symbol_Black",
@@ -1063,7 +1072,8 @@
           "source_mask_iou": 0.9995947827090222,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "04_InntQ_English_Black",
@@ -1076,20 +1086,20 @@
         2,
         1
       ],
-      "source_svg_sha256": "ecbccd5bf0f0a74269a276eb122aad3092f106c14e2fa3eb91ecbd2b8538ddd0",
-      "native_svg_sha256": "4f2f91994e236bc8626c88a6fb12cf4d0b77fd207e80e13387b9797195dbe27e",
-      "max_segment_deviation": 0.0049713151940584815,
+      "source_svg_sha256": "369ee4b854b65350882e5b44e160320155410963abba838074fa31db7caa45eb",
+      "native_svg_sha256": "8743b0080f913aff1d27f2eca5dada4d3fa4d5576a639fae3c2913fb04f83b36",
+      "max_segment_deviation": 0.0019208524554818877,
       "bounds": [
         0.0,
-        -2.6645352591003757e-15,
+        -1.7763568394002505e-15,
         1130.0,
-        286.6782635412075
+        288.7870000000001
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        287.0
+        289.0
       ],
       "all_fill": "#000000",
       "pngs": [
@@ -1098,14 +1108,14 @@
           "filename": "04_InntQ_English_Black.png",
           "size": [
             1130,
-            287
+            289
           ],
-          "sha256": "697bb936dc0bef0e39300d903ca52c90d61daab75de6c2a33230cd29ff2b5b15",
+          "sha256": "52829cf341881402b60325daf3239a8cd476c401a394d9d51e63951cb2525914",
           "alpha_bounds": [
             0,
             0,
             1130,
-            287
+            289
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -1114,7 +1124,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9977872900889035,
+          "source_mask_iou": 0.9986628598005272,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1122,14 +1132,14 @@
           "filename": "04_InntQ_English_Black@2x.png",
           "size": [
             2260,
-            574
+            578
           ],
-          "sha256": "ddb2f7a6598bcaddc24c30eff2111a424f8570ab3c888315085668db3ca2358f",
+          "sha256": "9118c49bf1fb6788c809aa55094b6e033be4ae9ea39b04cbb075960046b02ca9",
           "alpha_bounds": [
             0,
             0,
             2260,
-            574
+            578
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -1138,7 +1148,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9988866270068713,
+          "source_mask_iou": 0.9995663009353659,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1146,14 +1156,14 @@
           "filename": "04_InntQ_English_Black@4x.png",
           "size": [
             4520,
-            1147
+            1156
           ],
-          "sha256": "cdeb1b0dc924064b03fa7720124a7bfc88a885e7f7d5184a00b137ed1d3e904e",
+          "sha256": "9e088fa30dce84174ad0c4d25798ff04a1dde264a2a52881712ae6abcfee7d6c",
           "alpha_bounds": [
             0,
             0,
             4520,
-            1147
+            1156
           ],
           "connected_bodies_at_alpha_128": 6,
           "enclosed_counters_at_alpha_128": 1,
@@ -1162,10 +1172,11 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9995496760054697,
+          "source_mask_iou": 0.999445125455436,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "05_InntQ_Chinese_Black",
@@ -1272,7 +1283,8 @@
           "source_mask_iou": 0.9993970615909591,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "06_InntQ_Bilingual_Black",
@@ -1297,20 +1309,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "b23d7cf15a8b3eb53de2099815151a11ae2169e548288b253df84c8362b44c46",
-      "native_svg_sha256": "2bb7950d6a33b4663b2e0c8185a36f74b321c4b95f00f291a868e839494743de",
-      "max_segment_deviation": 0.005050879348264893,
+      "source_svg_sha256": "81f4c43cee4d952a51a7746dd10c1e322277f4e625f3662c379934b540e2b5af",
+      "native_svg_sha256": "44d6d7634e92ec7e775789a2f222bd2bd1e504984fcee477ff4179a848402f81",
+      "max_segment_deviation": 0.004704500430208457,
       "bounds": [
-        0.0,
-        -8.881784197001252e-16,
+        -4.440892098500626e-16,
+        -1.7763568394002505e-15,
         1130.0,
-        177.38518115634005
+        173.796
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        178.0
+        174.0
       ],
       "all_fill": "#000000",
       "pngs": [
@@ -1319,62 +1331,14 @@
           "filename": "06_InntQ_Bilingual_Black.png",
           "size": [
             1130,
-            178
+            174
           ],
-          "sha256": "9940d3ea7d4ee69769c5c377dd1e919b78ec46bfad3e8a286dda917389439f44",
+          "sha256": "7d8d90f4ea0639c9ed47bcf447b4ec23cec03775af52e2479b773d42b689e841",
           "alpha_bounds": [
             0,
             0,
             1130,
-            178
-          ],
-          "connected_bodies_at_alpha_128": 19,
-          "enclosed_counters_at_alpha_128": 5,
-          "interior_rgb": [
-            0,
-            0,
-            0
-          ],
-          "source_mask_iou": 0.9968944471756256,
-          "max_mask_distance_px": 1.0
-        },
-        {
-          "scale": 2,
-          "filename": "06_InntQ_Bilingual_Black@2x.png",
-          "size": [
-            2260,
-            355
-          ],
-          "sha256": "188094b8363571869d1160bfaf0c0b425c63074c03601e2ad29934d2ab085480",
-          "alpha_bounds": [
-            0,
-            0,
-            2260,
-            355
-          ],
-          "connected_bodies_at_alpha_128": 19,
-          "enclosed_counters_at_alpha_128": 5,
-          "interior_rgb": [
-            0,
-            0,
-            0
-          ],
-          "source_mask_iou": 0.9964285607189658,
-          "max_mask_distance_px": 1.0
-        },
-        {
-          "scale": 4,
-          "filename": "06_InntQ_Bilingual_Black@4x.png",
-          "size": [
-            4520,
-            710
-          ],
-          "sha256": "69621abc69cfe9a354ea1d820200684cfaaac18c8ce55cf0b452882d89052cf6",
-          "alpha_bounds": [
-            0,
-            0,
-            4520,
-            710
+            174
           ],
           "connected_bodies_at_alpha_128": 18,
           "enclosed_counters_at_alpha_128": 5,
@@ -1383,10 +1347,59 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9993705826241748,
+          "source_mask_iou": 0.9970326765977895,
+          "max_mask_distance_px": 1.0
+        },
+        {
+          "scale": 2,
+          "filename": "06_InntQ_Bilingual_Black@2x.png",
+          "size": [
+            2260,
+            348
+          ],
+          "sha256": "f3f73eddd1f28e3e837fd4af9b902c03cb858d94e992b44baa10d8d8882fbd00",
+          "alpha_bounds": [
+            0,
+            0,
+            2260,
+            348
+          ],
+          "connected_bodies_at_alpha_128": 19,
+          "enclosed_counters_at_alpha_128": 5,
+          "interior_rgb": [
+            0,
+            0,
+            0
+          ],
+          "source_mask_iou": 0.9982132900046167,
+          "max_mask_distance_px": 1.4142135623730951
+        },
+        {
+          "scale": 4,
+          "filename": "06_InntQ_Bilingual_Black@4x.png",
+          "size": [
+            4520,
+            696
+          ],
+          "sha256": "7cfaa7d6179632ba444426718cd0f1d1766521f1f13cf666fbd32abe7ae6704f",
+          "alpha_bounds": [
+            0,
+            0,
+            4520,
+            696
+          ],
+          "connected_bodies_at_alpha_128": 18,
+          "enclosed_counters_at_alpha_128": 5,
+          "interior_rgb": [
+            0,
+            0,
+            0
+          ],
+          "source_mask_iou": 0.9992222789701084,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "07_InntQ_Logo_English_Black",
@@ -1401,20 +1414,20 @@
         2,
         1
       ],
-      "source_svg_sha256": "9bb7ff521309eab6f7b1cfdf0f3be642cf5abcc2acb15936ee326b34f991db81",
-      "native_svg_sha256": "7232e7b02699be56841d891b5d8a5ab7d0f1eb48763b2310989e4b219112da06",
-      "max_segment_deviation": 0.004953285942612115,
+      "source_svg_sha256": "ea2f5b8dcb3f978d36245853b9fb4e6e0f19c8a7ad8097d274401638b93aea84",
+      "native_svg_sha256": "46d7db4a65300b09ebffa192a41b371ef0cc7aed75db911edc5b7679aad217b8",
+      "max_segment_deviation": 0.004650795062445459,
       "bounds": [
         0.0,
-        -1.501106128287688e-08,
+        2.093961735782912e-06,
         1130.0,
-        320.99700000000007
+        343.935
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        321.0
+        344.0
       ],
       "all_fill": "#000000",
       "pngs": [
@@ -1423,14 +1436,14 @@
           "filename": "07_InntQ_Logo_English_Black.png",
           "size": [
             1130,
-            321
+            344
           ],
-          "sha256": "9e7857a7181e95133743ebf2aea7f18920f8d0483a5a473e2efe72c35d8ac526",
+          "sha256": "5f394a73f9811baee2cd564fdcab77d35de2689de4669a3674239a98add81d8a",
           "alpha_bounds": [
             0,
             0,
             1130,
-            321
+            344
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -1439,7 +1452,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9984950633517523,
+          "source_mask_iou": 0.9985080861729426,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1447,14 +1460,14 @@
           "filename": "07_InntQ_Logo_English_Black@2x.png",
           "size": [
             2260,
-            642
+            688
           ],
-          "sha256": "6a8221171f59b12657fb73afcd80958ddcac2825e73f4b7572aacacc4dad6a6d",
+          "sha256": "5da99b760b0cec94b70cbb9bfdeab759f8a869d5825cca6f060361d505a1d58a",
           "alpha_bounds": [
             0,
             0,
             2260,
-            642
+            688
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -1463,7 +1476,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9990495057048706,
+          "source_mask_iou": 0.9995344410768808,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1471,14 +1484,14 @@
           "filename": "07_InntQ_Logo_English_Black@4x.png",
           "size": [
             4520,
-            1284
+            1376
           ],
-          "sha256": "9049f6e19969552ccb3574217a6cb169ff4f7855c391298710c81de09be66a07",
+          "sha256": "18e310c14aaea12eb62bcbf76303404ffe3eb08a3dc3c51d49fec39821cbf038",
           "alpha_bounds": [
             0,
             0,
             4520,
-            1284
+            1376
           ],
           "connected_bodies_at_alpha_128": 8,
           "enclosed_counters_at_alpha_128": 1,
@@ -1487,10 +1500,11 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9996286520450595,
+          "source_mask_iou": 0.9993186846644744,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "08_InntQ_Logo_Bilingual_Black",
@@ -1517,20 +1531,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "9a4c2977670578e35843bb47e4c71e501973afa43cb65b956def4580d1d439a8",
-      "native_svg_sha256": "2e9c9728b2603138504567c71dc47af45007106dc34b6dc6453113ebb7fb85fb",
-      "max_segment_deviation": 0.004701551100677372,
+      "source_svg_sha256": "8e5c5542ea8797416e8b0625ba34915683f0fa4ec9c224c1e1a249b97d053ca4",
+      "native_svg_sha256": "b0a70d5cf06eef9c524b713f451c3c3526e1d1135de5ef955ff30e68e2cd7272",
+      "max_segment_deviation": 0.0052084826768478455,
       "bounds": [
         0.0,
-        3.619996966630623e-07,
+        1.6659686279396624e-06,
         1130.0,
-        213.146
+        223.87400000000017
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        214.0
+        224.0
       ],
       "all_fill": "#000000",
       "pngs": [
@@ -1539,14 +1553,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Black.png",
           "size": [
             1130,
-            214
+            224
           ],
-          "sha256": "f03526ec493e62ab62179c8aa553c574862965f9c619a8247a1bf20bd3e3cbed",
+          "sha256": "a36598f74d387eaf3ddb8af782421c3519d3012f50e89225438de1cccab997ab",
           "alpha_bounds": [
             0,
             0,
             1130,
-            214
+            224
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -1555,7 +1569,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9967022208481475,
+          "source_mask_iou": 0.992969696969697,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1563,14 +1577,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Black@2x.png",
           "size": [
             2260,
-            427
+            448
           ],
-          "sha256": "1439c328a698e424cc0f3178ed46214d395c433f81425e9a9f5ac5b038420b80",
+          "sha256": "51096967acde5a0b0d8fb46aa0b3893071d2700f02795c6a4425f192aac97580",
           "alpha_bounds": [
             0,
             0,
             2260,
-            427
+            448
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -1579,7 +1593,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.998101045071114,
+          "source_mask_iou": 0.996922711226322,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1587,14 +1601,14 @@
           "filename": "08_InntQ_Logo_Bilingual_Black@4x.png",
           "size": [
             4520,
-            853
+            896
           ],
-          "sha256": "fa99d61038b44c122320f827dabca57b501c7127ffb5cfc700b9a90db17c425f",
+          "sha256": "410a795f25bd04a54edb99a2f7463bdd3a41c50794d17480f416ee3cb5134931",
           "alpha_bounds": [
             0,
             0,
             4520,
-            853
+            896
           ],
           "connected_bodies_at_alpha_128": 20,
           "enclosed_counters_at_alpha_128": 5,
@@ -1603,10 +1617,11 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9990504766607163,
+          "source_mask_iou": 0.9992733837409967,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "09_InntQ_Logo_Chinese_Black",
@@ -1626,20 +1641,20 @@
         1,
         2
       ],
-      "source_svg_sha256": "79d1f09a3f97d1ca1cf23cf26dec4cee6fb83b48388030f8cf1c5b1d1c526166",
-      "native_svg_sha256": "d9843a452e7a58bdca352ccf71b2ad046fdb52ba3aa6d2f759f14c060bbe990d",
-      "max_segment_deviation": 0.0037966488889959447,
+      "source_svg_sha256": "5776d5c10b846ae99ab4786d1407b896ecfe293d5c92f23b7fc4ab9892416dd4",
+      "native_svg_sha256": "236c15a42b11859c065a1db554698d9aa17008a617bf437e94c2e0f9a5b7d076",
+      "max_segment_deviation": 0.004481295275622001,
       "bounds": [
-        0.0,
-        -1.1281074066005203e-06,
+        -7.105427357601002e-15,
+        1.2079995097558083e-06,
         1130.0,
-        561.9710000000003
+        509.4660000000002
       ],
       "canvas": [
         0.0,
         0.0,
         1130.0,
-        562.0
+        510.0
       ],
       "all_fill": "#000000",
       "pngs": [
@@ -1648,14 +1663,14 @@
           "filename": "09_InntQ_Logo_Chinese_Black.png",
           "size": [
             1130,
-            562
+            510
           ],
-          "sha256": "41f50dd47bf823b4146ef0758e276748269c6bbac53de83a1e2f66d2bff4b2a2",
+          "sha256": "dc518d7b1e0369a0ecc71f349420787fa79b021858c4e1f5cd828809de68e673",
           "alpha_bounds": [
             0,
             0,
             1130,
-            562
+            510
           ],
           "connected_bodies_at_alpha_128": 13,
           "enclosed_counters_at_alpha_128": 4,
@@ -1664,7 +1679,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.997336681163969,
+          "source_mask_iou": 0.9977082820772167,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1672,23 +1687,23 @@
           "filename": "09_InntQ_Logo_Chinese_Black@2x.png",
           "size": [
             2260,
-            1124
+            1019
           ],
-          "sha256": "e1a4141668fdd20cde5e2c43b0953ba5959e0ccf4b18977109c5963fa0a6deb0",
+          "sha256": "5f561ab386b6395aecba28409cbb8ea94eb8c0ac17f5b55b252ac931aee736ae",
           "alpha_bounds": [
             0,
             0,
             2260,
-            1124
+            1019
           ],
-          "connected_bodies_at_alpha_128": 13,
+          "connected_bodies_at_alpha_128": 14,
           "enclosed_counters_at_alpha_128": 4,
           "interior_rgb": [
             0,
             0,
             0
           ],
-          "source_mask_iou": 0.99906416317224,
+          "source_mask_iou": 0.9987189353233603,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1696,14 +1711,14 @@
           "filename": "09_InntQ_Logo_Chinese_Black@4x.png",
           "size": [
             4520,
-            2248
+            2038
           ],
-          "sha256": "7ba87f5aa43f2ac71b4488f7495c8015f59763c7bad96f4562c633e5a64f8ef6",
+          "sha256": "51c6260aa4f2cc187ba559bf22c552cb9bb7a052c1bfae5ba0d2982cc4ef724a",
           "alpha_bounds": [
             0,
             0,
             4520,
-            2248
+            2038
           ],
           "connected_bodies_at_alpha_128": 13,
           "enclosed_counters_at_alpha_128": 4,
@@ -1712,10 +1727,11 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9990406035108862,
+          "source_mask_iou": 0.9995178373045305,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "14_InntQ_Symbol_Micro_Black",
@@ -1813,7 +1829,8 @@
           "source_mask_iou": 0.9995952532696446,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     },
     {
       "name": "17_InntQ_Logo_Stacked_Black",
@@ -1840,13 +1857,13 @@
         1,
         2
       ],
-      "source_svg_sha256": "b11e3be04be722f2478b01d320b1b76d6e5b14fb1447c8a276ca5f750ee0c964",
-      "native_svg_sha256": "9348013b651bea90e47de9de3dcdb1cc2e08de45fe0e2f8b44f3bcb196f5262a",
-      "max_segment_deviation": 0.004726243085617292,
+      "source_svg_sha256": "99e1c371f92685ab4a49581eb81e7c507d8c6a69f59ede2e6bb3686c03aa9c61",
+      "native_svg_sha256": "04426ccc11be291acb7360e8b0ae47005c79dd0eb2934b1bb402f76350985d6d",
+      "max_segment_deviation": 0.004977523807415362,
       "bounds": [
         0.0,
         -1.9680322291826258e-06,
-        1130.0,
+        1130.0000000000005,
         614.693
       ],
       "canvas": [
@@ -1864,7 +1881,7 @@
             1130,
             615
           ],
-          "sha256": "7710d42300482afe72bedc038d6b3a28150823459e6df1437ebf47f28bf2c75d",
+          "sha256": "29bace162d181aa9786d8ee683afa392dcd33e7c4637bbb419f7e1c187f61446",
           "alpha_bounds": [
             0,
             0,
@@ -1878,7 +1895,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.998300269528689,
+          "source_mask_iou": 0.9970153748851778,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1888,7 +1905,7 @@
             2260,
             1230
           ],
-          "sha256": "9f97d0170729726b78b2f276671796fa32504dd70c331b5a4b0896580de410a6",
+          "sha256": "14786c63d80a4c1507a219922e67c4a8624d6089b5b96894ba3ff39832ae3b00",
           "alpha_bounds": [
             0,
             0,
@@ -1902,7 +1919,7 @@
             0,
             0
           ],
-          "source_mask_iou": 0.997939395500458,
+          "source_mask_iou": 0.9991602572089879,
           "max_mask_distance_px": 1.0
         },
         {
@@ -1912,7 +1929,7 @@
             4520,
             2459
           ],
-          "sha256": "7dcea9ba800996ece116799997a459ffe3a540f02669203ab12a4d55aa0d457e",
+          "sha256": "fbd809f43339dcbe5e3beccb56d3dccbe879f45b1f3f711374ff021530c2a7b9",
           "alpha_bounds": [
             0,
             0,
@@ -1926,21 +1943,142 @@
             0,
             0
           ],
-          "source_mask_iou": 0.9991617547873052,
+          "source_mask_iou": 0.999290603153437,
           "max_mask_distance_px": 1.0
         }
-      ]
+      ],
+      "no_root_background": true
     }
   ],
   "notes": [
     "Figma SVG canvas dimensions use integer ceil; PNG presets ceil the original fractional frame bounds independently. One-pixel canvas differences against earlier Sharp previews are expected, not geometric stretch.",
     "Native SVG coordinate serialization is rounded; maximum segment deviation is reported in native logical units.",
-    "InntQ. has six characters including the original proposal02 period translated horizontally. The five existing letter paths and original period geometry are preserved before export."
+    "InntQ. has six characters including the original proposal02 period. I/n/n/t are unchanged. Q retains the smaller n-height outer bounds, with an enlarged counter and a less intrusive inner tail; the external outline remains fixed. Period geometry is unchanged. Primary symbol bottoms align with the English baseline.",
+    "All eighteen native SVG roots contain paths only, without white background objects. All fifty-four PNG exports contain both fully transparent and fully opaque pixels and exact interior color."
   ],
   "native_svg_count": 18,
   "native_png_count": 54,
-  "max_segment_deviation": 0.005050879348264893,
-  "minimum_source_mask_iou": 0.9964285607189658,
+  "max_segment_deviation": 0.0052084826768478455,
+  "minimum_source_mask_iou": 0.992969696969697,
+  "Q_height_checks": [
+    {
+      "asset": "04_InntQ_English_Blue",
+      "n_visible_height": 222.11,
+      "Q_visible_height": 222.11009422107992,
+      "absolute_height_difference": 9.422107990531003e-05,
+      "status": "PASS"
+    },
+    {
+      "asset": "06_InntQ_Bilingual_Blue",
+      "n_visible_height": 133.6687,
+      "Q_visible_height": 133.66907189161782,
+      "absolute_height_difference": 0.0003718916178172549,
+      "status": "PASS"
+    },
+    {
+      "asset": "07_InntQ_Logo_English_Blue",
+      "n_visible_height": 180.03,
+      "Q_visible_height": 180.02974829650387,
+      "absolute_height_difference": 0.00025170349613290455,
+      "status": "PASS"
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Blue",
+      "n_visible_height": 117.185,
+      "Q_visible_height": 117.1850277657959,
+      "absolute_height_difference": 2.776579589180983e-05,
+      "status": "PASS"
+    },
+    {
+      "asset": "17_InntQ_Logo_Stacked_Blue",
+      "n_visible_height": 158.66600000000005,
+      "Q_visible_height": 158.66568685696376,
+      "absolute_height_difference": 0.0003131430362941501,
+      "status": "PASS"
+    },
+    {
+      "asset": "04_InntQ_English_Black",
+      "n_visible_height": 222.11,
+      "Q_visible_height": 222.11009422107992,
+      "absolute_height_difference": 9.422107990531003e-05,
+      "status": "PASS"
+    },
+    {
+      "asset": "06_InntQ_Bilingual_Black",
+      "n_visible_height": 133.6687,
+      "Q_visible_height": 133.66907189161782,
+      "absolute_height_difference": 0.0003718916178172549,
+      "status": "PASS"
+    },
+    {
+      "asset": "07_InntQ_Logo_English_Black",
+      "n_visible_height": 180.03,
+      "Q_visible_height": 180.02974829650387,
+      "absolute_height_difference": 0.00025170349613290455,
+      "status": "PASS"
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Black",
+      "n_visible_height": 117.185,
+      "Q_visible_height": 117.1850277657959,
+      "absolute_height_difference": 2.776579589180983e-05,
+      "status": "PASS"
+    },
+    {
+      "asset": "17_InntQ_Logo_Stacked_Black",
+      "n_visible_height": 158.66600000000005,
+      "Q_visible_height": 158.66568685696376,
+      "absolute_height_difference": 0.0003131430362941501,
+      "status": "PASS"
+    }
+  ],
+  "main_baseline_checks": [
+    {
+      "asset": "07_InntQ_Logo_English_Blue",
+      "symbol_bottom": 340.21400000000017,
+      "n_bottom": 340.214,
+      "Q_bottom": 340.21374829650387,
+      "I_bottom": 340.2140000000001,
+      "t_bottom": 340.214,
+      "baseline_spread": 0.0002517034963034348,
+      "period_overshoot_source_units": 2.099949533116134,
+      "status": "PASS"
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Blue",
+      "symbol_bottom": 221.45200000000014,
+      "n_bottom": 221.452,
+      "Q_bottom": 221.4520277657959,
+      "I_bottom": 221.452,
+      "t_bottom": 221.452,
+      "baseline_spread": 2.776579589180983e-05,
+      "period_overshoot_source_units": 2.099887860386952,
+      "status": "PASS"
+    },
+    {
+      "asset": "07_InntQ_Logo_English_Black",
+      "symbol_bottom": 340.21400000000017,
+      "n_bottom": 340.214,
+      "Q_bottom": 340.21374829650387,
+      "I_bottom": 340.2140000000001,
+      "t_bottom": 340.214,
+      "baseline_spread": 0.0002517034963034348,
+      "period_overshoot_source_units": 2.099949533116134,
+      "status": "PASS"
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Black",
+      "symbol_bottom": 221.45200000000014,
+      "n_bottom": 221.452,
+      "Q_bottom": 221.4520277657959,
+      "I_bottom": 221.452,
+      "t_bottom": 221.452,
+      "baseline_spread": 2.776579589180983e-05,
+      "period_overshoot_source_units": 2.099887860386952,
+      "status": "PASS"
+    }
+  ],
+  "optical_effect": "The final Q retains its 101.6-unit height and external outline. Its counter ellipse radii are enlarged by thirty percent, and the internal tail terminal retreats four units along the existing diagonal; the external tail stays eighteen units wide. The actual counter area increases by 84.326 percent. This produces a visibly more open Q. Other glyphs, period, symbol and lockup placements remain unchanged.",
   "color_pair_checks": [
     {
       "blue": "03_InntQ_Symbol_Blue",
@@ -1951,7 +2089,7 @@
     {
       "blue": "04_InntQ_English_Blue",
       "black": "04_InntQ_English_Black",
-      "max_geometry_deviation": 0.0010000000002037268,
+      "max_geometry_deviation": 0.00100000000009004,
       "status": "PASS"
     },
     {
@@ -1963,19 +2101,19 @@
     {
       "blue": "06_InntQ_Bilingual_Blue",
       "black": "06_InntQ_Bilingual_Black",
-      "max_geometry_deviation": 0.009999999999990905,
+      "max_geometry_deviation": 0.0010000000006584742,
       "status": "PASS"
     },
     {
       "blue": "07_InntQ_Logo_English_Blue",
       "black": "07_InntQ_Logo_English_Black",
-      "max_geometry_deviation": 0.004218750000063665,
+      "max_geometry_deviation": 0.0010000000004311005,
       "status": "PASS"
     },
     {
       "blue": "08_InntQ_Logo_Bilingual_Blue",
       "black": "08_InntQ_Logo_Bilingual_Black",
-      "max_geometry_deviation": 0.0010000000006584742,
+      "max_geometry_deviation": 0.010000000000445652,
       "status": "PASS"
     },
     {
@@ -1993,120 +2131,308 @@
     {
       "blue": "17_InntQ_Logo_Stacked_Blue",
       "black": "17_InntQ_Logo_Stacked_Black",
-      "max_geometry_deviation": 0.004218749999949978,
+      "max_geometry_deviation": 0.0010000000000331966,
       "status": "PASS"
     }
   ],
   "native_exports_copied_to_final": true,
-  "visual_review": "All eighteen native SVG assets were viewed on a white contact sheet. Blue and pure black sets read consistently, every English-bearing asset includes the final period, both symbol bodies remain separated, and stacked text uses the requested equal-width column and divider. No blank, cropped, distorted, or incomplete asset was observed.",
-  "visual_review_artifact": "QA/Native_Asset_Review.png",
-  "period_checks": [
+  "Chinese_baseline_checks": [
+    {
+      "asset": "09_InntQ_Logo_Chinese_Blue",
+      "source_uniform_scale_vs_approved_Chinese": 1.15,
+      "source_transform_max_error": 1.214175959108492e-13,
+      "source_Chinese_top": 68.66250000000001,
+      "source_Chinese_height": 123.33749999999999,
+      "source_Chinese_bottom": 192.0,
+      "source_symbol_bottom": 191.9999999999999,
+      "source_symbol_Chinese_gap": 43.999999999999986,
+      "native_symbol_bottom": 509.4660000000002,
+      "native_Chinese_bottom": 509.466,
+      "native_baseline_difference": 1.7053025658242404e-13,
+      "native_Chinese_height_source_units": 123.33742414805413,
+      "status": "PASS"
+    },
+    {
+      "asset": "09_InntQ_Logo_Chinese_Black",
+      "source_uniform_scale_vs_approved_Chinese": 1.15,
+      "source_transform_max_error": 1.214175959108492e-13,
+      "source_Chinese_top": 68.66250000000001,
+      "source_Chinese_height": 123.33749999999999,
+      "source_Chinese_bottom": 192.0,
+      "source_symbol_bottom": 191.9999999999999,
+      "source_symbol_Chinese_gap": 43.999999999999986,
+      "native_symbol_bottom": 509.4660000000002,
+      "native_Chinese_bottom": 509.466,
+      "native_baseline_difference": 1.7053025658242404e-13,
+      "native_Chinese_height_source_units": 123.33742414805413,
+      "status": "PASS"
+    }
+  ],
+  "source_Q_geometry": {
+    "fixed_visible_bounds": [
+      367.19999999999965,
+      28.399999999999928,
+      466.09630303733866,
+      130.00000000000006
+    ],
+    "outer_ellipse_center": [
+      415.4672991979354,
+      75.29647904134258
+    ],
+    "outer_ellipse_radii": [
+      48.26729919793575,
+      46.89647904134265
+    ],
+    "counter_ellipse_center": [
+      415.6672991979354,
+      76.69647904134258
+    ],
+    "counter_ellipse_radii": [
+      22.447488957316473,
+      23.785422753745447
+    ],
+    "previous_bowl_weights": {
+      "left": 31.2,
+      "right": 30.8,
+      "top": 30.0,
+      "bottom": 27.2
+    },
+    "counter_radius_scale": 1.3,
+    "bowl_weights": {
+      "left": 26.01981024061928,
+      "right": 25.6198102406193,
+      "top": 24.511056287597206,
+      "bottom": 21.711056287597202
+    },
+    "tail_width": 18.0,
+    "tail_terminal_radius": 2.2,
+    "tail_direction": [
+      0.7474093186836598,
+      0.6643638388299198
+    ],
+    "tail_far_center": [
+      461.02290586907685,
+      124.1791935130546
+    ],
+    "tail_inner_cap_center": [
+      418.0879764025066,
+      86.01481176499219
+    ],
+    "contours": 2,
+    "filled_bodies": 1,
+    "counters": 1,
+    "inner_tail_cap_projection_offset": 8.0,
+    "method": "Counter ellipse radii enlarged1.30 and inner tail cap retracted four units along the unchanged tail direction; exterior outline, eighteen-unit outer tail and total Q bounds preserved.",
+    "previous_actual_counter_area": 774.1821078866005,
+    "new_actual_counter_area": 1427.0202513984505,
+    "actual_counter_area_increase_percent": 84.32617298454478,
+    "counter_ellipse_area_increase_percent": 69,
+    "outer_contour_max_error": 3.457650183405701e-13,
+    "before_Q_bounds": [
+      367.19999999999965,
+      466.09630303733866,
+      28.399999999999928,
+      130.00000000000006
+    ],
+    "after_Q_bounds": [
+      367.19999999999965,
+      466.09630303733854,
+      28.399999999999928,
+      130.00000000000006
+    ]
+  },
+  "non_Q_path_hash_checks": [
+    {
+      "asset": "03_InntQ_Symbol_Blue",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "df186c27f480a19045cb830393858a3669d97a0b5776361f49e37a54c8f42d0b",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
+    },
     {
       "asset": "04_InntQ_English_Blue",
-      "native_path_index_zero_based": 5,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        4
+      ],
+      "non_Q_path_d_sha256": "fdfe2dec0d27ef36550c05056955fbd350e74321fd720ad1fc362bf367559c83",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
+    },
+    {
+      "asset": "05_InntQ_Chinese_Blue",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "fc7e621f1eb783fe7db410f5e513ea9c91703030e7adc302d880b3bdc71e9f25",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
     },
     {
       "asset": "06_InntQ_Bilingual_Blue",
-      "native_path_index_zero_based": 5,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        4
+      ],
+      "non_Q_path_d_sha256": "79a93680fbeeced8dcc413156ddcd985120aa7e29b3ac0ca8d6731ad8d67a0e9",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
     },
     {
       "asset": "07_InntQ_Logo_English_Blue",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "4f6389518465185787c6d220336d07ad66b04f7c41575a4f4ed520962e51ad44",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
     },
     {
       "asset": "08_InntQ_Logo_Bilingual_Blue",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "77293bc40e33e9492c588c4e901c8fac642bb77632e4ea73883ce53b887621ee",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
+    },
+    {
+      "asset": "09_InntQ_Logo_Chinese_Blue",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "e77770e3ad04d37124e4cac289884e3b8031db93e4b976d0252730cc17c6817c",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
+    },
+    {
+      "asset": "14_InntQ_Symbol_Micro_Blue",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "d0fd92bded8527764f3126c4681c372636f04466de93e6cbeddc8201e2264d31",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
     },
     {
       "asset": "17_InntQ_Logo_Stacked_Blue",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "343a5ecd0f2e35da97a90f0b6f36f47e9511b27228f466888a6dfa40fe86ca52",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
+    },
+    {
+      "asset": "03_InntQ_Symbol_Black",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "df186c27f480a19045cb830393858a3669d97a0b5776361f49e37a54c8f42d0b",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
     },
     {
       "asset": "04_InntQ_English_Black",
-      "native_path_index_zero_based": 5,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        4
+      ],
+      "non_Q_path_d_sha256": "fdfe2dec0d27ef36550c05056955fbd350e74321fd720ad1fc362bf367559c83",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
+    },
+    {
+      "asset": "05_InntQ_Chinese_Black",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "fc7e621f1eb783fe7db410f5e513ea9c91703030e7adc302d880b3bdc71e9f25",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
     },
     {
       "asset": "06_InntQ_Bilingual_Black",
-      "native_path_index_zero_based": 5,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        4
+      ],
+      "non_Q_path_d_sha256": "79a93680fbeeced8dcc413156ddcd985120aa7e29b3ac0ca8d6731ad8d67a0e9",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
     },
     {
       "asset": "07_InntQ_Logo_English_Black",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "4f6389518465185787c6d220336d07ad66b04f7c41575a4f4ed520962e51ad44",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
     },
     {
       "asset": "08_InntQ_Logo_Bilingual_Black",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "77293bc40e33e9492c588c4e901c8fac642bb77632e4ea73883ce53b887621ee",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
+    },
+    {
+      "asset": "09_InntQ_Logo_Chinese_Black",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "e77770e3ad04d37124e4cac289884e3b8031db93e4b976d0252730cc17c6817c",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
+    },
+    {
+      "asset": "14_InntQ_Symbol_Micro_Black",
+      "changed_path_indices": [],
+      "non_Q_path_d_sha256": "d0fd92bded8527764f3126c4681c372636f04466de93e6cbeddc8201e2264d31",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": true
     },
     {
       "asset": "17_InntQ_Logo_Stacked_Black",
-      "native_path_index_zero_based": 7,
-      "closed_contours": 1,
-      "source_geometry_match": "PASS"
+      "changed_path_indices": [
+        6
+      ],
+      "non_Q_path_d_sha256": "343a5ecd0f2e35da97a90f0b6f36f47e9511b27228f466888a6dfa40fe86ca52",
+      "non_Q_path_strings_byte_identical": true,
+      "full_native_SVG_bytes_identical_to_previous": false
     }
   ],
-  "staging_color_pair_path_data_equal": [
+  "unchanged_non_English_assets": [
     {
-      "blue": "03_InntQ_Symbol_Blue",
-      "black": "03_InntQ_Symbol_Black",
-      "exact_d_attribute_equality": true
+      "asset": "03_InntQ_Symbol_Blue",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "04_InntQ_English_Blue",
-      "black": "04_InntQ_English_Black",
-      "exact_d_attribute_equality": true
+      "asset": "05_InntQ_Chinese_Blue",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "05_InntQ_Chinese_Blue",
-      "black": "05_InntQ_Chinese_Black",
-      "exact_d_attribute_equality": true
+      "asset": "09_InntQ_Logo_Chinese_Blue",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "06_InntQ_Bilingual_Blue",
-      "black": "06_InntQ_Bilingual_Black",
-      "exact_d_attribute_equality": true
+      "asset": "14_InntQ_Symbol_Micro_Blue",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "07_InntQ_Logo_English_Blue",
-      "black": "07_InntQ_Logo_English_Black",
-      "exact_d_attribute_equality": true
+      "asset": "03_InntQ_Symbol_Black",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "08_InntQ_Logo_Bilingual_Blue",
-      "black": "08_InntQ_Logo_Bilingual_Black",
-      "exact_d_attribute_equality": true
+      "asset": "05_InntQ_Chinese_Black",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "09_InntQ_Logo_Chinese_Blue",
-      "black": "09_InntQ_Logo_Chinese_Black",
-      "exact_d_attribute_equality": true
+      "asset": "09_InntQ_Logo_Chinese_Black",
+      "native_SVG_and_three_PNGs_byte_identical": true
     },
     {
-      "blue": "14_InntQ_Symbol_Micro_Blue",
-      "black": "14_InntQ_Symbol_Micro_Black",
-      "exact_d_attribute_equality": true
-    },
-    {
-      "blue": "17_InntQ_Logo_Stacked_Blue",
-      "black": "17_InntQ_Logo_Stacked_Black",
-      "exact_d_attribute_equality": true
+      "asset": "14_InntQ_Symbol_Micro_Black",
+      "native_SVG_and_three_PNGs_byte_identical": true
     }
-  ]
+  ],
+  "copy_scope": "Temporary open-counter working package only; project-root delivery folder was not modified.",
+  "copy_destinations": [
+    "01_SVG",
+    "02_PNG/1x",
+    "02_PNG/2x",
+    "02_PNG/4x",
+    "Attachments",
+    "Source/Native_Export"
+  ],
+  "copy_byte_equality_checked": true,
+  "review_image": "QA/Native_Asset_Review.png",
+  "visual_review": "PASS: all eighteen native assets inspected on white contact sheet, including larger Q counter, unchanged exterior and period, main baselines, enlarged Chinese bottom alignment, color pairs and clipping."
 }

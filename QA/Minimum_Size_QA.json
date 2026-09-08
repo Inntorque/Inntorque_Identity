@@ -1,85 +1,160 @@
 {
-  "purpose": "Minimum-size QA of native Figma SVG exports; InntQ. revision v1.1",
-  "method": "Render actual native path geometry on white at exact symbol visible height. Pixel-positioned at integer margin16. No artwork edited. Inspect previews at one image pixel per intended display pixel.",
+  "purpose": "Minimum-size QA of revised Q with more open counter, from new native Figma SVG exports.",
+  "source_directory_at_test": "/tmp/inntq-q-open-native",
+  "method": "Measured true symbol path height, then rendered at exact 1:1 target pixels on white. Isolated Q, period and symbol measures avoid neighboring glyph contamination. No artwork changes.",
   "samples": [
     {
       "asset": "07_InntQ_Logo_English_Blue",
-      "source_sha256": "d2b5216fd13dd9a6f9dd9aaeeaa3af6a8907d1fdc322bbbf637ed7a75a53ce7f",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/07_InntQ_Logo_English_Blue.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/07_InntQ_Logo_English_Blue_Hs24px_QA.png",
-      "requested_symbol_height_px": 24,
-      "native_symbol_bounds": [
-        0.0,
-        -1.501106128287688e-08,
-        128.43300000000002,
-        320.99700000000007
-      ],
-      "uniform_scale": 0.07476705389420357,
-      "actual_symbol_height_px": 24.0,
-      "actual_logo_width_px": 84.48677090045004,
-      "actual_logo_height_px": 24.0,
+      "source_sha256": "834aac606ec34627b92a82a58fb89787d18076cdebcf1102265a7ec19e9f0551",
+      "file": "01_SVG/07_InntQ_Logo_English_Blue.svg",
+      "preview": "QA/07_InntQ_Logo_English_Blue_Hs24px_QA.png",
+      "actual_symbol_height_px": 24,
+      "actual_logo_width_px": 79.71453310833525,
+      "actual_logo_height_px": 24.26249360858062,
       "canvas_px": [
-        117,
-        56
+        112,
+        57
       ],
+      "native_symbol_bounds": [
+        -3.552713678800501e-15,
+        2.093961735782912e-06,
+        136.121,
+        340.21400000000017
+      ],
+      "uniform_scale": 0.07054383460914623,
       "native_path_count": 8,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 2,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 168,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 2,
+          "128": 2,
+          "192": 2
+        }
       },
-      "english_visible_height_px": 17.60262284927458,
-      "period_visible_size_px": [
-        3.9626538563928335,
-        3.8750268692287833
+      "q_visible_height_px": 12.699988788554794,
+      "n_visible_height_px": 12.700006544684596,
+      "q_left_side_weight_px": 3.2524940384893037,
+      "q_counter_vector_size_px": [
+        5.611832586992251,
+        5.94635145070877
       ],
-      "period_Q_visible_gap_px": 2.387472170326612,
-      "period_pixels_coverage_at_least_50_percent": 10,
-      "period_maximum_coverage": 1.0
+      "q": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 22,
+        "pixels_at_alpha_128": 96,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 11,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period_visible_size_px": [
+        3.962447189995765,
+        3.874972835080403
+      ],
+      "period_q_visible_gap_px": 2.3874488493642265,
+      "symbol_vs_n_baseline_delta_px": 1.2029858216205793e-14
     },
     {
       "asset": "07_InntQ_Logo_English_Black",
-      "source_sha256": "7232e7b02699be56841d891b5d8a5ab7d0f1eb48763b2310989e4b219112da06",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/07_InntQ_Logo_English_Black.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/07_InntQ_Logo_English_Black_Hs24px_QA.png",
-      "requested_symbol_height_px": 24,
+      "source_sha256": "46d7db4a65300b09ebffa192a41b371ef0cc7aed75db911edc5b7679aad217b8",
+      "file": "01_SVG/07_InntQ_Logo_English_Black.svg",
+      "preview": "QA/07_InntQ_Logo_English_Black_Hs24px_QA.png",
+      "actual_symbol_height_px": 24,
+      "actual_logo_width_px": 79.71453310833525,
+      "actual_logo_height_px": 24.26249360858062,
+      "canvas_px": [
+        112,
+        57
+      ],
       "native_symbol_bounds": [
         0.0,
-        -1.501106128287688e-08,
-        128.43300000000002,
-        320.99700000000007
+        2.093961735782912e-06,
+        136.121,
+        340.21400000000017
       ],
-      "uniform_scale": 0.07476705389420357,
-      "actual_symbol_height_px": 24.0,
-      "actual_logo_width_px": 84.48677090045004,
-      "actual_logo_height_px": 24.0,
-      "canvas_px": [
-        117,
-        56
-      ],
+      "uniform_scale": 0.07054383460914623,
       "native_path_count": 8,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 2,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 168,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 2,
+          "128": 2,
+          "192": 2
+        }
       },
-      "english_visible_height_px": 17.60262284927458,
-      "period_visible_size_px": [
-        3.9626538563928335,
-        3.8750268692287833
+      "q_visible_height_px": 12.699988788554794,
+      "n_visible_height_px": 12.700006544684596,
+      "q_left_side_weight_px": 3.2524940384893037,
+      "q_counter_vector_size_px": [
+        5.611832586992251,
+        5.94635145070877
       ],
-      "period_Q_visible_gap_px": 2.387472170326612,
-      "period_pixels_coverage_at_least_50_percent": 10,
-      "period_maximum_coverage": 1.0
+      "q": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 22,
+        "pixels_at_alpha_128": 96,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 11,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period_visible_size_px": [
+        3.962447189995765,
+        3.874972835080403
+      ],
+      "period_q_visible_gap_px": 2.3874488493642265,
+      "symbol_vs_n_baseline_delta_px": 1.2029858216205793e-14
     },
     {
       "asset": "17_InntQ_Logo_Stacked_Blue",
-      "source_sha256": "f605eb6bd83ba7af66a276eaeaaff57b53a7d6eead535ea20ce354973c502cc2",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/17_InntQ_Logo_Stacked_Blue.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/17_InntQ_Logo_Stacked_Blue_Hs48px_QA.png",
-      "requested_symbol_height_px": 48,
+      "source_sha256": "ec48edc312aa5c325d08f734657b560d0945a2e73f44e6c9a87082b68ef8e2b0",
+      "file": "01_SVG/17_InntQ_Logo_Stacked_Blue.svg",
+      "preview": "QA/17_InntQ_Logo_Stacked_Blue_Hs48px_QA.png",
+      "actual_symbol_height_px": 48,
+      "actual_logo_width_px": 88.2391695144446,
+      "actual_logo_height_px": 48.00000000000001,
+      "canvas_px": [
+        121,
+        80
+      ],
       "native_symbol_bounds": [
         0.0,
         -1.9680322291826258e-06,
@@ -87,37 +162,70 @@
         614.693
       ],
       "uniform_scale": 0.07808776063225183,
-      "actual_symbol_height_px": 48.00000000000001,
-      "actual_logo_width_px": 88.23916951444457,
+      "native_path_count": 20,
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 637,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 2,
+          "128": 2,
+          "192": 2
+        }
+      },
+      "q_visible_height_px": 12.389848175838411,
+      "n_visible_height_px": 12.389872628476873,
+      "q_left_side_weight_px": 3.1730180655308953,
+      "q_counter_vector_size_px": [
+        5.474889073448464,
+        5.801139737369987
+      ],
+      "q": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 21,
+        "pixels_at_alpha_128": 93,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 11,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period_visible_size_px": [
+        3.8653441512965365,
+        3.7803846677285757
+      ],
+      "period_q_visible_gap_px": 2.329657389015627,
+      "chinese_visible_height_px": 25.48690801723945,
+      "separator_height_px": 0.1250185047722351
+    },
+    {
+      "asset": "17_InntQ_Logo_Stacked_Black",
+      "source_sha256": "04426ccc11be291acb7360e8b0ae47005c79dd0eb2934b1bb402f76350985d6d",
+      "file": "01_SVG/17_InntQ_Logo_Stacked_Black.svg",
+      "preview": "QA/17_InntQ_Logo_Stacked_Black_Hs48px_QA.png",
+      "actual_symbol_height_px": 48,
+      "actual_logo_width_px": 88.2391695144446,
       "actual_logo_height_px": 48.00000000000001,
       "canvas_px": [
         121,
         80
       ],
-      "native_path_count": 20,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 2,
-        "0.5": 2,
-        "0.75": 2
-      },
-      "english_visible_height_px": 15.991615095611131,
-      "period_visible_size_px": [
-        3.59984576514681,
-        3.5203524248231925
-      ],
-      "period_Q_visible_gap_px": 2.1689288393105315,
-      "period_pixels_coverage_at_least_50_percent": 8,
-      "period_maximum_coverage": 1.0,
-      "chinese_visible_height_px": 25.486986105000067,
-      "separator_height_px": 0.1250185047722351
-    },
-    {
-      "asset": "17_InntQ_Logo_Stacked_Black",
-      "source_sha256": "9348013b651bea90e47de9de3dcdb1cc2e08de45fe0e2f8b44f3bcb196f5262a",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/17_InntQ_Logo_Stacked_Black.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/17_InntQ_Logo_Stacked_Black_Hs48px_QA.png",
-      "requested_symbol_height_px": 48,
       "native_symbol_bounds": [
         0.0,
         -1.9680322291826258e-06,
@@ -125,37 +233,70 @@
         614.693
       ],
       "uniform_scale": 0.07808776063225183,
-      "actual_symbol_height_px": 48.00000000000001,
-      "actual_logo_width_px": 88.23916951444457,
-      "actual_logo_height_px": 48.00000000000001,
-      "canvas_px": [
-        121,
-        80
-      ],
       "native_path_count": 20,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 2,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 637,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 2,
+          "128": 2,
+          "192": 2
+        }
       },
-      "english_visible_height_px": 15.991615095611131,
-      "period_visible_size_px": [
-        3.59984576514681,
-        3.5203524248231925
+      "q_visible_height_px": 12.389848175838411,
+      "n_visible_height_px": 12.389872628476873,
+      "q_left_side_weight_px": 3.1730180655308953,
+      "q_counter_vector_size_px": [
+        5.474889073448464,
+        5.801139737369987
       ],
-      "period_Q_visible_gap_px": 2.1689288393105315,
-      "period_pixels_coverage_at_least_50_percent": 8,
-      "period_maximum_coverage": 1.0,
-      "chinese_visible_height_px": 25.486986105000067,
+      "q": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 21,
+        "pixels_at_alpha_128": 93,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period": {
+        "bodies_at_alpha_128": 1,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 11,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 1,
+          "192": 1
+        }
+      },
+      "period_visible_size_px": [
+        3.8653441512965365,
+        3.7803846677285757
+      ],
+      "period_q_visible_gap_px": 2.329657389015627,
+      "chinese_visible_height_px": 25.48690801723945,
       "separator_height_px": 0.1250185047722351
     },
     {
       "asset": "03_InntQ_Symbol_Blue",
       "source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/03_InntQ_Symbol_Blue.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/03_InntQ_Symbol_Blue_Hs16px_QA.png",
-      "requested_symbol_height_px": 16,
+      "file": "01_SVG/03_InntQ_Symbol_Blue.svg",
+      "preview": "QA/03_InntQ_Symbol_Blue_Hs16px_QA.png",
+      "actual_symbol_height_px": 16,
+      "actual_logo_width_px": 6.401684962828052,
+      "actual_logo_height_px": 16.0,
+      "canvas_px": [
+        39,
+        48
+      ],
       "native_symbol_bounds": [
         0.0,
         1.248999719649646e-06,
@@ -163,27 +304,32 @@
         1130.0000000000007
       ],
       "uniform_scale": 0.014159292051048622,
-      "actual_symbol_height_px": 16.0,
-      "actual_logo_width_px": 6.401684962828052,
-      "actual_logo_height_px": 16.0,
-      "canvas_px": [
-        39,
-        48
-      ],
       "native_path_count": 2,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 1,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 68,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 2,
+          "192": 2
+        }
       }
     },
     {
       "asset": "03_InntQ_Symbol_Black",
       "source_sha256": "ced8937727a0fdc2957ee3862f35089953d66dc0f23f169bc7e688d7bc692dfc",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/03_InntQ_Symbol_Black.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/03_InntQ_Symbol_Black_Hs16px_QA.png",
-      "requested_symbol_height_px": 16,
+      "file": "01_SVG/03_InntQ_Symbol_Black.svg",
+      "preview": "QA/03_InntQ_Symbol_Black_Hs16px_QA.png",
+      "actual_symbol_height_px": 16,
+      "actual_logo_width_px": 6.401684962828052,
+      "actual_logo_height_px": 16.0,
+      "canvas_px": [
+        39,
+        48
+      ],
       "native_symbol_bounds": [
         0.0,
         1.248999719649646e-06,
@@ -191,27 +337,32 @@
         1130.0000000000007
       ],
       "uniform_scale": 0.014159292051048622,
-      "actual_symbol_height_px": 16.0,
-      "actual_logo_width_px": 6.401684962828052,
-      "actual_logo_height_px": 16.0,
-      "canvas_px": [
-        39,
-        48
-      ],
       "native_path_count": 2,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 1,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 68,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 2,
+          "192": 2
+        }
       }
     },
     {
       "asset": "14_InntQ_Symbol_Micro_Blue",
       "source_sha256": "cff64c2d128e54ce2fd422774e284434738c872a871098d3098e3aea1784b5bc",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/14_InntQ_Symbol_Micro_Blue.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/14_InntQ_Symbol_Micro_Blue_Hs16px_QA.png",
-      "requested_symbol_height_px": 16,
+      "file": "01_SVG/14_InntQ_Symbol_Micro_Blue.svg",
+      "preview": "QA/14_InntQ_Symbol_Micro_Blue_Hs16px_QA.png",
+      "actual_symbol_height_px": 16,
+      "actual_logo_width_px": 6.401684956403708,
+      "actual_logo_height_px": 16.0,
+      "canvas_px": [
+        39,
+        48
+      ],
       "native_symbol_bounds": [
         0.0,
         1.1499998731068217e-07,
@@ -219,27 +370,32 @@
         1130.0000000000007
       ],
       "uniform_scale": 0.014159292036839211,
-      "actual_symbol_height_px": 16.0,
-      "actual_logo_width_px": 6.401684956403708,
-      "actual_logo_height_px": 16.0,
-      "canvas_px": [
-        39,
-        48
-      ],
       "native_path_count": 2,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 1,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 68,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 2,
+          "192": 2
+        }
       }
     },
     {
       "asset": "14_InntQ_Symbol_Micro_Black",
       "source_sha256": "ff680b9b4ae3c9ff50df2a55a934db20e5518fec6e94ab4657d218b916c0a201",
-      "file": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/01_SVG/14_InntQ_Symbol_Micro_Black.svg",
-      "preview": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Final_Identity_v1.1/QA/14_InntQ_Symbol_Micro_Black_Hs16px_QA.png",
-      "requested_symbol_height_px": 16,
+      "file": "01_SVG/14_InntQ_Symbol_Micro_Black.svg",
+      "preview": "QA/14_InntQ_Symbol_Micro_Black_Hs16px_QA.png",
+      "actual_symbol_height_px": 16,
+      "actual_logo_width_px": 6.401684956403708,
+      "actual_logo_height_px": 16.0,
+      "canvas_px": [
+        39,
+        48
+      ],
       "native_symbol_bounds": [
         0.0,
         1.1499998731068217e-07,
@@ -247,22 +403,22 @@
         1130.0000000000007
       ],
       "uniform_scale": 0.014159292036839211,
-      "actual_symbol_height_px": 16.0,
-      "actual_logo_width_px": 6.401684956403708,
-      "actual_logo_height_px": 16.0,
-      "canvas_px": [
-        39,
-        48
-      ],
       "native_path_count": 2,
-      "symbol_vector_bodies": 2,
-      "symbol_raster_components_at_coverage_thresholds": {
-        "0.25": 1,
-        "0.5": 2,
-        "0.75": 2
+      "symbol": {
+        "bodies_at_alpha_128": 2,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 68,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 1,
+          "128": 2,
+          "192": 2
+        }
       }
     }
   ],
+  "visual_review_pending": false,
   "pixel_phase_supplement": {
     "purpose": "Resolve actual pixel-alignment sensitivity seen in the 16 px antialias fringe. Native blue Standard and Micro rendered at 16 quarter-pixel x/y offsets, with unchanged geometry.",
     "results": [
@@ -504,24 +660,67 @@
         ],
         "all_have_two_bodies_at_half_coverage": false
       }
-    ]
+    ],
+    "retained_results_validation": [
+      {
+        "asset": "03_InntQ_Symbol_Blue",
+        "source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
+        "input_sha256_matches_prior_test": true
+      },
+      {
+        "asset": "03_InntQ_Symbol_Black",
+        "source_sha256": "ced8937727a0fdc2957ee3862f35089953d66dc0f23f169bc7e688d7bc692dfc",
+        "input_sha256_matches_prior_test": true
+      },
+      {
+        "asset": "14_InntQ_Symbol_Micro_Blue",
+        "source_sha256": "cff64c2d128e54ce2fd422774e284434738c872a871098d3098e3aea1784b5bc",
+        "input_sha256_matches_prior_test": true
+      },
+      {
+        "asset": "14_InntQ_Symbol_Micro_Black",
+        "source_sha256": "ff680b9b4ae3c9ff50df2a55a934db20e5518fec6e94ab4657d218b916c0a201",
+        "input_sha256_matches_prior_test": true
+      }
+    ],
+    "note": "Prior phase-test inputs exactly match current standalone native SVG hashes; those results and the unchanged phase preview remain valid."
   },
+  "all_sample_input_hashes_rechecked_at_completion": true,
   "visual_inspection": {
     "reviewed_at_native_pixels": [
-      "Minimum_Size_1to1_Comparison.png",
-      "Minimum_Size_16px_Pixel_Alignment.png"
+      "Minimum_Size_1to1_Comparison.png"
     ],
-    "primary_24px": "PASS: InntQ. reads correctly, period is separate and distinct, and the two symbol bodies remain visually separate in Blue and Black.",
-    "stacked_48px": "PASS for wordmark, period, Chinese readability, and symbol separation in Blue and Black. The native separator remains a very faint subpixel hairline at this size.",
-    "standard_16px": "Recognizable at the integer-aligned preview but the two-body gap is sensitive to pixel position. In quarter-pixel phase tests only 7 of 16 alignments retain two components at 50 percent coverage.",
-    "micro_16px": "Recognizable and more robust than Standard: 15 of 16 quarter-pixel alignments retain two components at 50 percent coverage, but y + 0.75 px still produces a dark raster connection."
+    "primary_24px": "PASS in Blue and Black. InntQ. is legible, the Q counter is open and its tail remains distinct, the period is clearly separate, and the symbol retains two non-contact bodies.",
+    "stacked_48px": "PASS in Blue and Black for InntQ., the period, Chinese readability, and symbol separation. Q retains one connected body and one open counter. The horizontal separator remains a faint subpixel hairline.",
+    "q_counter_result": "The revised Q has a clearly larger internal opening at the same tested overall size. At alpha128 the counter contains22 background pixels in Primary Hs24 and21 in Stacked Hs48; isolated glyph checks avoid neighboring-pixel contamination.",
+    "standard_16px": "The integer-aligned preview retains two dark components. Prior validated fractional-placement tests retain two components at7 of16 quarter-pixel positions.",
+    "micro_16px": "The integer-aligned preview retains two dark components. Prior validated fractional-placement tests retain two components at15 of16 positions, with y+0.75px still able to bridge the raster gap."
   },
   "recommendations": {
     "primary_english_minimum_symbol_height_px": 24,
     "stacked_minimum_symbol_height_px": 48,
-    "standalone_16px": "Use Micro and check the final rendered pixel placement. Integer-aligned 16 px preview passes. Do not promise an always-open raster gap for arbitrary rescaling or fractional positioning.",
-    "16px_general_deployment_status": "NEEDS HUMAN REVIEW of final pixel placement; vector bodies are separate, but rasterization can visually bridge the gap.",
-    "stacked_separator_limitation": "At Hs48, native line thickness is 0.125 px, so a continuously visible divider cannot be guaranteed. Text and period remain readable.",
-    "scope": "Digital raster display check only. No geometry changes made."
+    "q_counter_size_at_test": "Approximately5.61\u00d75.95px in Primary Hs24 and5.47\u00d75.80px in Stacked Hs48. Both remain visibly open.",
+    "wordmark_lower_limit": "No smaller complete-wordmark size is approved by this check.",
+    "standalone_16px": "Use Micro and inspect final pixel placement. Integer-aligned16px passes; arbitrary fractional placement can bridge the raster gap.",
+    "16px_general_deployment_status": "NEEDS HUMAN REVIEW of final pixel placement. Vector bodies remain separate.",
+    "stacked_separator_limitation": "At Hs48 the divider is0.125px thick, so continuous visibility cannot be guaranteed; text and period remain legible.",
+    "scope": "Digital native-SVG raster display check only. No artwork changes."
+  },
+  "obsolete_preview_replacement": {
+    "recreated": [
+      "Minimum_Size_1to1_Comparison.png",
+      "07_InntQ_Logo_English_Blue_Hs24px_QA.png",
+      "07_InntQ_Logo_English_Black_Hs24px_QA.png",
+      "17_InntQ_Logo_Stacked_Blue_Hs48px_QA.png",
+      "17_InntQ_Logo_Stacked_Black_Hs48px_QA.png",
+      "03_InntQ_Symbol_Blue_Hs16px_QA.png",
+      "03_InntQ_Symbol_Black_Hs16px_QA.png",
+      "14_InntQ_Symbol_Micro_Blue_Hs16px_QA.png",
+      "14_InntQ_Symbol_Micro_Black_Hs16px_QA.png"
+    ],
+    "retained_after_exact_input_hash_validation": [
+      "Minimum_Size_16px_Pixel_Alignment.png"
+    ],
+    "note": "The complete set of primary/stacked previews now uses the final more-open Q native batch. Earlier closed-counter and thin-Q previews are not part of this report."
   }
 }
