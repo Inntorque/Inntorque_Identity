@@ -1,0 +1,30 @@
+{
+  "wordmark": "InntQ.",
+  "character_count": 6,
+  "preserved_letter_paths": 5,
+  "original_period_bounds": [
+    542.2,
+    101.10000000000002,
+    573.9,
+    132.10000000000002
+  ],
+  "original_lower_r_stem_right": 523.1,
+  "period_gap": 19.100000000000023,
+  "period_translation_x": -18.826602831738228,
+  "period_translation_y": 0,
+  "period_uniform_scale": 1,
+  "wordmark_bounds": [
+    0.0,
+    0.0,
+    555.0733971682617,
+    140.82080648694543
+  ],
+  "stack_symbol_height": 384,
+  "stack_column_width": 504.27339716826174,
+  "stack_english_scale": 0.908480571652039,
+  "stack_chinese_scale": 1.90112496576159,
+  "stack_block_y": 14.08569032215405,
+  "stack_block_height": 355.8286193556919,
+  "stack_line_gap": 24,
+  "stack_divider_height": 1.0
+}

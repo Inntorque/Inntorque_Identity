@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "scope": "Six final native Figma presentation PNG exports for InntQ. blue and pure-black variants.",
+  "boards": [
+    {
+      "filename": "01_Blue_Proposal.png",
+      "native_sha256": "46c0ec6c380550a55d050594adf8b9c4410dcfec1d1caa3e9718ba08610009e4",
+      "source_svg_sha256": "6832637e46b0e9cfc41abebe39137dfd6b0cb2bcf64f312006be4397d4b3f02f",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Blue",
+      "logo_color": "#0E2D4D",
+      "sampled_logo_interior_rgb": [
+        14,
+        45,
+        77
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.9980465933892296,
+      "expected_text_nodes": 10,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "Not the stacked overview board."
+    },
+    {
+      "filename": "02_Blue_Overview.png",
+      "native_sha256": "8db4c52b48ee8af3c8d1723a453f4009179f9274c3ad4fae25458800842363b0",
+      "source_svg_sha256": "57332e21b81f03402c2274a393dedda0eb2cbc830b2ac0a6827d132e42e8905f",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Blue",
+      "logo_color": "#0E2D4D",
+      "sampled_logo_interior_rgb": [
+        14,
+        45,
+        77
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.9969248909768104,
+      "expected_text_nodes": 9,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "PASS"
+    },
+    {
+      "filename": "03_Blue_Specification.png",
+      "native_sha256": "25faa2bdb336a841442413e2dce6b5ee9d1c6206264eb7a3c2aa5a9331997445",
+      "source_svg_sha256": "a8a343e1affc91dcae67bf821aef6b55b5d3fd3b3ed56fa771375f5130eeac4e",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Blue",
+      "logo_color": "#0E2D4D",
+      "sampled_logo_interior_rgb": [
+        14,
+        45,
+        77
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.997447940219119,
+      "expected_text_nodes": 22,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "Not the stacked overview board."
+    },
+    {
+      "filename": "04_Black_Proposal.png",
+      "native_sha256": "98e1d21532a895c0a9915e57a747289ad5aac28426c07605aed0139c57f1d49a",
+      "source_svg_sha256": "bed452e206d3508f88b43168ca4fc91a7afd2d082957cc49226627262425899a",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Black",
+      "logo_color": "#000000",
+      "sampled_logo_interior_rgb": [
+        0,
+        0,
+        0
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.9984670828289541,
+      "expected_text_nodes": 10,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "Not the stacked overview board."
+    },
+    {
+      "filename": "05_Black_Overview.png",
+      "native_sha256": "9e7f54419d8a7dfd71af379f7b05f854beee922e6bbc07d9bccb2558ea0b2bda",
+      "source_svg_sha256": "9713352c53e6b4b0de1ad65dc13a2008fa194c9591f91af7248a90fd83df6ec2",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Black",
+      "logo_color": "#000000",
+      "sampled_logo_interior_rgb": [
+        0,
+        0,
+        0
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.996868961635869,
+      "expected_text_nodes": 9,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "PASS"
+    },
+    {
+      "filename": "06_Black_Specification.png",
+      "native_sha256": "25973a2505fefc45e604da34f6f0782e4d145ea2a361928b11fcf5a9dcc4da3b",
+      "source_svg_sha256": "1d8cbca818a5be827733a464e3e0aaef39873904ccf8d920e7ef4e17242cfc74",
+      "size": [
+        3200,
+        2400
+      ],
+      "fully_opaque": true,
+      "color_name": "Black",
+      "logo_color": "#000000",
+      "sampled_logo_interior_rgb": [
+        0,
+        0,
+        0
+      ],
+      "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
+      "source_logo_geometry_mask_iou": 0.9985690896449638,
+      "expected_text_nodes": 22,
+      "visible_content_and_layout_review": "PASS: all expected labels and concept copy are readable; every displayed abbreviated name includes its period as InntQ.; logo paths are complete with no crop or distortion.",
+      "equal_width_stack_and_fine_divider": "Not the stacked overview board."
+    }
+  ],
+  "expected_text_nodes_total": 82,
+  "visual_review": "All six native 3200 x 2400 PNGs were opened and inspected. All visible abbreviated wordmarks and brand labels read InntQ. with a period. Company fullname Inntorque remains unchanged. Blue logo elements are #0E2D4D; black logo elements are true #000000. Specification pages intentionally show both color swatches. No missing text, cropping or overlapping content was observed.",
+  "text_rendering_note": "Native Figma medium explanatory text renders slightly lighter than the standalone source SVG. Logo outlines are unaffected; all native text remains readable.",
+  "mask_comparison_method": "Source logo paths rendered at 3200 x 2400; native half-coverage mask compared within a three-pixel dilation of those paths. Solid-color samples taken after three-pixel erosion to exclude antialiasing.",
+  "native_boards_copied_to_attachments": true
+}

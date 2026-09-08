@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "filename": "03_PDF/InntQ._Brand_Identity_Blue_Black_v1.1.pdf",
+  "sha256": "ec3ec5920bde875aa1b67f02f3fc1f5050ff3340c7ff7041c2da67da304e515a",
+  "bytes": 684955,
+  "page_count": 6,
+  "export_origin": "Native Figma Export frames to PDF, performed by the coordinating agent; the resulting PDF structure and all rendered pages were independently verified.",
+  "page_order_correct": true,
+  "raster_render_method": "pdftoppm, 1200 pixel page width, preserved aspect ratio",
+  "pages": [
+    {
+      "page": 1,
+      "expected_board": "01_Blue_Proposal",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 10,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Blue",
+      "logo_color": "#0E2D4D"
+    },
+    {
+      "page": 2,
+      "expected_board": "02_Blue_Overview",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 9,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Blue",
+      "logo_color": "#0E2D4D"
+    },
+    {
+      "page": 3,
+      "expected_board": "03_Blue_Specification",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 22,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Blue",
+      "logo_color": "#0E2D4D"
+    },
+    {
+      "page": 4,
+      "expected_board": "04_Black_Proposal",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 10,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Black",
+      "logo_color": "#000000"
+    },
+    {
+      "page": 5,
+      "expected_board": "05_Black_Overview",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 9,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Black",
+      "logo_color": "#000000"
+    },
+    {
+      "page": 6,
+      "expected_board": "06_Black_Specification",
+      "page_size_points": [
+        1600.0,
+        1200.0
+      ],
+      "render_size_pixels": [
+        1200,
+        900
+      ],
+      "text_nodes_verified": 22,
+      "missing_source_text": [],
+      "undotted_visible_inntq_occurrences": 0,
+      "image_objects": 0,
+      "text_and_layout_review": "PASS",
+      "color_version": "Black",
+      "logo_color": "#000000"
+    }
+  ],
+  "expected_text_nodes_total": 82,
+  "missing_source_text_total": 0,
+  "undotted_visible_inntq_occurrences_total": 0,
+  "image_objects_total": 0,
+  "visual_review": "All six PDF pages were rendered and inspected. The blue proposal, overview and specification are followed by their black counterparts. Every displayed abbreviation is InntQ. with its period; the company fullname Inntorque is unchanged. Equal-width stacked text and matching fine horizontal separators are present. Text, glyphs and vector shapes are complete, with no cropping, overlap or blank panels.",
+  "logo_colors_verified_in_native_board_pngs": "#0E2D4D blue and #000000 pure black; see Native_Boards_QA.json.",
+  "font_dependency_note": "Logo artwork is vector outlines. Explanatory text remains text in the PDF and was checked through extraction and rendering."
+}

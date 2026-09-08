@@ -1,0 +1,68 @@
+[
+  {
+    "name": "01_Blue_Proposal",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/01_Blue_Proposal.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/01_Blue_Proposal.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Blue",
+    "color": "#0E2D4D",
+    "text_nodes": 10,
+    "native_png_export_scale": 2
+  },
+  {
+    "name": "02_Blue_Overview",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/02_Blue_Overview.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/02_Blue_Overview.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Blue",
+    "color": "#0E2D4D",
+    "text_nodes": 9,
+    "native_png_export_scale": 2
+  },
+  {
+    "name": "03_Blue_Specification",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/03_Blue_Specification.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/03_Blue_Specification.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Blue",
+    "color": "#0E2D4D",
+    "text_nodes": 22,
+    "native_png_export_scale": 2
+  },
+  {
+    "name": "04_Black_Proposal",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/04_Black_Proposal.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/04_Black_Proposal.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Black",
+    "color": "#000000",
+    "text_nodes": 10,
+    "native_png_export_scale": 2
+  },
+  {
+    "name": "05_Black_Overview",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/05_Black_Overview.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/05_Black_Overview.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Black",
+    "color": "#000000",
+    "text_nodes": 9,
+    "native_png_export_scale": 2
+  },
+  {
+    "name": "06_Black_Specification",
+    "source_svg": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/Source/06_Black_Specification.svg",
+    "preview_png": "/Users/patrickstar/Desktop/Inntorque-LOGO/InntQ_Period_Black_Working/QA/Previews/06_Black_Specification.png",
+    "width": 1600,
+    "height": 1200,
+    "color_name": "Black",
+    "color": "#000000",
+    "text_nodes": 22,
+    "native_png_export_scale": 2
+  }
+]

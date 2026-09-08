@@ -1,0 +1,340 @@
+{
+  "status": "PASS",
+  "scope": "Clean source geometry and presentation previews; native Figma export QA is performed separately.",
+  "wordmark": "InntQ.",
+  "character_count_including_period": 6,
+  "five_existing_letter_d_attributes_unchanged": true,
+  "period_reference": "04_REFERENCE/English_Proposal02_Reference.svg",
+  "period_geometry_error_after_translation": 0.0,
+  "period_closed_four_cubic_contour": true,
+  "period_gap_transfer": "19.1 canonical units from original lower r stem; no period scale or baseline change.",
+  "symbol_and_chinese_sources": "Same approved SVG masters as preceding final identity.",
+  "blue_black_asset_geometry_identical": true,
+  "stacked_layout": {
+    "wordmark": "InntQ.",
+    "character_count": 6,
+    "preserved_letter_paths": 5,
+    "original_period_bounds": [
+      542.2,
+      101.10000000000002,
+      573.9,
+      132.10000000000002
+    ],
+    "original_lower_r_stem_right": 523.1,
+    "period_gap": 19.100000000000023,
+    "period_translation_x": -18.826602831738228,
+    "period_translation_y": 0,
+    "period_uniform_scale": 1,
+    "wordmark_bounds": [
+      0.0,
+      0.0,
+      555.0733971682617,
+      140.82080648694543
+    ],
+    "stack_symbol_height": 384,
+    "stack_column_width": 504.27339716826174,
+    "stack_english_scale": 0.908480571652039,
+    "stack_chinese_scale": 1.90112496576159,
+    "stack_block_y": 14.08569032215405,
+    "stack_block_height": 355.8286193556919,
+    "stack_line_gap": 24,
+    "stack_divider_height": 1.0
+  },
+  "asset_count": 18,
+  "assets": [
+    {
+      "name": "03_InntQ_Symbol_Blue",
+      "paths": 2,
+      "color": "#0E2D4D",
+      "width": 452.11867128824014,
+      "height": 1130.0,
+      "sha256": "dc59b294643b74f47b8aa8e81b636fc7400765c12785d4b7331c000d66aa62f9",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "04_InntQ_English_Blue",
+      "paths": 6,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 286.67832423972453,
+      "sha256": "e246c0d7e9bd8eb2ebba2dc9a9a1784410801d23e77ca951f25a0e3c0bcc3db5",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "05_InntQ_Chinese_Blue",
+      "paths": 11,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 456.8991517436381,
+      "sha256": "6f1d85dd7b265545944962b6e391f087fcdec008c5f9571f43e8cd5f074edf29",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "06_InntQ_Bilingual_Blue",
+      "paths": 18,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 177.38516361376526,
+      "sha256": "7225df3ed8f5bcbb5144552caa1219965ea8d37b7c6ce57c4a58b95ab6539a97",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "07_InntQ_Logo_English_Blue",
+      "paths": 8,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 320.99728801661524,
+      "sha256": "c65506150027ad7c1f29ec8b4f60d5d88376f3a265856bbd881cf00255bd0ef9",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "08_InntQ_Logo_Bilingual_Blue",
+      "paths": 20,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 213.14605805404597,
+      "sha256": "dafc65d7baaa9d5d93d008517a686147b547082c34ed5e5a250049c75129375a",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "09_InntQ_Logo_Chinese_Blue",
+      "paths": 13,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 561.9703889243532,
+      "sha256": "e4655d0276848ac19b9749cce046da61633ebed5ca62af4f3e213e6018652000",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "14_InntQ_Symbol_Micro_Blue",
+      "paths": 2,
+      "color": "#0E2D4D",
+      "width": 452.11867128824014,
+      "height": 1130.0,
+      "sha256": "59822bd4ac2a4f5337b6b0a0df54d15ed016a48f85cadc80deb7e56c2cd80119",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "17_InntQ_Logo_Stacked_Blue",
+      "paths": 20,
+      "color": "#0E2D4D",
+      "width": 1130.0,
+      "height": 614.6926812724614,
+      "sha256": "c2fd08c3551fd1d62670538be977d415ece796b655178e7e5eb3e6f831107a63",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "03_InntQ_Symbol_Black",
+      "paths": 2,
+      "color": "#000000",
+      "width": 452.11867128824014,
+      "height": 1130.0,
+      "sha256": "84299adb549853b2a5d8a96cb25179adc6853a5b02b403487785ce0e22612d5a",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "04_InntQ_English_Black",
+      "paths": 6,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 286.67832423972453,
+      "sha256": "ecbccd5bf0f0a74269a276eb122aad3092f106c14e2fa3eb91ecbd2b8538ddd0",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "05_InntQ_Chinese_Black",
+      "paths": 11,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 456.8991517436381,
+      "sha256": "4af565b1e15f7f8d0a8063679a47451901b0e18e23f40d47a0d9382920ddf067",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "06_InntQ_Bilingual_Black",
+      "paths": 18,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 177.38516361376526,
+      "sha256": "b23d7cf15a8b3eb53de2099815151a11ae2169e548288b253df84c8362b44c46",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "07_InntQ_Logo_English_Black",
+      "paths": 8,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 320.99728801661524,
+      "sha256": "9bb7ff521309eab6f7b1cfdf0f3be642cf5abcc2acb15936ee326b34f991db81",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "08_InntQ_Logo_Bilingual_Black",
+      "paths": 20,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 213.14605805404597,
+      "sha256": "9a4c2977670578e35843bb47e4c71e501973afa43cb65b956def4580d1d439a8",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "09_InntQ_Logo_Chinese_Black",
+      "paths": 13,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 561.9703889243532,
+      "sha256": "79d1f09a3f97d1ca1cf23cf26dec4cee6fb83b48388030f8cf1c5b1d1c526166",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "14_InntQ_Symbol_Micro_Black",
+      "paths": 2,
+      "color": "#000000",
+      "width": 452.11867128824014,
+      "height": 1130.0,
+      "sha256": "693af53743be12a7a3926bf646dfce367f22bf3fa51f1be6fd10cf2f92df9323",
+      "bounds_pass": true,
+      "outlined_only": true
+    },
+    {
+      "name": "17_InntQ_Logo_Stacked_Black",
+      "paths": 20,
+      "color": "#000000",
+      "width": 1130.0,
+      "height": 614.6926812724614,
+      "sha256": "b11e3be04be722f2478b01d320b1b76d6e5b14fb1447c8a276ca5f750ee0c964",
+      "bounds_pass": true,
+      "outlined_only": true
+    }
+  ],
+  "native_import_library": {
+    "path": "Source/InntQ_Period_Black_Component_Library.svg",
+    "direct_asset_groups": 18,
+    "extra_visual_objects": 0,
+    "root_size": [
+      7786,
+      3690
+    ],
+    "group_names_match_manifest": true,
+    "sha256": "6f552d86273e64d0c301b4600fb465cfa45192d86ef33bcab79612ae75ccfd6a"
+  },
+  "boards": [
+    {
+      "name": "01_Blue_Proposal",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 10,
+      "source_sha256": "6832637e46b0e9cfc41abebe39137dfd6b0cb2bcf64f312006be4397d4b3f02f",
+      "preview_sha256": "80f1250d15e345930d3dbf1eb4a9731e56cb4e13a2985d7e25dbc75083cf617c",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    },
+    {
+      "name": "02_Blue_Overview",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 9,
+      "source_sha256": "57332e21b81f03402c2274a393dedda0eb2cbc830b2ac0a6827d132e42e8905f",
+      "preview_sha256": "7f61b8bbdbd15831901428e0c706d1ee15b60f67106b6dbe48ebd2901e3b1f90",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    },
+    {
+      "name": "03_Blue_Specification",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 22,
+      "source_sha256": "a8a343e1affc91dcae67bf821aef6b55b5d3fd3b3ed56fa771375f5130eeac4e",
+      "preview_sha256": "7386c1476ac15370a402cabd81190a6fe1c3183f72f1adc9a5ebf5608617e618",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    },
+    {
+      "name": "04_Black_Proposal",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 10,
+      "source_sha256": "bed452e206d3508f88b43168ca4fc91a7afd2d082957cc49226627262425899a",
+      "preview_sha256": "a793025a7b69f4489af9b8bafa305e1d67ca165e7112c4d08e5d471dff404cb9",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    },
+    {
+      "name": "05_Black_Overview",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 9,
+      "source_sha256": "9713352c53e6b4b0de1ad65dc13a2008fa194c9591f91af7248a90fd83df6ec2",
+      "preview_sha256": "9d6bd02ef5e1407c5b8037202b5e49ec49791d1e07e46aa03ab3f7c6c7bae490",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    },
+    {
+      "name": "06_Black_Specification",
+      "width": 1600,
+      "height": 1200,
+      "text_nodes": 22,
+      "source_sha256": "1d8cbca818a5be827733a464e3e0aaef39873904ccf8d920e7ef4e17242cfc74",
+      "preview_sha256": "02d8da93a99f105db9278ad1970a8ce71590b660b006f33baad80afe57ed0512",
+      "visual_inspection": "PASS: complete labels and concept text; correct punctuation, color variant, equal-width stacked text and fine divider. No clipping or overlap."
+    }
+  ],
+  "unique_text_id_count": 82,
+  "native_import_recommendation": "Import the library, ungroup the outer wrapper once, select its 18 asset groups and use Create multiple components. Apply Brand/Blue to the nine _Blue components and Brand/Black to the nine _Black components. Board SVGs have unique, board-prefixed text IDs for native text replacement if imported text appears blank.",
+  "visible_spelling_audit": {
+    "status": "PASS",
+    "required_wordmark": "InntQ.",
+    "undotted_visible_occurrences": 0,
+    "checked": [
+      {
+        "file": "01_Blue_Proposal.svg",
+        "visible_inntq_occurrences": 3,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "02_Blue_Overview.svg",
+        "visible_inntq_occurrences": 3,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "03_Blue_Specification.svg",
+        "visible_inntq_occurrences": 2,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "04_Black_Proposal.svg",
+        "visible_inntq_occurrences": 3,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "05_Black_Overview.svg",
+        "visible_inntq_occurrences": 3,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "06_Black_Specification.svg",
+        "visible_inntq_occurrences": 2,
+        "undotted_occurrences": 0
+      },
+      {
+        "file": "Attachments/Design_Concept.txt",
+        "visible_inntq_occurrences": 3,
+        "undotted_occurrences": 0
+      }
+    ],
+    "text_manifest_values_checked": 82,
+    "company_fullname_preserved": "Inntorque",
+    "exclusions": "Internal filenames, layer IDs and historical approved source references retain stable identifiers; final visible board text and concept copy use InntQ. wherever the abbreviated wordmark occurs."
+  }
+}

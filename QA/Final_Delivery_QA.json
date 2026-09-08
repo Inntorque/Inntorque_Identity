@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_WITH_RECORDED_MINIMUM_SIZE_LIMITATION",
+  "version": "1.1",
+  "figma_file": "InntQ. Brand Identity — Final",
+  "figma_url": "https://www.figma.com/design/e8TvGpVHBtyVIifltZrJbH/InntQ.-Brand-Identity-Final",
+  "pages": [
+    "00 — FINAL PRESENTATION",
+    "01 — COMPONENTS & EXPORTS"
+  ],
+  "native_components": 18,
+  "color_variables": {
+    "Brand/Blue": "#0E2D4D",
+    "Brand/Black": "#000000"
+  },
+  "exact_wordmark": "InntQ.",
+  "outlined_svg": 18,
+  "transparent_png": 54,
+  "presentation_png": 6,
+  "pdf_pages": 6,
+  "fig_bytes": 207759,
+  "fig_sha256": "fd0025c8110e9665001eead558e5f225c02c23cbfb28e3b8a9bf62d6b487a2b6",
+  "pdf_bytes": 684955,
+  "pdf_sha256": "ec3ec5920bde875aa1b67f02f3fc1f5050ff3340c7ff7041c2da67da304e515a",
+  "visible_text_nodes_verified": 82,
+  "export_qa": "PASS",
+  "remaining_review": [
+    "NEEDS HUMAN REVIEW: final 16 px pixel alignment; use Micro and inspect the final raster.",
+    "Stacked 48 px divider is very faint.",
+    "Physical manufacturing proofs are not included."
+  ],
+  "email_sent": false
+}
