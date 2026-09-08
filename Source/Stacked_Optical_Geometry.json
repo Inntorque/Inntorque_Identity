@@ -1,0 +1,19 @@
+{
+  "English_shift_left_from_compact": 27.22709000224195,
+  "Chinese_shift_right_from_compact": 16,
+  "English_first_n_left": 105.34647912102132,
+  "Chinese_left": 148.57356912326327,
+  "upper_body_to_first_n_visible_gap": 14,
+  "full_symbol_bbox_to_first_n_gap": -11.227090002241951,
+  "full_symbol_bbox_to_Chinese_gap": 32,
+  "English_row_top": 8.78097174039982,
+  "Chinese_row_top": 157.73922555349594,
+  "vertical_row_gap": 16,
+  "all_sizes_and_y_positions_preserved": true,
+  "export_scale_preserved": 1.7192413596612215,
+  "display_dimensions_preserved": [
+    657.2666447616568,
+    291.3574277610546
+  ],
+  "alignment_rule": "English is optically closer to the upper initiating body. Chinese is indented to the right; row left edges are intentionally different."
+}

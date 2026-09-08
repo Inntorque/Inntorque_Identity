@@ -1,11 +1,12 @@
 {
   "status": "PASS",
-  "scope": "Six final native Figma presentation PNGs after conservative Q counter enlargement and inner-tail retraction.",
+  "revision": "12 retained assets, symbol-as-I, tighter horizontal spacing and optical stacked placement",
+  "native_directory_at_test": "/tmp/inntq-symbol-i-compact-native",
   "boards": [
     {
       "filename": "01_Blue_Proposal.png",
-      "native_sha256": "df1e53ec181c484a3775c2cbded9e12b40644e180a5ae3d22dd7fb6a5cd6db9e",
-      "source_svg_sha256": "98b6738e8097b91beb39b6e765598423b2db4b535f53d0a4b168eca5e8075d2e",
+      "native_sha256": "67d8651c0b5acbc29e37b6a1d1392c485980436d2433669b6d495fa0bfdece57",
+      "source_svg_sha256": "d8b8b971b816b6ef31400cd8dcffdee5bdca3645d6354a258ee8539009853c9e",
       "size": [
         3200,
         2400
@@ -19,16 +20,15 @@
         77
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9981836441668693,
-      "expected_text_nodes": 10,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "Not the overview board.",
-      "larger_chinese_logo_bottom_alignment": "Not the overview board."
+      "source_logo_geometry_mask_iou": 0.9973662382313951,
+      "expected_text_nodes": 12,
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     },
     {
       "filename": "02_Blue_Overview.png",
-      "native_sha256": "2ef79e26e96fde4503aa59b394e0477a628654be2752b3d8650ddfbe172447f7",
-      "source_svg_sha256": "000c140b1f72d0331a7617486f0221c02a0b2625854f1602ee135b031ee28dab",
+      "native_sha256": "234c8b97d93166cbe660f3287290bdb50bcd2e560216b355677437fd20fc8124",
+      "source_svg_sha256": "6cf385b8220ee3154fa86cdde5f9c11b10d100094f5cebf34d8380bbaf181907",
       "size": [
         3200,
         2400
@@ -42,16 +42,15 @@
         77
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9964521479950423,
+      "source_logo_geometry_mask_iou": 0.9975041547303786,
       "expected_text_nodes": 9,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "PASS",
-      "larger_chinese_logo_bottom_alignment": "PASS: Chinese15 percent enlargement and bottom alignment preserved."
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     },
     {
       "filename": "03_Blue_Specification.png",
-      "native_sha256": "7713b467ab823b2fcec7d4e979ea27d50d48d828f05d9718540adcdf7af798b5",
-      "source_svg_sha256": "172c73a8157ea71815ce2315780c29c87d9c086609e4a6cc9c538fc77459bd36",
+      "native_sha256": "ccad3b80199f7dadd7597faba019d433c4d18765c72a3e30ca253e30bd555862",
+      "source_svg_sha256": "9a3b614db14e8363ccef4cb59321ef578ad4a1a014ee538ee892811c61d46247",
       "size": [
         3200,
         2400
@@ -65,16 +64,15 @@
         77
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9972873359870263,
+      "source_logo_geometry_mask_iou": 0.9960673359478267,
       "expected_text_nodes": 22,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "Not the overview board.",
-      "larger_chinese_logo_bottom_alignment": "Not the overview board."
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     },
     {
       "filename": "04_Black_Proposal.png",
-      "native_sha256": "ce124c59aa784aff7e9fe762dbb8492dcf567493082e5194f6321e0cc9b9b8bd",
-      "source_svg_sha256": "37d7d946d885ae8ea35cadcab79288cfd317bf5907f5bfbfffc7c84b53959bc3",
+      "native_sha256": "b7d69f622988a72967e1262528909b83ee01756c2f793e2c9521038595ba48c2",
+      "source_svg_sha256": "1bfe5e478b075d9ee577d9a8176ce64ac78f5ef28bfdfdaf8946dc638a6512c8",
       "size": [
         3200,
         2400
@@ -88,16 +86,15 @@
         0
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9983560416940823,
-      "expected_text_nodes": 10,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "Not the overview board.",
-      "larger_chinese_logo_bottom_alignment": "Not the overview board."
+      "source_logo_geometry_mask_iou": 0.9991787386228929,
+      "expected_text_nodes": 12,
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     },
     {
       "filename": "05_Black_Overview.png",
-      "native_sha256": "b9b9885b2c00f8fa5ef602e8a08fb815d62560479d93b3ba614f0489db66133d",
-      "source_svg_sha256": "bd80cfc2c613c6bbe8358f294e075db1a36bd42cb78d68c5739ab6f7cc3f4bfb",
+      "native_sha256": "ae1570dfca571ad154649e9c61a7c10aef4afed6a2ea6121c53e7bcab713d2f1",
+      "source_svg_sha256": "3bed927f0141aa05f7b0fb5150bd02341a669f40d404b67f1fc333493ffcacb3",
       "size": [
         3200,
         2400
@@ -111,16 +108,15 @@
         0
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9975591713198875,
+      "source_logo_geometry_mask_iou": 0.9972045049242485,
       "expected_text_nodes": 9,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "PASS",
-      "larger_chinese_logo_bottom_alignment": "PASS: Chinese15 percent enlargement and bottom alignment preserved."
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     },
     {
       "filename": "06_Black_Specification.png",
-      "native_sha256": "61986d9c8c265ed128cbb6e68f244201ff4dd3d2b3ecd2fa2411dff70efd59c4",
-      "source_svg_sha256": "7c0bba0d52031ec55baccf93aa27fa4e06ac965963c445f3ed8b7a341bff16de",
+      "native_sha256": "eb7c8ac5689ffc671ae88b984ca9ce4bd0502a2ba63f3d02c81745ea330b9867",
+      "source_svg_sha256": "60f5186226f68b32cd30fbe173ec40f200b24956ade71ec85e6689f6600b61ba",
       "size": [
         3200,
         2400
@@ -134,17 +130,30 @@
         0
       ],
       "exact_target_color_fraction_in_eroded_logo_mask": 1.0,
-      "source_logo_geometry_mask_iou": 0.9986064261972177,
+      "source_logo_geometry_mask_iou": 0.9968385293956495,
       "expected_text_nodes": 22,
-      "visible_content_and_layout_review": "PASS: complete readable labels and concept copy; exact InntQ. punctuation; open Q counter; preserved bottom alignment; no cropping, distortion or overlap.",
-      "equal_width_stack_and_fine_divider": "Not the overview board.",
-      "larger_chinese_logo_bottom_alignment": "Not the overview board."
+      "visually_reviewed": true,
+      "visual_review": "PASS: symbol serves as I with no duplicate I; no standalone wordmark artwork panels; stacked English is closer to upper symbol and Chinese is indented right; all expected text, punctuation and full company name complete; no crop."
     }
   ],
-  "expected_text_nodes_total": 82,
-  "visual_review": "All six3200 x2400 native PNGs opened and inspected. Blue artwork is#0E2D4D and black artwork is#000000. The Q counter is visibly more open. All abbreviated names retain the InntQ. period, with no added descriptor. The enlarged Chinese logo remains bottom aligned; stacked English and Chinese retain equal widths and the fine divider. No missing text or cropped artwork observed.",
-  "mask_comparison_method": "Current source logo paths rendered at3200 x2400; half-coverage native mask compared within3-pixel dilation, exact solid fills checked after3-pixel erosion.",
-  "text_rendering_note": "Native explanatory medium text is slightly lighter than source rendering but complete, readable and editable. Logo outline comparison is independent of text rendering.",
-  "native_boards_copied_to_attachments": true,
-  "native_boards_copied_to_source_native_export": true
+  "board_count": 6,
+  "expected_text_nodes": 86,
+  "all_text_items_visually_complete": true,
+  "text_validation_method": "Visual comparison of all native boards against current source; exact PDF text-object validation is recorded separately in PDF_QA.json.",
+  "all_six_PNG_dimensions": [
+    3200,
+    2400
+  ],
+  "source_geometry_mask_min_iou": 0.9960673359478267,
+  "exact_target_color_fraction_in_eroded_logo_masks": 1.0,
+  "no_standalone_wordmark_artwork_panels": true,
+  "no_logo_dividers": true,
+  "optical_stacked_placement_pass": true,
+  "Q_tail_and_period_uncropped": true,
+  "golden_ratio_clear_space_formula_complete": true,
+  "copies": [
+    "Attachments",
+    "Source/Native_Export"
+  ],
+  "all_copy_hashes_verified": true
 }

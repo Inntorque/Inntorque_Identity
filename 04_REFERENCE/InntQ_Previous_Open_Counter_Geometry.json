@@ -1,0 +1,73 @@
+{
+  "fixed_visible_bounds": [
+    367.19999999999965,
+    28.399999999999928,
+    466.09630303733866,
+    130.00000000000006
+  ],
+  "outer_ellipse_center": [
+    415.4672991979354,
+    75.29647904134258
+  ],
+  "outer_ellipse_radii": [
+    48.26729919793575,
+    46.89647904134265
+  ],
+  "counter_ellipse_center": [
+    415.6672991979354,
+    76.69647904134258
+  ],
+  "counter_ellipse_radii": [
+    22.447488957316473,
+    23.785422753745447
+  ],
+  "previous_bowl_weights": {
+    "left": 31.2,
+    "right": 30.8,
+    "top": 30.0,
+    "bottom": 27.2
+  },
+  "counter_radius_scale": 1.3,
+  "bowl_weights": {
+    "left": 26.01981024061928,
+    "right": 25.6198102406193,
+    "top": 24.511056287597206,
+    "bottom": 21.711056287597202
+  },
+  "tail_width": 18.0,
+  "tail_terminal_radius": 2.2,
+  "tail_direction": [
+    0.7474093186836598,
+    0.6643638388299198
+  ],
+  "tail_far_center": [
+    461.02290586907685,
+    124.1791935130546
+  ],
+  "tail_inner_cap_center": [
+    418.0879764025066,
+    86.01481176499219
+  ],
+  "contours": 2,
+  "filled_bodies": 1,
+  "counters": 1,
+  "inner_tail_cap_projection_offset": 8.0,
+  "method": "Counter ellipse radii enlarged1.30 and inner tail cap retracted four units along the unchanged tail direction; exterior outline, eighteen-unit outer tail and total Q bounds preserved.",
+  "previous_actual_counter_area": 774.1821078866005,
+  "new_actual_counter_area": 1427.0202513984505,
+  "actual_counter_area_increase_percent": 84.32617298454478,
+  "counter_ellipse_area_increase_percent": 69,
+  "outer_contour_max_error": 3.457650183405701e-13,
+  "before_Q_bounds": [
+    367.19999999999965,
+    466.09630303733866,
+    28.399999999999928,
+    130.00000000000006
+  ],
+  "after_Q_bounds": [
+    367.19999999999965,
+    466.09630303733854,
+    28.399999999999928,
+    130.00000000000006
+  ]
+}

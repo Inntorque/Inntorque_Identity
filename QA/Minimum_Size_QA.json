@@ -1,28 +1,28 @@
 {
-  "purpose": "Minimum-size QA of revised Q with more open counter, from new native Figma SVG exports.",
-  "source_directory_at_test": "/tmp/inntq-q-open-native",
-  "method": "Measured true symbol path height, then rendered at exact 1:1 target pixels on white. Isolated Q, period and symbol measures avoid neighboring glyph contamination. No artwork changes.",
+  "purpose": "Incremental minimum-size QA of stacked English moved left and Chinese indented right; all other assets unchanged.",
+  "source_directory_at_test": "/tmp/inntq-symbol-i-compact-native",
+  "method": "Hs48 is based on true native symbol height. Symbol clearance is measured from the real outline clipped to the n vertical band, allowing the valid negative full-symbol horizontal bbox gap. Exact path intersections and 1:1 raster separation are checked. Chinese indent is positive; no common-left-edge constraint is used.",
   "samples": [
     {
       "asset": "07_InntQ_Logo_English_Blue",
-      "source_sha256": "834aac606ec34627b92a82a58fb89787d18076cdebcf1102265a7ec19e9f0551",
+      "source_sha256": "d132e2c160008b56b8c5b24e5f660bd56bd199aebfbbeca9308bf97bcce05c21",
       "file": "01_SVG/07_InntQ_Logo_English_Blue.svg",
       "preview": "QA/07_InntQ_Logo_English_Blue_Hs24px_QA.png",
       "actual_symbol_height_px": 24,
-      "actual_logo_width_px": 79.71453310833525,
-      "actual_logo_height_px": 24.26249360858062,
+      "actual_logo_width_px": 81.79970288357423,
+      "actual_logo_height_px": 25.234592533963884,
       "canvas_px": [
-        112,
-        57
+        114,
+        58
       ],
       "native_symbol_bounds": [
-        -3.552713678800501e-15,
-        2.093961735782912e-06,
-        136.121,
-        340.21400000000017
+        0.0,
+        -1.615000357446661e-06,
+        117.065,
+        292.58600000000007
       ],
-      "uniform_scale": 0.07054383460914623,
-      "native_path_count": 8,
+      "uniform_scale": 0.08202716420992834,
+      "native_path_count": 7,
       "symbol": {
         "bodies_at_alpha_128": 2,
         "counters_at_alpha_128": 0,
@@ -35,18 +35,18 @@
           "192": 2
         }
       },
-      "q_visible_height_px": 12.699988788554794,
-      "n_visible_height_px": 12.700006544684596,
-      "q_left_side_weight_px": 3.2524940384893037,
+      "q_visible_height_px": 16.06740058371682,
+      "n_visible_height_px": 14.832808049752934,
+      "q_left_side_weight_px": 4.114892692591052,
       "q_counter_vector_size_px": [
-        5.611832586992251,
-        5.94635145070877
+        7.099861198190353,
+        7.523039338349379
       ],
       "q": {
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 1,
-        "counter_pixel_area_at_alpha_128": 22,
-        "pixels_at_alpha_128": 96,
+        "counter_pixel_area_at_alpha_128": 35,
+        "pixels_at_alpha_128": 152,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -58,7 +58,7 @@
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 0,
         "counter_pixel_area_at_alpha_128": 0,
-        "pixels_at_alpha_128": 11,
+        "pixels_at_alpha_128": 16,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -67,32 +67,66 @@
         }
       },
       "period_visible_size_px": [
-        3.962447189995765,
-        3.874972835080403
+        4.6279726047242375,
+        4.525766758118589
       ],
-      "period_q_visible_gap_px": 2.3874488493642265,
-      "symbol_vs_n_baseline_delta_px": 1.2029858216205793e-14
+      "period_q_visible_gap_px": 2.7884425459843105,
+      "symbolic_i_verification": {
+        "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+        "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+        "remaining_glyph_count": 5,
+        "expected_remaining_sequence": "n n t Q period",
+        "maximum_normalized_sample_error": 7.9102066834676e-06,
+        "matches_canonical_nntq_geometry": true,
+        "separate_literal_i_absent_by_path_count_and_glyph_match": true
+      },
+      "symbol_to_first_n_visible_gap_px": 2.6278222326292644,
+      "combined_all_parts": {
+        "bodies_at_alpha_128": 7,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 35,
+        "pixels_at_alpha_128": 784,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 6,
+          "128": 7,
+          "192": 7
+        }
+      },
+      "q_bowl_height_px": 14.832808049752929,
+      "q_tail_descender_px": 1.2345925339638912,
+      "q_bowl_vs_n_baseline_delta_px": -9.325408906298473e-15,
+      "q_bowl_height_matches_n_within_native_rounding": true,
+      "q_full_bbox_includes_intentional_descender": true,
+      "q_baseline_measurement_method": "Lower horizontal tangent of the outer bowl within its central x range; diagonal tail excluded.",
+      "symbol_vs_n_baseline_delta_px": -4.662704453149237e-15,
+      "symbol_to_n_height_ratio": 1.618034826547881,
+      "golden_ratio_target": 1.618033988749895,
+      "golden_ratio_error": 8.377979860973994e-07,
+      "full_white_pixel_columns_between_symbol_and_text": 2,
+      "symbol_to_text_contact_at_test": false,
+      "combined_component_measure_note": "Whole-logo component counts also include anti-aliased joins between existing letter and Chinese stroke pieces. They are not a measure of symbol-to-text contact; that gap is independently verified by disjoint vector bounds and full white pixel columns."
     },
     {
       "asset": "07_InntQ_Logo_English_Black",
-      "source_sha256": "46d7db4a65300b09ebffa192a41b371ef0cc7aed75db911edc5b7679aad217b8",
+      "source_sha256": "4989c78cfa8e01721740a3a6f0534f51d8a5cc2eb7d8f2d9dd823f87d9941018",
       "file": "01_SVG/07_InntQ_Logo_English_Black.svg",
       "preview": "QA/07_InntQ_Logo_English_Black_Hs24px_QA.png",
       "actual_symbol_height_px": 24,
-      "actual_logo_width_px": 79.71453310833525,
-      "actual_logo_height_px": 24.26249360858062,
+      "actual_logo_width_px": 81.79970288357423,
+      "actual_logo_height_px": 25.234592533963884,
       "canvas_px": [
-        112,
-        57
+        114,
+        58
       ],
       "native_symbol_bounds": [
         0.0,
-        2.093961735782912e-06,
-        136.121,
-        340.21400000000017
+        -1.615000357446661e-06,
+        117.065,
+        292.58600000000007
       ],
-      "uniform_scale": 0.07054383460914623,
-      "native_path_count": 8,
+      "uniform_scale": 0.08202716420992834,
+      "native_path_count": 7,
       "symbol": {
         "bodies_at_alpha_128": 2,
         "counters_at_alpha_128": 0,
@@ -105,18 +139,18 @@
           "192": 2
         }
       },
-      "q_visible_height_px": 12.699988788554794,
-      "n_visible_height_px": 12.700006544684596,
-      "q_left_side_weight_px": 3.2524940384893037,
+      "q_visible_height_px": 16.06740058371682,
+      "n_visible_height_px": 14.832808049752934,
+      "q_left_side_weight_px": 4.114892692591052,
       "q_counter_vector_size_px": [
-        5.611832586992251,
-        5.94635145070877
+        7.099861198190353,
+        7.523039338349379
       ],
       "q": {
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 1,
-        "counter_pixel_area_at_alpha_128": 22,
-        "pixels_at_alpha_128": 96,
+        "counter_pixel_area_at_alpha_128": 35,
+        "pixels_at_alpha_128": 152,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -128,7 +162,7 @@
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 0,
         "counter_pixel_area_at_alpha_128": 0,
-        "pixels_at_alpha_128": 11,
+        "pixels_at_alpha_128": 16,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -137,32 +171,66 @@
         }
       },
       "period_visible_size_px": [
-        3.962447189995765,
-        3.874972835080403
+        4.6279726047242375,
+        4.525766758118589
       ],
-      "period_q_visible_gap_px": 2.3874488493642265,
-      "symbol_vs_n_baseline_delta_px": 1.2029858216205793e-14
+      "period_q_visible_gap_px": 2.7884297347120035,
+      "symbolic_i_verification": {
+        "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+        "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+        "remaining_glyph_count": 5,
+        "expected_remaining_sequence": "n n t Q period",
+        "maximum_normalized_sample_error": 1.2964853014962429e-05,
+        "matches_canonical_nntq_geometry": true,
+        "separate_literal_i_absent_by_path_count_and_glyph_match": true
+      },
+      "symbol_to_first_n_visible_gap_px": 2.62790425979347,
+      "combined_all_parts": {
+        "bodies_at_alpha_128": 7,
+        "counters_at_alpha_128": 1,
+        "counter_pixel_area_at_alpha_128": 35,
+        "pixels_at_alpha_128": 784,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 6,
+          "128": 7,
+          "192": 7
+        }
+      },
+      "q_bowl_height_px": 14.832808049752929,
+      "q_tail_descender_px": 1.2345925339638912,
+      "q_bowl_vs_n_baseline_delta_px": -9.325408906298473e-15,
+      "q_bowl_height_matches_n_within_native_rounding": true,
+      "q_full_bbox_includes_intentional_descender": true,
+      "q_baseline_measurement_method": "Lower horizontal tangent of the outer bowl within its central x range; diagonal tail excluded.",
+      "symbol_vs_n_baseline_delta_px": -4.662704453149237e-15,
+      "symbol_to_n_height_ratio": 1.618034826547881,
+      "golden_ratio_target": 1.618033988749895,
+      "golden_ratio_error": 8.377979860973994e-07,
+      "full_white_pixel_columns_between_symbol_and_text": 2,
+      "symbol_to_text_contact_at_test": false,
+      "combined_component_measure_note": "Whole-logo component counts also include anti-aliased joins between existing letter and Chinese stroke pieces. They are not a measure of symbol-to-text contact; that gap is independently verified by disjoint vector bounds and full white pixel columns."
     },
     {
       "asset": "17_InntQ_Logo_Stacked_Blue",
-      "source_sha256": "ec48edc312aa5c325d08f734657b560d0945a2e73f44e6c9a87082b68ef8e2b0",
+      "source_sha256": "4ebaae81d6843d74d55909ce6492a60756951f8972d85e7d5ae46befccc36e44",
       "file": "01_SVG/17_InntQ_Logo_Stacked_Blue.svg",
       "preview": "QA/17_InntQ_Logo_Stacked_Blue_Hs48px_QA.png",
       "actual_symbol_height_px": 48,
-      "actual_logo_width_px": 88.2391695144446,
-      "actual_logo_height_px": 48.00000000000001,
+      "actual_logo_width_px": 92.74377634462944,
+      "actual_logo_height_px": 48.0,
       "canvas_px": [
-        121,
+        125,
         80
       ],
       "native_symbol_bounds": [
-        0.0,
-        -1.9680322291826258e-06,
-        245.94200000000015,
-        614.693
+        -1.4210854715202004e-14,
+        -1.7366442106592217e-07,
+        200.41800000000018,
+        500.914
       ],
-      "uniform_scale": 0.07808776063225183,
-      "native_path_count": 20,
+      "uniform_scale": 0.09582483217350411,
+      "native_path_count": 18,
       "symbol": {
         "bodies_at_alpha_128": 2,
         "counters_at_alpha_128": 0,
@@ -175,18 +243,18 @@
           "192": 2
         }
       },
-      "q_visible_height_px": 12.389848175838411,
-      "n_visible_height_px": 12.389872628476873,
-      "q_left_side_weight_px": 3.1730180655308953,
+      "q_visible_height_px": 17.41136807251067,
+      "n_visible_height_px": 16.073475281602462,
+      "q_left_side_weight_px": 4.459112740361817,
       "q_counter_vector_size_px": [
-        5.474889073448464,
-        5.801139737369987
+        7.693679950378514,
+        8.152297597160862
       ],
       "q": {
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 1,
-        "counter_pixel_area_at_alpha_128": 21,
-        "pixels_at_alpha_128": 93,
+        "counter_pixel_area_at_alpha_128": 44,
+        "pixels_at_alpha_128": 174,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -198,7 +266,7 @@
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 0,
         "counter_pixel_area_at_alpha_128": 0,
-        "pixels_at_alpha_128": 11,
+        "pixels_at_alpha_128": 18,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -207,33 +275,99 @@
         }
       },
       "period_visible_size_px": [
-        3.8653441512965365,
-        3.7803846677285757
+        5.015088416632512,
+        4.904314910639963
       ],
-      "period_q_visible_gap_px": 2.329657389015627,
-      "chinese_visible_height_px": 25.48690801723945,
-      "separator_height_px": 0.1250185047722351
+      "period_q_visible_gap_px": 3.0216579488253594,
+      "symbolic_i_verification": {
+        "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+        "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+        "remaining_glyph_count": 5,
+        "expected_remaining_sequence": "n n t Q period",
+        "maximum_normalized_sample_error": 9.001389486986531e-06,
+        "matches_canonical_nntq_geometry": true,
+        "separate_literal_i_absent_by_path_count_and_glyph_match": true
+      },
+      "symbol_to_first_n_visible_gap_px": -1.849610910612992,
+      "q_bowl_height_px": 16.07347528160245,
+      "q_tail_descender_px": 1.3378927909082188,
+      "q_bowl_vs_n_baseline_delta_px": -8.170516608757689e-15,
+      "q_bowl_height_matches_n_within_native_rounding": true,
+      "q_full_bbox_includes_intentional_descender": true,
+      "q_baseline_measurement_method": "Lower horizontal tangent of the outer bowl within its central x range; diagonal tail excluded.",
+      "chinese_visible_height_px": 20.566404605238375,
+      "english_t_cap_height_px": 20.56643335268798,
+      "chinese_vs_english_t_height_error_px": -2.8747449606705955e-05,
+      "english_to_chinese_visible_gap_px": 2.6359629993269804,
+      "stacked_has_no_divider": true,
+      "stacked_expected_path_count": 18,
+      "full_symbol_bbox_gap_note": "Negative overall horizontal bbox gap is valid: the responding body lies below the English row. Use the clipped-band clearance and intersection tests.",
+      "symbol_to_n_clipped_band_gap_px": 2.306407885584072,
+      "symbol_to_n_clipped_band_gap_canonical_units": 13.999772268991423,
+      "symbol_to_n_path_intersections": [
+        0,
+        0
+      ],
+      "symbol_plus_first_n_raster": {
+        "bodies_at_alpha_128": 3,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 829,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 3,
+          "128": 3,
+          "192": 3
+        }
+      },
+      "upper_body_to_n_minimum_curve_distance_px": 2.306407885584076,
+      "lower_body_to_n_minimum_curve_distance_px": 1.8692343787809922,
+      "chinese_indent_relative_to_english_px": 7.121509877470477,
+      "chinese_indent_canonical_units": 43.22718332655713,
+      "translation_and_size_checks": [
+        {
+          "group": "Symbol",
+          "translation_x_canonical_units": 0.0,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": 0.0,
+          "height_error_canonical_units": 0.0
+        },
+        {
+          "group": "English",
+          "translation_x_canonical_units": -27.227111218226206,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": -0.0017449547886315459,
+          "height_error_canonical_units": 0.0
+        },
+        {
+          "group": "Chinese",
+          "translation_x_canonical_units": 16.00007210833088,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": 6.612613062796157e-14,
+          "height_error_canonical_units": 0.0
+        }
+      ]
     },
     {
       "asset": "17_InntQ_Logo_Stacked_Black",
-      "source_sha256": "04426ccc11be291acb7360e8b0ae47005c79dd0eb2934b1bb402f76350985d6d",
+      "source_sha256": "6496908d7b60e56011eefca9c080af7fcb125954d91596976ae7bfc04e3869a9",
       "file": "01_SVG/17_InntQ_Logo_Stacked_Black.svg",
       "preview": "QA/17_InntQ_Logo_Stacked_Black_Hs48px_QA.png",
       "actual_symbol_height_px": 48,
-      "actual_logo_width_px": 88.2391695144446,
-      "actual_logo_height_px": 48.00000000000001,
+      "actual_logo_width_px": 92.74377634462944,
+      "actual_logo_height_px": 48.0,
       "canvas_px": [
-        121,
+        125,
         80
       ],
       "native_symbol_bounds": [
-        0.0,
-        -1.9680322291826258e-06,
-        245.94100000000014,
-        614.693
+        -7.105427357601002e-15,
+        -1.7366442106592217e-07,
+        200.41800000000018,
+        500.914
       ],
-      "uniform_scale": 0.07808776063225183,
-      "native_path_count": 20,
+      "uniform_scale": 0.09582483217350411,
+      "native_path_count": 18,
       "symbol": {
         "bodies_at_alpha_128": 2,
         "counters_at_alpha_128": 0,
@@ -246,18 +380,18 @@
           "192": 2
         }
       },
-      "q_visible_height_px": 12.389848175838411,
-      "n_visible_height_px": 12.389872628476873,
-      "q_left_side_weight_px": 3.1730180655308953,
+      "q_visible_height_px": 17.41136807251067,
+      "n_visible_height_px": 16.073475281602462,
+      "q_left_side_weight_px": 4.459112740361796,
       "q_counter_vector_size_px": [
-        5.474889073448464,
-        5.801139737369987
+        7.693775775210653,
+        8.152297597160862
       ],
       "q": {
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 1,
-        "counter_pixel_area_at_alpha_128": 21,
-        "pixels_at_alpha_128": 93,
+        "counter_pixel_area_at_alpha_128": 44,
+        "pixels_at_alpha_128": 174,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -269,7 +403,7 @@
         "bodies_at_alpha_128": 1,
         "counters_at_alpha_128": 0,
         "counter_pixel_area_at_alpha_128": 0,
-        "pixels_at_alpha_128": 11,
+        "pixels_at_alpha_128": 18,
         "maximum_alpha": 255,
         "bodies_at_alpha_thresholds": {
           "64": 1,
@@ -278,12 +412,78 @@
         }
       },
       "period_visible_size_px": [
-        3.8653441512965365,
-        3.7803846677285757
+        5.015088416632512,
+        4.904314910639963
       ],
-      "period_q_visible_gap_px": 2.329657389015627,
-      "chinese_visible_height_px": 25.48690801723945,
-      "separator_height_px": 0.1250185047722351
+      "period_q_visible_gap_px": 3.0216579488253488,
+      "symbolic_i_verification": {
+        "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+        "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+        "remaining_glyph_count": 5,
+        "expected_remaining_sequence": "n n t Q period",
+        "maximum_normalized_sample_error": 1.1629431716129303e-05,
+        "matches_canonical_nntq_geometry": true,
+        "separate_literal_i_absent_by_path_count_and_glyph_match": true
+      },
+      "symbol_to_first_n_visible_gap_px": -1.849610910612992,
+      "q_bowl_height_px": 16.07347528160245,
+      "q_tail_descender_px": 1.3378927909082188,
+      "q_bowl_vs_n_baseline_delta_px": -8.170516608757689e-15,
+      "q_bowl_height_matches_n_within_native_rounding": true,
+      "q_full_bbox_includes_intentional_descender": true,
+      "q_baseline_measurement_method": "Lower horizontal tangent of the outer bowl within its central x range; diagonal tail excluded.",
+      "chinese_visible_height_px": 20.566404605238375,
+      "english_t_cap_height_px": 20.56643335268798,
+      "chinese_vs_english_t_height_error_px": -2.8747449606705955e-05,
+      "english_to_chinese_visible_gap_px": 2.6359629993269804,
+      "stacked_has_no_divider": true,
+      "stacked_expected_path_count": 18,
+      "full_symbol_bbox_gap_note": "Negative overall horizontal bbox gap is valid: the responding body lies below the English row. Use the clipped-band clearance and intersection tests.",
+      "symbol_to_n_clipped_band_gap_px": 2.306407885584072,
+      "symbol_to_n_clipped_band_gap_canonical_units": 13.999772268991423,
+      "symbol_to_n_path_intersections": [
+        0,
+        0
+      ],
+      "symbol_plus_first_n_raster": {
+        "bodies_at_alpha_128": 3,
+        "counters_at_alpha_128": 0,
+        "counter_pixel_area_at_alpha_128": 0,
+        "pixels_at_alpha_128": 829,
+        "maximum_alpha": 255,
+        "bodies_at_alpha_thresholds": {
+          "64": 3,
+          "128": 3,
+          "192": 3
+        }
+      },
+      "upper_body_to_n_minimum_curve_distance_px": 2.306407885584076,
+      "lower_body_to_n_minimum_curve_distance_px": 1.8692343787809922,
+      "chinese_indent_relative_to_english_px": 7.121509877470477,
+      "chinese_indent_canonical_units": 43.22718332655713,
+      "translation_and_size_checks": [
+        {
+          "group": "Symbol",
+          "translation_x_canonical_units": 0.0,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": 0.0,
+          "height_error_canonical_units": 0.0
+        },
+        {
+          "group": "English",
+          "translation_x_canonical_units": -27.227111218226206,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": -0.0017449547886315459,
+          "height_error_canonical_units": 0.0
+        },
+        {
+          "group": "Chinese",
+          "translation_x_canonical_units": 16.00007210833088,
+          "translation_y_canonical_units": 0.0,
+          "width_error_canonical_units": 6.612613062796157e-14,
+          "height_error_canonical_units": 0.0
+        }
+      ]
     },
     {
       "asset": "03_InntQ_Symbol_Blue",
@@ -320,7 +520,7 @@
     },
     {
       "asset": "03_InntQ_Symbol_Black",
-      "source_sha256": "ced8937727a0fdc2957ee3862f35089953d66dc0f23f169bc7e688d7bc692dfc",
+      "source_sha256": "208438536d0103ed34404e0b49c94c4b32c31cade8a66c48a13dbe54715481e9",
       "file": "01_SVG/03_InntQ_Symbol_Black.svg",
       "preview": "QA/03_InntQ_Symbol_Black_Hs16px_QA.png",
       "actual_symbol_height_px": 16,
@@ -331,7 +531,7 @@
         48
       ],
       "native_symbol_bounds": [
-        0.0,
+        -1.4210854715202004e-14,
         1.248999719649646e-06,
         452.119,
         1130.0000000000007
@@ -353,7 +553,7 @@
     },
     {
       "asset": "14_InntQ_Symbol_Micro_Blue",
-      "source_sha256": "cff64c2d128e54ce2fd422774e284434738c872a871098d3098e3aea1784b5bc",
+      "source_sha256": "87cd3ce2a32af03082862873c8a7fad59d061ebf4d69e596fc8572cbf5d263ea",
       "file": "01_SVG/14_InntQ_Symbol_Micro_Blue.svg",
       "preview": "QA/14_InntQ_Symbol_Micro_Blue_Hs16px_QA.png",
       "actual_symbol_height_px": 16,
@@ -386,7 +586,7 @@
     },
     {
       "asset": "14_InntQ_Symbol_Micro_Black",
-      "source_sha256": "ff680b9b4ae3c9ff50df2a55a934db20e5518fec6e94ab4657d218b916c0a201",
+      "source_sha256": "526fdf193ea33fabe867b057f489c23a5cab4f3005765596887624585db278f5",
       "file": "01_SVG/14_InntQ_Symbol_Micro_Black.svg",
       "preview": "QA/14_InntQ_Symbol_Micro_Black_Hs16px_QA.png",
       "actual_symbol_height_px": 16,
@@ -397,7 +597,7 @@
         48
       ],
       "native_symbol_bounds": [
-        0.0,
+        -1.4210854715202004e-14,
         1.1499998731068217e-07,
         452.119,
         1130.0000000000007
@@ -419,11 +619,130 @@
     }
   ],
   "visual_review_pending": false,
+  "native_batch_inventory": {
+    "svg_count": 12,
+    "files": [
+      "03_InntQ_Symbol_Black.svg",
+      "03_InntQ_Symbol_Blue.svg",
+      "07_InntQ_Logo_English_Black.svg",
+      "07_InntQ_Logo_English_Blue.svg",
+      "08_InntQ_Logo_Bilingual_Black.svg",
+      "08_InntQ_Logo_Bilingual_Blue.svg",
+      "09_InntQ_Logo_Chinese_Black.svg",
+      "09_InntQ_Logo_Chinese_Blue.svg",
+      "14_InntQ_Symbol_Micro_Black.svg",
+      "14_InntQ_Symbol_Micro_Blue.svg",
+      "17_InntQ_Logo_Stacked_Black.svg",
+      "17_InntQ_Logo_Stacked_Blue.svg"
+    ],
+    "removed_04_05_06_deliverables_absent": true
+  },
+  "combined_glyph_static_checks": [
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 7.9102066834676e-06,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "07_InntQ_Logo_English_Blue",
+      "source_sha256": "d132e2c160008b56b8c5b24e5f660bd56bd199aebfbbeca9308bf97bcce05c21",
+      "native_path_count": 7,
+      "expected_path_count": 7,
+      "symbol_to_first_n_gap_source_units": 17.99973408253073,
+      "expected_symbol_to_first_n_gap_source_units": 18,
+      "gap_matches_spec_within_native_rounding": true,
+      "symbol_and_all_text_have_disjoint_horizontal_bounds": true
+    },
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 1.2964853014962429e-05,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "07_InntQ_Logo_English_Black",
+      "source_sha256": "4989c78cfa8e01721740a3a6f0534f51d8a5cc2eb7d8f2d9dd823f87d9941018",
+      "native_path_count": 7,
+      "expected_path_count": 7,
+      "symbol_to_first_n_gap_source_units": 18.00029594212873,
+      "expected_symbol_to_first_n_gap_source_units": 18,
+      "gap_matches_spec_within_native_rounding": true,
+      "symbol_and_all_text_have_disjoint_horizontal_bounds": true
+    },
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 1.1733859524751728e-05,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "08_InntQ_Logo_Bilingual_Blue",
+      "source_sha256": "1945c92eed0d26f8966a6cdc11c7409626b37d8cc41dfcf8688dc741b08c0eb0",
+      "native_path_count": 18,
+      "expected_path_count": 18,
+      "symbol_to_first_n_gap_source_units": 17.99996330987809,
+      "expected_symbol_to_first_n_gap_source_units": 18,
+      "gap_matches_spec_within_native_rounding": true,
+      "symbol_and_all_text_have_disjoint_horizontal_bounds": true
+    },
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 1.2477115778231328e-05,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "08_InntQ_Logo_Bilingual_Black",
+      "source_sha256": "85a469eacdcd4b948e6f66a8243d7e713342b2fbde05840457f2c6180d1eb1f4",
+      "native_path_count": 18,
+      "expected_path_count": 18,
+      "symbol_to_first_n_gap_source_units": 18.000050780482127,
+      "expected_symbol_to_first_n_gap_source_units": 18,
+      "gap_matches_spec_within_native_rounding": true,
+      "symbol_and_all_text_have_disjoint_horizontal_bounds": true
+    },
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 9.001389486986531e-06,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "17_InntQ_Logo_Stacked_Blue",
+      "source_sha256": "4ebaae81d6843d74d55909ce6492a60756951f8972d85e7d5ae46befccc36e44",
+      "native_path_count": 18,
+      "expected_path_count": 18,
+      "clipped_symbol_to_n_gap_canonical_units": 13.999772268991423,
+      "chinese_indent_canonical_units": 43.22718332655713
+    },
+    {
+      "canonical_wordmark_reference": "Source/English_Reconstruction/InntQ_Period_Wordmark.svg",
+      "canonical_wordmark_sha256": "8c454cd6eea3f3ead4b0c4d8086258a54d65acdc3e39028de4614ef7c703ba1b",
+      "remaining_glyph_count": 5,
+      "expected_remaining_sequence": "n n t Q period",
+      "maximum_normalized_sample_error": 1.1629431716129303e-05,
+      "matches_canonical_nntq_geometry": true,
+      "separate_literal_i_absent_by_path_count_and_glyph_match": true,
+      "asset": "17_InntQ_Logo_Stacked_Black",
+      "source_sha256": "6496908d7b60e56011eefca9c080af7fcb125954d91596976ae7bfc04e3869a9",
+      "native_path_count": 18,
+      "expected_path_count": 18,
+      "clipped_symbol_to_n_gap_canonical_units": 13.999772268991423,
+      "chinese_indent_canonical_units": 43.22718332655713
+    }
+  ],
   "pixel_phase_supplement": {
-    "purpose": "Resolve actual pixel-alignment sensitivity seen in the 16 px antialias fringe. Native blue Standard and Micro rendered at 16 quarter-pixel x/y offsets, with unchanged geometry.",
+    "purpose": "Current native Standard/Micro Blue/Black were re-rendered at sixteen quarter-pixel x/y offsets each because old evidence input hashes no longer all matched.",
     "results": [
       {
         "asset": "03_InntQ_Symbol_Blue",
+        "source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
         "symbol_height_px": 16,
         "samples": [
           {
@@ -539,10 +858,135 @@
             "components_at_half_coverage": 1
           }
         ],
+        "alignments_with_two_bodies": 7,
+        "tested_alignments": 16,
+        "all_have_two_bodies_at_half_coverage": false
+      },
+      {
+        "asset": "03_InntQ_Symbol_Black",
+        "source_sha256": "208438536d0103ed34404e0b49c94c4b32c31cade8a66c48a13dbe54715481e9",
+        "symbol_height_px": 16,
+        "samples": [
+          {
+            "offset_px": [
+              0,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0,
+              0.25
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0,
+              0.5
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0,
+              0.75
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.25,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.25
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.5
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.75
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.5,
+              0
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.5
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.75
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.5
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.75
+            ],
+            "components_at_half_coverage": 1
+          }
+        ],
+        "alignments_with_two_bodies": 7,
+        "tested_alignments": 16,
         "all_have_two_bodies_at_half_coverage": false
       },
       {
         "asset": "14_InntQ_Symbol_Micro_Blue",
+        "source_sha256": "87cd3ce2a32af03082862873c8a7fad59d061ebf4d69e596fc8572cbf5d263ea",
         "symbol_height_px": 16,
         "samples": [
           {
@@ -658,69 +1102,243 @@
             "components_at_half_coverage": 2
           }
         ],
+        "alignments_with_two_bodies": 15,
+        "tested_alignments": 16,
+        "all_have_two_bodies_at_half_coverage": false
+      },
+      {
+        "asset": "14_InntQ_Symbol_Micro_Black",
+        "source_sha256": "526fdf193ea33fabe867b057f489c23a5cab4f3005765596887624585db278f5",
+        "symbol_height_px": 16,
+        "samples": [
+          {
+            "offset_px": [
+              0,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0,
+              0.5
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0,
+              0.75
+            ],
+            "components_at_half_coverage": 1
+          },
+          {
+            "offset_px": [
+              0.25,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.5
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.25,
+              0.75
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.5,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.5
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.5,
+              0.75
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.25
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.5
+            ],
+            "components_at_half_coverage": 2
+          },
+          {
+            "offset_px": [
+              0.75,
+              0.75
+            ],
+            "components_at_half_coverage": 2
+          }
+        ],
+        "alignments_with_two_bodies": 15,
+        "tested_alignments": 16,
         "all_have_two_bodies_at_half_coverage": false
       }
     ],
-    "retained_results_validation": [
+    "prior_results_carried_without_retest": false,
+    "input_comparison": [
       {
         "asset": "03_InntQ_Symbol_Blue",
         "source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
+        "previous_source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
         "input_sha256_matches_prior_test": true
       },
       {
         "asset": "03_InntQ_Symbol_Black",
-        "source_sha256": "ced8937727a0fdc2957ee3862f35089953d66dc0f23f169bc7e688d7bc692dfc",
-        "input_sha256_matches_prior_test": true
+        "source_sha256": "208438536d0103ed34404e0b49c94c4b32c31cade8a66c48a13dbe54715481e9",
+        "previous_source_sha256": "ced8937727a0fdc2957ee3862f35089953d66dc0f23f169bc7e688d7bc692dfc",
+        "input_sha256_matches_prior_test": false
       },
       {
         "asset": "14_InntQ_Symbol_Micro_Blue",
-        "source_sha256": "cff64c2d128e54ce2fd422774e284434738c872a871098d3098e3aea1784b5bc",
-        "input_sha256_matches_prior_test": true
+        "source_sha256": "87cd3ce2a32af03082862873c8a7fad59d061ebf4d69e596fc8572cbf5d263ea",
+        "previous_source_sha256": "cff64c2d128e54ce2fd422774e284434738c872a871098d3098e3aea1784b5bc",
+        "input_sha256_matches_prior_test": false
       },
       {
         "asset": "14_InntQ_Symbol_Micro_Black",
-        "source_sha256": "ff680b9b4ae3c9ff50df2a55a934db20e5518fec6e94ab4657d218b916c0a201",
-        "input_sha256_matches_prior_test": true
+        "source_sha256": "526fdf193ea33fabe867b057f489c23a5cab4f3005765596887624585db278f5",
+        "previous_source_sha256": "ff680b9b4ae3c9ff50df2a55a934db20e5518fec6e94ab4657d218b916c0a201",
+        "input_sha256_matches_prior_test": false
       }
-    ],
-    "note": "Prior phase-test inputs exactly match current standalone native SVG hashes; those results and the unchanged phase preview remain valid."
+    ]
   },
   "all_sample_input_hashes_rechecked_at_completion": true,
   "visual_inspection": {
     "reviewed_at_native_pixels": [
-      "Minimum_Size_1to1_Comparison.png"
+      "Minimum_Size_1to1_Comparison.png",
+      "Minimum_Size_16px_Pixel_Alignment.png"
     ],
-    "primary_24px": "PASS in Blue and Black. InntQ. is legible, the Q counter is open and its tail remains distinct, the period is clearly separate, and the symbol retains two non-contact bodies.",
-    "stacked_48px": "PASS in Blue and Black for InntQ., the period, Chinese readability, and symbol separation. Q retains one connected body and one open counter. The horizontal separator remains a faint subpixel hairline.",
-    "q_counter_result": "The revised Q has a clearly larger internal opening at the same tested overall size. At alpha128 the counter contains22 background pixels in Primary Hs24 and21 in Stacked Hs48; isolated glyph checks avoid neighboring-pixel contamination.",
-    "standard_16px": "The integer-aligned preview retains two dark components. Prior validated fractional-placement tests retain two components at7 of16 quarter-pixel positions.",
-    "micro_16px": "The integer-aligned preview retains two dark components. Prior validated fractional-placement tests retain two components at15 of16 positions, with y+0.75px still able to bridge the raster gap."
+    "primary_24px": "PASS in Blue and Black. The closer symbol + nntQ. relationship remains clear. Q counter, descending tail and period remain distinct. The symbol-to-text gap contains two fully white pixel columns at this placement, so no touching occurs.",
+    "stacked_48px": "PASS in Blue and Black. The English row is closer to the upper symbol body, while YingTuo is visibly indented to the right. Q counter, tail and period remain clear. Symbol plus first n remains three separate raster bodies at alpha 64, 128 and 192; neither symbol outline intersects n.",
+    "gap_verification": "07/08 retain the previously verified 18-unit gap. For 17, clipping the actual symbol outline to the n vertical band gives 13.999772 canonical units (target 14), or 2.306408 px atHs 48. The full-symbol bbox gap is intentionally negative because the responding body lies below the English row.",
+    "combined_glyph_verification": "All six combined exports 07/08/17 Blue/Black have expected path counts and match the retained canonical n n t Q period outlines within native rounding. No removed 04/05/06 deliverable is used as a reference.",
+    "q_bowl_baseline": "Bowl height and baseline match n; natural tail descent is preserved.",
+    "standalone_16px": "Current native Blue/Black Standard and Micro were re-tested at all sixteen quarter-pixel positions each because three input hashes changed through export rounding. Both Standard colors retain two dark components at 7 of 16 positions; both Micro colors retain two at 15 of 16. Integer-aligned previews pass.",
+    "chinese_indent": "Chinese starts 43.227183 canonical units (target 43.227090), or 7.121510 px, to the right of the English row. No forced common-left-edge rule is applied.",
+    "stacked_size_and_y": "Symbol size and placement are unchanged. English moves left 27.227111 canonical units and Chinese moves right 16.000072. Both rows retain their Y positions and dimensions within native SVG rounding.",
+    "stacked_minimum_separation": "The upper body is 2.306408 px from n; the closest lower-body-to-n boundary distance is 1.869234 px. Both are positive and the paths remain disjoint."
   },
   "recommendations": {
     "primary_english_minimum_symbol_height_px": 24,
     "stacked_minimum_symbol_height_px": 48,
-    "q_counter_size_at_test": "Approximately5.61\u00d75.95px in Primary Hs24 and5.47\u00d75.80px in Stacked Hs48. Both remain visibly open.",
-    "wordmark_lower_limit": "No smaller complete-wordmark size is approved by this check.",
-    "standalone_16px": "Use Micro and inspect final pixel placement. Integer-aligned16px passes; arbitrary fractional placement can bridge the raster gap.",
+    "combined_spelling_convention": "The symbol serves as I; the five literal glyphs are n n t Q period. The full InntQ. outline is retained only as canonical production-source evidence.",
+    "wordmark_lower_limit": "No smaller combined-logo size is approved by this check.",
+    "standalone_16px": "Use Micro and inspect final pixel placement. Integer-aligned 16 px passes; arbitrary fractional placement can bridge the raster gap.",
     "16px_general_deployment_status": "NEEDS HUMAN REVIEW of final pixel placement. Vector bodies remain separate.",
-    "stacked_separator_limitation": "At Hs48 the divider is0.125px thick, so continuous visibility cannot be guaranteed; text and period remain legible.",
-    "scope": "Digital native-SVG raster display check only. No artwork changes."
+    "scope": "Incremental digital native-SVG check of updated 17 Blue/Black atHs 48; six other minimum-size samples and prior current 16 px tests retained after exact source/preview hash validation. No artwork or README changes.",
+    "stacked_alignment_rule": "English follows the upper symbol outline; Chinese is intentionally indented to the right. Do not use the overall two-body symbol bounding box as the English horizontal clearance test."
   },
   "obsolete_preview_replacement": {
     "recreated": [
-      "Minimum_Size_1to1_Comparison.png",
-      "07_InntQ_Logo_English_Blue_Hs24px_QA.png",
-      "07_InntQ_Logo_English_Black_Hs24px_QA.png",
       "17_InntQ_Logo_Stacked_Blue_Hs48px_QA.png",
       "17_InntQ_Logo_Stacked_Black_Hs48px_QA.png",
+      "Minimum_Size_1to1_Comparison.png"
+    ],
+    "unchanged_preview_bytes_verified": [
+      "07_InntQ_Logo_English_Blue_Hs24px_QA.png",
+      "07_InntQ_Logo_English_Black_Hs24px_QA.png",
       "03_InntQ_Symbol_Blue_Hs16px_QA.png",
       "03_InntQ_Symbol_Black_Hs16px_QA.png",
       "14_InntQ_Symbol_Micro_Blue_Hs16px_QA.png",
-      "14_InntQ_Symbol_Micro_Black_Hs16px_QA.png"
-    ],
-    "retained_after_exact_input_hash_validation": [
+      "14_InntQ_Symbol_Micro_Black_Hs16px_QA.png",
       "Minimum_Size_16px_Pixel_Alignment.png"
     ],
-    "note": "The complete set of primary/stacked previews now uses the final more-open Q native batch. Earlier closed-counter and thin-Q previews are not part of this report."
+    "note": "Previous aligned-left stacked evidence is replaced. Other minimum-size preview bytes remain unchanged."
+  },
+  "updated_stacked_source_directory": "/tmp/inntq-stacked-optical-native",
+  "unchanged_native_source_directory": "/tmp/inntq-symbol-i-compact-native",
+  "incremental_update": {
+    "updated_assets": [
+      "17_InntQ_Logo_Stacked_Blue",
+      "17_InntQ_Logo_Stacked_Black"
+    ],
+    "unchanged_six_samples_verified": [
+      {
+        "asset": "07_InntQ_Logo_English_Blue",
+        "source_sha256": "d132e2c160008b56b8c5b24e5f660bd56bd199aebfbbeca9308bf97bcce05c21",
+        "preview_sha256": "8c4af50a52e370a436b105abb92e2371ec0741b96a272906b2c0376fdb7edf5e"
+      },
+      {
+        "asset": "07_InntQ_Logo_English_Black",
+        "source_sha256": "4989c78cfa8e01721740a3a6f0534f51d8a5cc2eb7d8f2d9dd823f87d9941018",
+        "preview_sha256": "b4d3c8e245da37e27b81d783e6a2144041766e96c68752ebc70c8cb23c62ff3f"
+      },
+      {
+        "asset": "03_InntQ_Symbol_Blue",
+        "source_sha256": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378",
+        "preview_sha256": "b5b1a0cd7736150196115e1d4f42daf10a1d515e8b3947b00f1d0f0f64149f7f"
+      },
+      {
+        "asset": "03_InntQ_Symbol_Black",
+        "source_sha256": "208438536d0103ed34404e0b49c94c4b32c31cade8a66c48a13dbe54715481e9",
+        "preview_sha256": "33b602cb689715b2f4c6b260783bd7f070436943d509542da320e3f309683994"
+      },
+      {
+        "asset": "14_InntQ_Symbol_Micro_Blue",
+        "source_sha256": "87cd3ce2a32af03082862873c8a7fad59d061ebf4d69e596fc8572cbf5d263ea",
+        "preview_sha256": "6165597a7c19578baf4f89527d5609b82645e11683aeff5aa8c10ca3c6497938"
+      },
+      {
+        "asset": "14_InntQ_Symbol_Micro_Black",
+        "source_sha256": "526fdf193ea33fabe867b057f489c23a5cab4f3005765596887624585db278f5",
+        "preview_sha256": "87af05bf60e300fb2b6a029393a7e2ad38ab6c72c87496cbb9fbb13d66346b51"
+      }
+    ],
+    "previous_16px_phase_results_preserved_after_current_source_hash_checks": true
   }
 }

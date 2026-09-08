@@ -23,90 +23,21 @@
     ]
   },
   {
-    "name": "04_InntQ_English_Blue",
-    "color_name": "Blue",
-    "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 288.78713026743605,
-    "paths": 6,
-    "source_bounds": [
-      0.0,
-      0.0,
-      516.8963030373387,
-      132.10000000000002
-    ],
-    "scale": 2.186125134499894,
-    "library_x": 1280,
-    "library_y": 0,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
-    "name": "05_InntQ_Chinese_Blue",
-    "color_name": "Blue",
-    "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 456.8991517436381,
-    "paths": 11,
-    "source_bounds": [
-      0.0,
-      0.0,
-      265.25,
-      107.25
-    ],
-    "scale": 4.260131950989632,
-    "library_x": 2560,
-    "library_y": 0,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
-    "name": "06_InntQ_Bilingual_Blue",
-    "color_name": "Blue",
-    "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 173.79630052210237,
-    "paths": 18,
-    "source_bounds": [
-      0.0,
-      0.0,
-      858.8963030373387,
-      132.10000000000002
-    ],
-    "scale": 1.3156419418781404,
-    "library_x": 0,
-    "library_y": 1280,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
     "name": "07_InntQ_Logo_English_Blue",
     "color_name": "Blue",
     "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 343.9349796793705,
-    "paths": 8,
+    "width": 997.2268153252388,
+    "height": 307.6371235930798,
+    "paths": 7,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      637.7164666544555,
-      194.10000000000008
+      0.0,
+      560.3022975271316,
+      172.8491297114022
     ],
-    "scale": 1.7719473450766117,
+    "scale": 1.7798014031469325,
     "library_x": 1280,
-    "library_y": 1280,
+    "library_y": 0,
     "export_presets": [
       "SVG",
       "PNG 1x",
@@ -118,17 +49,17 @@
     "name": "08_InntQ_Logo_Bilingual_Blue",
     "color_name": "Blue",
     "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 223.87395482795174,
-    "paths": 20,
+    "width": 1044.7141725576782,
+    "height": 197.60832506866134,
+    "paths": 18,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      979.7164666544556,
-      194.10000000000008
+      0.0,
+      913.8174490422831,
+      172.8491297114022
     ],
-    "scale": 1.1533949244098487,
-    "library_x": 2560,
+    "scale": 1.1432416547228115,
+    "library_x": 0,
     "library_y": 1280,
     "export_presets": [
       "SVG",
@@ -142,17 +73,17 @@
     "color_name": "Blue",
     "color": "#0E2D4D",
     "width": 1130.0,
-    "height": 509.46599893777164,
+    "height": 430.7160850373186,
     "paths": 13,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      425.8576636171169,
-      192.0
+      0.0,
+      431.28931710154967,
+      164.3922532569895
     ],
-    "scale": 2.6534687444675606,
-    "library_x": 0,
-    "library_y": 2560,
+    "scale": 2.620050984786935,
+    "library_x": 1280,
+    "library_y": 1280,
     "export_presets": [
       "SVG",
       "PNG 1x",
@@ -174,7 +105,7 @@
       716.0620000000005
     ],
     "scale": 1.57807564149473,
-    "library_x": 1280,
+    "library_x": 0,
     "library_y": 2560,
     "export_presets": [
       "SVG",
@@ -187,17 +118,17 @@
     "name": "17_InntQ_Logo_Stacked_Blue",
     "color_name": "Blue",
     "color": "#0E2D4D",
-    "width": 1130.0,
-    "height": 614.692681272462,
-    "paths": 20,
+    "width": 967.8468509076896,
+    "height": 500.91374025131165,
+    "paths": 18,
     "source_bounds": [
       0.0,
-      4.440892098500626e-16,
-      705.9137244024955,
-      383.9999999999998
+      0.0,
+      562.9499578223298,
+      291.3574277610546
     ],
-    "scale": 1.600762190813704,
-    "library_x": 2560,
+    "scale": 1.7192413596612215,
+    "library_x": 1280,
     "library_y": 2560,
     "export_presets": [
       "SVG",
@@ -220,77 +151,8 @@
       716.0620000000005
     ],
     "scale": 1.57807564149473,
-    "library_x": 4096,
+    "library_x": 2816,
     "library_y": 0,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
-    "name": "04_InntQ_English_Black",
-    "color_name": "Black",
-    "color": "#000000",
-    "width": 1130.0,
-    "height": 288.78713026743605,
-    "paths": 6,
-    "source_bounds": [
-      0.0,
-      0.0,
-      516.8963030373387,
-      132.10000000000002
-    ],
-    "scale": 2.186125134499894,
-    "library_x": 5376,
-    "library_y": 0,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
-    "name": "05_InntQ_Chinese_Black",
-    "color_name": "Black",
-    "color": "#000000",
-    "width": 1130.0,
-    "height": 456.8991517436381,
-    "paths": 11,
-    "source_bounds": [
-      0.0,
-      0.0,
-      265.25,
-      107.25
-    ],
-    "scale": 4.260131950989632,
-    "library_x": 6656,
-    "library_y": 0,
-    "export_presets": [
-      "SVG",
-      "PNG 1x",
-      "PNG 2x",
-      "PNG 4x"
-    ]
-  },
-  {
-    "name": "06_InntQ_Bilingual_Black",
-    "color_name": "Black",
-    "color": "#000000",
-    "width": 1130.0,
-    "height": 173.79630052210237,
-    "paths": 18,
-    "source_bounds": [
-      0.0,
-      0.0,
-      858.8963030373387,
-      132.10000000000002
-    ],
-    "scale": 1.3156419418781404,
-    "library_x": 4096,
-    "library_y": 1280,
     "export_presets": [
       "SVG",
       "PNG 1x",
@@ -302,18 +164,18 @@
     "name": "07_InntQ_Logo_English_Black",
     "color_name": "Black",
     "color": "#000000",
-    "width": 1130.0,
-    "height": 343.9349796793705,
-    "paths": 8,
+    "width": 997.2268153252388,
+    "height": 307.6371235930798,
+    "paths": 7,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      637.7164666544555,
-      194.10000000000008
+      0.0,
+      560.3022975271316,
+      172.8491297114022
     ],
-    "scale": 1.7719473450766117,
-    "library_x": 5376,
-    "library_y": 1280,
+    "scale": 1.7798014031469325,
+    "library_x": 4096,
+    "library_y": 0,
     "export_presets": [
       "SVG",
       "PNG 1x",
@@ -325,17 +187,17 @@
     "name": "08_InntQ_Logo_Bilingual_Black",
     "color_name": "Black",
     "color": "#000000",
-    "width": 1130.0,
-    "height": 223.87395482795174,
-    "paths": 20,
+    "width": 1044.7141725576782,
+    "height": 197.60832506866134,
+    "paths": 18,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      979.7164666544556,
-      194.10000000000008
+      0.0,
+      913.8174490422831,
+      172.8491297114022
     ],
-    "scale": 1.1533949244098487,
-    "library_x": 6656,
+    "scale": 1.1432416547228115,
+    "library_x": 2816,
     "library_y": 1280,
     "export_presets": [
       "SVG",
@@ -349,17 +211,17 @@
     "color_name": "Black",
     "color": "#000000",
     "width": 1130.0,
-    "height": 509.46599893777164,
+    "height": 430.7160850373186,
     "paths": 13,
     "source_bounds": [
       0.0,
-      2.220446049250313e-16,
-      425.8576636171169,
-      192.0
+      0.0,
+      431.28931710154967,
+      164.3922532569895
     ],
-    "scale": 2.6534687444675606,
+    "scale": 2.620050984786935,
     "library_x": 4096,
-    "library_y": 2560,
+    "library_y": 1280,
     "export_presets": [
       "SVG",
       "PNG 1x",
@@ -381,7 +243,7 @@
       716.0620000000005
     ],
     "scale": 1.57807564149473,
-    "library_x": 5376,
+    "library_x": 2816,
     "library_y": 2560,
     "export_presets": [
       "SVG",
@@ -394,17 +256,17 @@
     "name": "17_InntQ_Logo_Stacked_Black",
     "color_name": "Black",
     "color": "#000000",
-    "width": 1130.0,
-    "height": 614.692681272462,
-    "paths": 20,
+    "width": 967.8468509076896,
+    "height": 500.91374025131165,
+    "paths": 18,
     "source_bounds": [
       0.0,
-      4.440892098500626e-16,
-      705.9137244024955,
-      383.9999999999998
+      0.0,
+      562.9499578223298,
+      291.3574277610546
     ],
-    "scale": 1.600762190813704,
-    "library_x": 6656,
+    "scale": 1.7192413596612215,
+    "library_x": 4096,
     "library_y": 2560,
     "export_presets": [
       "SVG",

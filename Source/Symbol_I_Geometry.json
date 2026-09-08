@@ -1,0 +1,50 @@
+{
+  "scope": "In symbol-leading compositions 07, 08 and 17, the two-body symbol serves as the initial I. Text-only artwork 04, 05 and 06 is removed from active delivery; full spelling remains in ordinary brand text and engineering references.",
+  "first_n_original_min_x": 48.599999999999994,
+  "horizontal_text_translation_left": 74.6,
+  "stack_English_translation_left": 94.31668693932708,
+  "stack_Chinese_translation": -4.419678470131849,
+  "preserved_export_scales": {
+    "07_InntQ_Logo_English": 1.7798014031469325,
+    "08_InntQ_Logo_Bilingual": 1.1432416547228115,
+    "17_InntQ_Logo_Stacked": 1.7192413596612215
+  },
+  "previous_display_dimensions": {
+    "07_InntQ_Logo_English": [
+      634.9022975271316,
+      172.8491297114022
+    ],
+    "08_InntQ_Logo_Bilingual": [
+      988.4174490422831,
+      172.8491297114022
+    ],
+    "17_InntQ_Logo_Stacked": [
+      657.2666447616568,
+      291.3574277610546
+    ]
+  },
+  "new_canonical_dimensions": {
+    "07_InntQ_Logo_English": [
+      560.3022975271316,
+      172.8491297114022
+    ],
+    "08_InntQ_Logo_Bilingual": [
+      913.8174490422831,
+      172.8491297114022
+    ],
+    "17_InntQ_Logo_Stacked": [
+      562.9499578223298,
+      291.3574277610546
+    ]
+  },
+  "new_stack_English_width": 457.6034787013084,
+  "stack_Chinese_width": 308.7466236029271,
+  "horizontal_symbol_to_first_n_gap": 18,
+  "Chinese_only_symbol_gap": 44,
+  "horizontal_English_Chinese_gap": 32,
+  "stack_full_symbol_bbox_to_first_n_gap": -11.227090002241951,
+  "stack_upper_body_to_first_n_gap": 14,
+  "stack_symbol_to_Chinese_gap": 32,
+  "preserved_sizes": "All symbol and remaining glyph dimensions are unchanged, including actual native/library export scale and each board occurrence scale. Only frame widths shrink.",
+  "logo_divider_count": 0
+}

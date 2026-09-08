@@ -1,0 +1,30 @@
+{
+  "uniform_scale_from_open_counter": 1.0832369729765032,
+  "visible_bounds": [
+    367.1999999999993,
+    28.39999999999995,
+    474.32813194073344,
+    138.45687645441282
+  ],
+  "outer_bowl_bounds": [
+    367.19999999999936,
+    28.399999999999977,
+    471.7698461538456,
+    130.00000000000006
+  ],
+  "bowl_height": 101.60000000000008,
+  "baseline": 130.00000000000006,
+  "tail_below_baseline": 8.456876454412765,
+  "tail_nominal_width": 19.49826551357706,
+  "bowl_weights": {
+    "left": 28.185620482471446,
+    "right": 27.75232569328087,
+    "top": 26.551282417433484,
+    "bottom": 23.51821889309927
+  },
+  "counter_dimensions": [
+    48.631899978093955,
+    51.53049868946732
+  ],
+  "method": "Uniform scale of the accepted open-counter Q so its outer bowl equals n height; outer bowl bottom aligned to baseline and tail allowed below."
+}

@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "scope": "Stacked asset17 optical x translations only; all other ten current compact assets unchanged.",
+  "assets": [
+    {
+      "name": "17_InntQ_Logo_Stacked_Blue",
+      "source_sha256": "926f7504b1801c0829293ba47a06295d8267e32dc85c0d6c3f647c2d3bd9937f",
+      "path_count": 18,
+      "all_shapes_sizes_and_y_positions_unchanged": true,
+      "maximum_translation_comparison_error": 1.4779288903810084e-12,
+      "export_scale": 1.7192413596612215,
+      "frame_width": 967.8468509076896,
+      "frame_height": 500.91374025131165,
+      "English_shift_left_canonical": 27.22709000224195,
+      "Chinese_shift_right_canonical": 16,
+      "true_first_n_to_upper_body_contour_distance": 13.999999999999943,
+      "parallel_vertical_edge_y_overlap": [
+        [
+          38.64587841369712,
+          117.61601758432369
+        ]
+      ],
+      "English_to_responding_body_vertical_separation": 3.22521836720324,
+      "Chinese_indent_from_English": 43.22709000224195,
+      "vertical_row_gap": 15.999999999999972,
+      "no_symbol_English_contact": true
+    },
+    {
+      "name": "17_InntQ_Logo_Stacked_Black",
+      "source_sha256": "aef09b7bbd06e0d90e1d04b1f07224bfe866e3331fc7b192d98e67cdfe20022a",
+      "path_count": 18,
+      "all_shapes_sizes_and_y_positions_unchanged": true,
+      "maximum_translation_comparison_error": 1.4779288903810084e-12,
+      "export_scale": 1.7192413596612215,
+      "frame_width": 967.8468509076896,
+      "frame_height": 500.91374025131165,
+      "English_shift_left_canonical": 27.22709000224195,
+      "Chinese_shift_right_canonical": 16,
+      "true_first_n_to_upper_body_contour_distance": 13.999999999999943,
+      "parallel_vertical_edge_y_overlap": [
+        [
+          38.64587841369712,
+          117.61601758432369
+        ]
+      ],
+      "English_to_responding_body_vertical_separation": 3.22521836720324,
+      "Chinese_indent_from_English": 43.22709000224195,
+      "vertical_row_gap": 15.999999999999972,
+      "no_symbol_English_contact": true
+    }
+  ],
+  "unchanged_assets": [
+    {
+      "name": "03_InntQ_Symbol_Blue",
+      "native_svg_sha256_unchanged": "af76355796bd7c8106b44dfc5eda003b94096eb95fa3595e9cd54a885b25d378"
+    },
+    {
+      "name": "07_InntQ_Logo_English_Blue",
+      "native_svg_sha256_unchanged": "d132e2c160008b56b8c5b24e5f660bd56bd199aebfbbeca9308bf97bcce05c21"
+    },
+    {
+      "name": "08_InntQ_Logo_Bilingual_Blue",
+      "native_svg_sha256_unchanged": "1945c92eed0d26f8966a6cdc11c7409626b37d8cc41dfcf8688dc741b08c0eb0"
+    },
+    {
+      "name": "09_InntQ_Logo_Chinese_Blue",
+      "native_svg_sha256_unchanged": "e129884d835d6f24efba20ffb31dbfb326328093f96b247cc5e58d158587f142"
+    },
+    {
+      "name": "14_InntQ_Symbol_Micro_Blue",
+      "native_svg_sha256_unchanged": "87cd3ce2a32af03082862873c8a7fad59d061ebf4d69e596fc8572cbf5d263ea"
+    },
+    {
+      "name": "03_InntQ_Symbol_Black",
+      "native_svg_sha256_unchanged": "208438536d0103ed34404e0b49c94c4b32c31cade8a66c48a13dbe54715481e9"
+    },
+    {
+      "name": "07_InntQ_Logo_English_Black",
+      "native_svg_sha256_unchanged": "4989c78cfa8e01721740a3a6f0534f51d8a5cc2eb7d8f2d9dd823f87d9941018"
+    },
+    {
+      "name": "08_InntQ_Logo_Bilingual_Black",
+      "native_svg_sha256_unchanged": "85a469eacdcd4b948e6f66a8243d7e713342b2fbde05840457f2c6180d1eb1f4"
+    },
+    {
+      "name": "09_InntQ_Logo_Chinese_Black",
+      "native_svg_sha256_unchanged": "1747ae42e1503079f12725f35165bc043dfef9d0f389081be1586f36e774d2cd"
+    },
+    {
+      "name": "14_InntQ_Symbol_Micro_Black",
+      "native_svg_sha256_unchanged": "526fdf193ea33fabe867b057f489c23a5cab4f3005765596887624585db278f5"
+    }
+  ],
+  "source_manifest_sha256": "b85570610393e5fffc7ec00d9381a945f1e3c867672cc8856e3a288c7019a3ee",
+  "geometry_metadata_sha256": "f15f3761733f3c6ecf4edf98171fac5f1529dbb81af900a3dbb1999cfc3956f2",
+  "visual_review": "Before/after overview inspected: first n is closer to upper initiating body, Chinese is independently indented right, and no contact is visible. Numerical separation is proved from true path segments."
+}

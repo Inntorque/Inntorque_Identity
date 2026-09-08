@@ -1,0 +1,17 @@
+{
+  "phi": 1.618033988749895,
+  "x_height": 101.60000000000008,
+  "main_symbol_height": 164.39225325698945,
+  "ratio": 1.618033988749895,
+  "clear_space": 41.09806331424736,
+  "horizontal_gap": 18,
+  "Chinese_only_symbol_gap": 44,
+  "primary_baseline": 164.39225325698945,
+  "primary_tail_bottom": 172.8491297114022,
+  "Chinese_logo_scale": 1.2121212121212122,
+  "Chinese_logo_height": 130.0,
+  "Chinese_logo_top": 34.39225325698945,
+  "Chinese_logo_bottom": 164.39225325698945,
+  "Chinese_ratio_note": "Uses the common primary symbol height; local symbol-to-Chinese height is not phi.",
+  "stack_note": "Two-line English and Chinese share the t cap height. English sits closer to the upper symbol body; Chinese is indented right. Symbol and lettering sizes and all vertical positions are preserved."
+}

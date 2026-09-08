@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "revision": "Optical English placement and indented Chinese in stacked lockup only",
+  "source_library_sha256": "7858ae8630cfac9b84dea79b1614fbfaccf90d1e145b55200d144e75583716bf",
+  "asset_count": 12,
+  "updated_assets": [
+    "17_InntQ_Logo_Stacked_Blue",
+    "17_InntQ_Logo_Stacked_Black"
+  ],
+  "other_ten_source_groups_unchanged": true,
+  "unchanged_symbol_and_glyph_sizes": true,
+  "all_vertical_positions_unchanged": true,
+  "changed_boards": [
+    "02_Blue_Overview",
+    "05_Black_Overview"
+  ],
+  "other_four_boards_byte_identical": true,
+  "all_86_text_nodes_unchanged": true,
+  "measured_gap": {
+    "English_shift_left_canonical": 27.22709000224195,
+    "Chinese_shift_right_canonical": 16,
+    "new_English_first_n_left": 105.34647912102126,
+    "new_Chinese_left": 148.5735691232632,
+    "real_min_horizontal_gap_upper_body_to_first_n": 14.0,
+    "gap_at_y": 38.67326252652486,
+    "sample_count": 2049,
+    "n_visible_y_interval": [
+      36.053105165532955,
+      133.61820220755877
+    ],
+    "analytic_global_bound_gap": 14.0,
+    "English_bottom": 141.739225553496,
+    "responding_body_top": 144.9644439206992,
+    "vertical_gap_to_responding_body": 3.2252183672032118,
+    "symbol_and_all_glyph_sizes_unchanged": true,
+    "all_y_positions_unchanged": true,
+    "old_export_scale": 1.7192413596612215,
+    "new_frame_width": 967.8468509076896,
+    "unchanged_frame_height": 500.91374025131165
+  },
+  "source_geometry": {
+    "English_shift_left_from_compact": 27.22709000224195,
+    "Chinese_shift_right_from_compact": 16,
+    "English_first_n_left": 105.34647912102132,
+    "Chinese_left": 148.57356912326327,
+    "upper_body_to_first_n_visible_gap": 14,
+    "full_symbol_bbox_to_first_n_gap": -11.227090002241951,
+    "full_symbol_bbox_to_Chinese_gap": 32,
+    "English_row_top": 8.78097174039982,
+    "Chinese_row_top": 157.73922555349594,
+    "vertical_row_gap": 16,
+    "all_sizes_and_y_positions_preserved": true,
+    "export_scale_preserved": 1.7192413596612215,
+    "display_dimensions_preserved": [
+      657.2666447616568,
+      291.3574277610546
+    ],
+    "alignment_rule": "English is optically closer to the upper initiating body. Chinese is indented to the right; row left edges are intentionally different."
+  },
+  "assets": [
+    {
+      "asset": "03_InntQ_Symbol_Blue",
+      "changed": false,
+      "path_count": 2,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.57807564149473,
+      "frame_width": 452.11867128824014,
+      "frame_height": 1130.0,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "07_InntQ_Logo_English_Blue",
+      "changed": false,
+      "path_count": 7,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.7798014031469325,
+      "frame_width": 997.2268153252388,
+      "frame_height": 307.6371235930798,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Blue",
+      "changed": false,
+      "path_count": 18,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.1432416547228115,
+      "frame_width": 1044.7141725576782,
+      "frame_height": 197.60832506866134,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "09_InntQ_Logo_Chinese_Blue",
+      "changed": false,
+      "path_count": 13,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 2.620050984786935,
+      "frame_width": 1130.0,
+      "frame_height": 430.7160850373186,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "14_InntQ_Symbol_Micro_Blue",
+      "changed": false,
+      "path_count": 2,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.57807564149473,
+      "frame_width": 452.11867128824014,
+      "frame_height": 1130.0,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "17_InntQ_Logo_Stacked_Blue",
+      "changed": true,
+      "path_count": 18,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.7192413596612215,
+      "frame_width": 967.8468509076896,
+      "frame_height": 500.91374025131165,
+      "maximum_translation_error": 2.5863755581667647e-12
+    },
+    {
+      "asset": "03_InntQ_Symbol_Black",
+      "changed": false,
+      "path_count": 2,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.57807564149473,
+      "frame_width": 452.11867128824014,
+      "frame_height": 1130.0,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "07_InntQ_Logo_English_Black",
+      "changed": false,
+      "path_count": 7,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.7798014031469325,
+      "frame_width": 997.2268153252388,
+      "frame_height": 307.6371235930798,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "08_InntQ_Logo_Bilingual_Black",
+      "changed": false,
+      "path_count": 18,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.1432416547228115,
+      "frame_width": 1044.7141725576782,
+      "frame_height": 197.60832506866134,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "09_InntQ_Logo_Chinese_Black",
+      "changed": false,
+      "path_count": 13,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 2.620050984786935,
+      "frame_width": 1130.0,
+      "frame_height": 430.7160850373186,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "14_InntQ_Symbol_Micro_Black",
+      "changed": false,
+      "path_count": 2,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.57807564149473,
+      "frame_width": 452.11867128824014,
+      "frame_height": 1130.0,
+      "maximum_translation_error": 0
+    },
+    {
+      "asset": "17_InntQ_Logo_Stacked_Black",
+      "changed": true,
+      "path_count": 18,
+      "sizes_and_vertical_positions_preserved": true,
+      "export_scale_preserved": 1.7192413596612215,
+      "frame_width": 967.8468509076896,
+      "frame_height": 500.91374025131165,
+      "maximum_translation_error": 7.87281351222191e-12
+    }
+  ],
+  "native_QA": "PASS: Native_Assets_QA.json, Native_Boards_QA.json and current Minimum_Size_QA.json. PDF and native FIG validated separately."
+}

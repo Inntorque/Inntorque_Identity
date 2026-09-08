@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "input_file": "/tmp/inntq-q-open-native/InntQ._Brand_Identity_Blue_Black.pdf",
-  "pdf_sha256": "49618051aff37ff02939fd82f3abac2e84ad2f434b17e70a1bd0d9c7ea6ab4e8",
-  "pdf_bytes": 686030,
+  "input_file": "/tmp/inntq-symbol-i-compact-native/InntQ._Brand_Identity_Blue_Black.pdf",
+  "pdf_sha256": "f1f0bbbc14f80bc7675ac4d6ddb1d87bb65ed78c2ddb1cd3115fa791118bf1cc",
+  "pdf_bytes": 730307,
   "page_count": 6,
   "page_order": [
     "01_Blue_Proposal",
@@ -20,16 +20,16 @@
         1600.0,
         1200.0
       ],
-      "text_objects": 10,
+      "text_objects": 12,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "df1e53ec181c484a3775c2cbded9e12b40644e180a5ae3d22dd7fb6a5cd6db9e",
-      "pdf_render_sha256": "09aa7fdd0c637b937acb77a4edb9e4a4f21f5d8ae94be9626267e7e17d4b1346",
-      "pdf_to_native_mask_iou": 0.9874808002519264,
-      "mean_absolute_RGB_difference": 0.5258324652777778,
-      "fraction_pixels_difference_gt32": 0.0039703125,
+      "native_png_sha256": "67d8651c0b5acbc29e37b6a1d1392c485980436d2433669b6d495fa0bfdece57",
+      "pdf_render_sha256": "b16abe0b2de01f6b34b2b6d3623141734ff097616d0adc4733b10b461269c916",
+      "pdf_to_native_mask_iou": 0.9868026487207358,
+      "mean_absolute_RGB_difference": 0.494615625,
+      "fraction_pixels_difference_gt32": 0.0036510416666666666,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     },
     {
       "page": 2,
@@ -41,13 +41,13 @@
       "text_objects": 9,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "2ef79e26e96fde4503aa59b394e0477a628654be2752b3d8650ddfbe172447f7",
-      "pdf_render_sha256": "304e692e3382268154b94f77d3d60ba96d0b21f5afd2c69ee6461875c600628a",
-      "pdf_to_native_mask_iou": 0.9896665550399464,
-      "mean_absolute_RGB_difference": 0.4318126736111111,
-      "fraction_pixels_difference_gt32": 0.0035270833333333335,
+      "native_png_sha256": "234c8b97d93166cbe660f3287290bdb50bcd2e560216b355677437fd20fc8124",
+      "pdf_render_sha256": "e159941f8dd4576a19ec1d49c1cf0a53b414338922daa8e48f635019d76a813c",
+      "pdf_to_native_mask_iou": 0.9894358511706416,
+      "mean_absolute_RGB_difference": 0.35618541666666664,
+      "fraction_pixels_difference_gt32": 0.002734375,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     },
     {
       "page": 3,
@@ -59,13 +59,13 @@
       "text_objects": 22,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "7713b467ab823b2fcec7d4e979ea27d50d48d828f05d9718540adcdf7af798b5",
-      "pdf_render_sha256": "8d180163313ef853754d1ae1d921d7c3b230f2a5cc0ea3fd292ded8dc6fef60f",
-      "pdf_to_native_mask_iou": 0.9830070377479206,
-      "mean_absolute_RGB_difference": 0.5007907986111111,
-      "fraction_pixels_difference_gt32": 0.003943229166666667,
+      "native_png_sha256": "ccad3b80199f7dadd7597faba019d433c4d18765c72a3e30ca253e30bd555862",
+      "pdf_render_sha256": "25c8377d9242c234a2067533596b7f9dfd1e973730ef7b04a2733ab1c65b1154",
+      "pdf_to_native_mask_iou": 0.9803507214206437,
+      "mean_absolute_RGB_difference": 0.4944269097222222,
+      "fraction_pixels_difference_gt32": 0.00394375,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     },
     {
       "page": 4,
@@ -74,16 +74,16 @@
         1600.0,
         1200.0
       ],
-      "text_objects": 10,
+      "text_objects": 12,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "ce124c59aa784aff7e9fe762dbb8492dcf567493082e5194f6321e0cc9b9b8bd",
-      "pdf_render_sha256": "b4f571ab45430f0755a85ff737654ee98b19ee4e37511b1228ac971ec021cb4f",
-      "pdf_to_native_mask_iou": 0.9875110017538562,
-      "mean_absolute_RGB_difference": 0.5190456597222223,
-      "fraction_pixels_difference_gt32": 0.004083854166666667,
+      "native_png_sha256": "b7d69f622988a72967e1262528909b83ee01756c2f793e2c9521038595ba48c2",
+      "pdf_render_sha256": "5ea0393d160fdf775ae8b79bca2ce0caa9129413c920e33191e9f4f1b39695a1",
+      "pdf_to_native_mask_iou": 0.9869837624555914,
+      "mean_absolute_RGB_difference": 0.4895671875,
+      "fraction_pixels_difference_gt32": 0.0037552083333333335,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     },
     {
       "page": 5,
@@ -95,13 +95,13 @@
       "text_objects": 9,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "b9b9885b2c00f8fa5ef602e8a08fb815d62560479d93b3ba614f0489db66133d",
-      "pdf_render_sha256": "b4ca41c0cac36ff16d6e0c468c7db8b2c1464359285557f9a23405f3b15dee13",
-      "pdf_to_native_mask_iou": 0.9896322098145682,
-      "mean_absolute_RGB_difference": 0.436034375,
-      "fraction_pixels_difference_gt32": 0.0037786458333333335,
+      "native_png_sha256": "ae1570dfca571ad154649e9c61a7c10aef4afed6a2ea6121c53e7bcab713d2f1",
+      "pdf_render_sha256": "5fc08c543179939046934779999a3c84a099403e542423fb58156580d98cf572",
+      "pdf_to_native_mask_iou": 0.9893558237603606,
+      "mean_absolute_RGB_difference": 0.35802395833333334,
+      "fraction_pixels_difference_gt32": 0.0029848958333333333,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     },
     {
       "page": 6,
@@ -113,17 +113,17 @@
       "text_objects": 22,
       "all_expected_source_text_present": true,
       "raster_XObjects": 0,
-      "native_png_sha256": "61986d9c8c265ed128cbb6e68f244201ff4dd3d2b3ecd2fa2411dff70efd59c4",
-      "pdf_render_sha256": "f53edafb4c00285d3c48b942bee3e9557da29fe6cbbf94736c49230c3878109d",
-      "pdf_to_native_mask_iou": 0.9831150225133033,
-      "mean_absolute_RGB_difference": 0.5015696180555556,
-      "fraction_pixels_difference_gt32": 0.004031770833333333,
+      "native_png_sha256": "eb7c8ac5689ffc671ae88b984ca9ce4bd0502a2ba63f3d02c81745ea330b9867",
+      "pdf_render_sha256": "d3392a9c96ad683ef2e0b8ee5e0ce2e07de38d348afbbfb0bfbc8ca431fc96f9",
+      "pdf_to_native_mask_iou": 0.9804236513528624,
+      "mean_absolute_RGB_difference": 0.49495659722222224,
+      "fraction_pixels_difference_gt32": 0.004043229166666666,
       "RGB_paint_colors": [],
-      "visual_review": "PASS: correct final open-counter Q, current enlarged Chinese-only lockup where applicable, page order, complete text, spacing, and unclipped artwork."
+      "visual_review": "PASS: full rendered page inspected. Current symbol-as-I artwork and no pure-text artwork panels; optical stacked English position and independent Chinese indentation on overview pages; complete concept copy, formulas, clear-space border, Q tail and minimum-size labels; no clipping, blank text or unexpected layout shift."
     }
   ],
   "method": "Read-only pypdf content inspection, complete source-text matching, Poppler rendering at 1600 x 1200, raster comparison with the six latest native Figma 2x PNG exports, and visual inspection of all six PDF pages. PDF content was not edited or reauthored.",
-  "total_text_objects": 82,
+  "total_text_objects": 86,
   "embedded_raster_images": 0,
   "visual_review_complete": true,
   "notes": [
@@ -131,9 +131,19 @@
     "PDF rendering differs slightly from Figma PNG rasterization at antialiased edges; quantitative comparison and complete visual review found no content loss or layout shift.",
     "Minimum-size production suitability is covered separately by QA/Minimum_Size_QA.json. This audit verifies PDF fidelity, not physical fabrication."
   ],
+  "visual_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "current_revision": "Twelve symbol-led assets, compact horizontal spacing and independently indented optical stack. Six board pages,86 text objects.",
   "copied_destinations": [
     "03_PDF/InntQ._Brand_Identity_Blue_Black.pdf",
     "Attachments/08_InntQ._Brand_Identity_Blue_Black.pdf"
   ],
-  "copy_hashes_match": true
+  "copy_hashes_match": true,
+  "original_native_pdf_bytes_preserved": true
 }

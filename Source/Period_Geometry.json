@@ -3,81 +3,64 @@
   "character_count": 6,
   "preserved_letter_paths": 4,
   "Q_initial_outer_scale": 0.7214842929437331,
-  "Q_optical_correction": {
-    "fixed_visible_bounds": [
-      367.19999999999965,
-      28.399999999999928,
-      466.09630303733866,
+  "Q_bowl_alignment": {
+    "uniform_scale_from_open_counter": 1.0832369729765032,
+    "visible_bounds": [
+      367.1999999999993,
+      28.39999999999995,
+      474.32813194073344,
+      138.45687645441282
+    ],
+    "outer_bowl_bounds": [
+      367.19999999999936,
+      28.399999999999977,
+      471.7698461538456,
       130.00000000000006
     ],
-    "outer_ellipse_center": [
-      415.4672991979354,
-      75.29647904134258
-    ],
-    "outer_ellipse_radii": [
-      48.26729919793575,
-      46.89647904134265
-    ],
-    "counter_ellipse_center": [
-      415.6672991979354,
-      76.69647904134258
-    ],
-    "counter_ellipse_radii": [
-      22.447488957316473,
-      23.785422753745447
-    ],
-    "previous_bowl_weights": {
-      "left": 31.2,
-      "right": 30.8,
-      "top": 30.0,
-      "bottom": 27.2
-    },
-    "counter_radius_scale": 1.3,
+    "bowl_height": 101.60000000000008,
+    "baseline": 130.00000000000006,
+    "tail_below_baseline": 8.456876454412765,
+    "tail_nominal_width": 19.49826551357706,
     "bowl_weights": {
-      "left": 26.01981024061928,
-      "right": 25.6198102406193,
-      "top": 24.511056287597206,
-      "bottom": 21.711056287597202
+      "left": 28.185620482471446,
+      "right": 27.75232569328087,
+      "top": 26.551282417433484,
+      "bottom": 23.51821889309927
     },
-    "tail_width": 18.0,
-    "tail_terminal_radius": 2.2,
-    "tail_direction": [
-      0.7474093186836598,
-      0.6643638388299198
+    "counter_dimensions": [
+      48.631899978093955,
+      51.53049868946732
     ],
-    "tail_far_center": [
-      461.02290586907685,
-      124.1791935130546
-    ],
-    "tail_inner_cap_center": [
-      418.0879764025066,
-      86.01481176499219
-    ],
-    "contours": 2,
-    "filled_bodies": 1,
-    "counters": 1,
-    "inner_tail_cap_projection_offset": 8.0,
-    "method": "Counter ellipse radii enlarged 1.30 and inner tail cap retracted four units along the unchanged tail direction; exterior outline, eighteen-unit outer tail and total Q bounds preserved."
+    "method": "Uniform scale of the accepted open-counter Q so its outer bowl equals n height; outer bowl bottom aligned to baseline and tail allowed below."
   },
   "Q_bounds": [
-    367.19999999999965,
-    28.399999999999928,
-    466.09630303733854,
-    130.00000000000006
+    367.1999999999993,
+    28.39999999999995,
+    474.32813194073344,
+    138.45687645441282
   ],
+  "phi": 1.618033988749895,
+  "x_height": 101.60000000000008,
+  "main_symbol_height": 164.39225325698945,
+  "clear_space": 41.09806331424736,
   "n_bounds": [
     48.599999999999994,
     28.399999999999977,
     151.8,
     130.00000000000006
   ],
-  "main_english_y": 61.99999999999994,
-  "main_symbol_bottom": 192,
-  "main_letter_baseline": 192.0,
-  "chinese_logo_scale": 1.15,
-  "chinese_logo_y": 68.66250000000001,
-  "chinese_logo_visible_height": 123.33749999999999,
-  "chinese_logo_visible_bottom": 192.0,
+  "main_english_y": 34.39225325698939,
+  "main_symbol_bottom": 164.39225325698945,
+  "main_letter_baseline": 164.39225325698945,
+  "bilingual_chinese_y": 5.684341886080802e-14,
+  "bilingual_chinese_bottom": 130.00000000000006,
+  "bilingual_chinese_height": 130.0,
+  "bilingual_chinese_scale": 1.2121212121212122,
+  "bilingual_english_chinese_gap": 32,
+  "chinese_logo_scale": 1.2121212121212122,
+  "chinese_logo_y": 34.39225325698945,
+  "chinese_logo_visible_height": 130.0,
+  "chinese_logo_visible_bottom": 164.39225325698945,
   "original_period_bounds": [
     542.2,
     101.10000000000002,
@@ -86,21 +69,30 @@
   ],
   "original_lower_r_stem_right": 523.1,
   "period_gap": 19.100000000000023,
-  "period_translation_x": -57.003696962661365,
+  "period_translation_x": -48.77186805926658,
   "period_translation_y": 0,
   "period_uniform_scale": 1,
   "wordmark_bounds": [
     0.0,
     0.0,
-    516.8963030373387,
-    132.10000000000002
+    525.1281319407334,
+    138.45687645441282
   ],
-  "stack_symbol_height": 384,
-  "stack_column_width": 504.27339716826174,
-  "stack_english_scale": 0.9755794231939686,
-  "stack_chinese_scale": 1.90112496576159,
-  "stack_block_y": 13.615152809073095,
-  "stack_block_height": 356.7696943818538,
-  "stack_line_gap": 24,
-  "stack_divider_height": 1.0
+  "stack_symbol_height": 291.3574277610548,
+  "stack_column_width": 457.6034787013084,
+  "stack_full_wordmark_reference_width": 504.27339716826174,
+  "stack_english_scale": 0.9602863882089155,
+  "stack_chinese_scale": 1.1639835008592916,
+  "stack_block_y": 8.78097174039982,
+  "stack_block_height": 273.79548428025515,
+  "stack_line_gap": 16,
+  "logo_divider_count": 0,
+  "stack_I_t_cap_height": 124.83723046715902,
+  "stack_chinese_height": 124.83723046715902,
+  "stack_chinese_width": 308.7466236029271,
+  "stack_reference_symbol_gap": 16,
+  "stack_upper_body_to_English_gap": 14,
+  "stack_symbol_to_Chinese_gap": 32,
+  "stack_symbol_to_textblock_ratio": 1.0641425607400572,
+  "stack_symbol_gap_ratio": 0.05491536674713426
 }
